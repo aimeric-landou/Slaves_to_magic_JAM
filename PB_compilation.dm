@@ -625,7 +625,7 @@
 #flag "SlavesJAMsprite/Bamboo/AlethkarBanner.tga"
 
 #clearsites
-#startsite 1951 -- "Kolinar"
+#startsite "Kolinar" -- 1951
 
 
 #clearrec
@@ -1071,7 +1071,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #flag "SlavesJAMsprite/Adjective/vivisflag.tga"
 
 #clearsites
-#startsite 1950 -- "Island of Moreau" -- You can also use the site number
+#startsite "Island of Moreau" -- 1950 -- You can also use the site number
 
 
 #clearrec
@@ -1535,7 +1535,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #flag "SlavesJAMsprite/Pancake/Flag.tga"
 
 #clearsites
-#startsite 1952 -- "The Forge of Souls" -- You can also use the site number
+#startsite "The Forge of Souls" -- 1952 -- You can also use the site number
 
 #likesterr 128
 
@@ -1967,7 +1967,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #flag "SlavesJAMsprite/Zen/Flag.tga"
 
 #clearsites
-#startsite 1953 -- "The Buried Darkness"
+#startsite "The Buried Darkness" -- 1953
 
 
 #clearrec
@@ -2447,7 +2447,7 @@ Priests: Weak." -- Notice the string ends here and only here
 #flag "SlavesJAMsprite/Isitaris/Flag.tga" -- Flag by Executor
 
 #clearsites
-#startsite 1954 -- "The Spire" -- You can also use the site number
+#startsite "The Spire" -- 1954 -- You can also use the site number
 
 -- Units and Commanders
 #clearrec
@@ -2496,7 +2496,7 @@ Priests: Weak." -- Notice the string ends here and only here
 --- Troop definitions for TLOAF
 
 --- Tloafan Fanatic
-#newmonster 6081
+#newmonster 6101
 #name "FIXME2"
 #spr1 "SlavesJAMsprite/JAM/Tloafan Fanatic.tga"
 #size 2
@@ -2529,7 +2529,7 @@ Priests: Weak." -- Notice the string ends here and only here
 #end
 
 --- Earth Piercer
-#newmonster 6080
+#newmonster 6100
 #name "Earth Piercer"
 #spr1 "SlavesJAMsprite/JAM/Earth Piercer.tga"
 #size 2
@@ -2871,7 +2871,7 @@ Priests: Weak." -- Notice the string ends here and only here
 #maxage 50
 #goodleader
 #magicskill 8 2
-#domsummon2 6081
+#domsummon2 6101
 #float
 #humanoid
 #itemslots 15494
@@ -2957,7 +2957,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 
 #clearrec
 #addrecunit 6076 -- Pwhoo Rider
-#addrecunit 6080 -- Earth Piercer
+#addrecunit 6100 -- Earth Piercer
 #addrecunit 6077 -- Floating Guardian
 #addrecunit 6078
 
@@ -2969,7 +2969,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #addreccom 6075 
 
 #defcom1 6070 -- This will lead your PD Troops, FIXME3
-#defunit1 6080 -- This is the unit that the PD calls for, FIXME1
+#defunit1 6100 -- This is the unit that the PD calls for, FIXME1
 #defmult1 15 -- This many units will appear per 10 PD
 #defcom2 6070 -- This will also lead your PD at 20, Commander
 #defunit2 6079 
