@@ -121,43 +121,13 @@
 #path 1 0
 #pathlevel 1 1
 #spec 70368744194048 -- Flyers immune, enemies only, ignores shields
-#restricted 13 -- EA Abysia
-#restricted 55 -- MA Abysia
+#restricted 173 -- Tloaf
 #nextspell "Burning Rock"
 #end
 
 
 
 --- New Weapons
-
-#newweapon 1894
-#name "Scorpion Pincer"
-#bonus
-#nratt 1
-#dmg 16
-#nostr
-#armorpiercing
-#end
-
-#newweapon 1893
-#name "Scorpion Stinger"
-#bonus
-#len 2
-#nratt 1
-#dmg 16
-#nostr
-#armorpiercing
-#secondaryeffect 52
-#end
-
-#newweapon 1892
-#copyweapon 28 -- Long Spear
-#name "Heavy Long Spear"
-#melee50
-#dmg 7
-#rcost 3
-#att 3
-#end
 
 #newweapon 1891
 #copyweapon 18 -- Battleaxe
@@ -184,6 +154,26 @@
 #dmg 9
 #range 40
 #rcost 1
+#end
+
+#newweapon 1894
+#name "Scorpion Pincer"
+#bonus
+#nratt 1
+#dmg 16
+#nostr
+#armorpiercing
+#end
+
+#newweapon 1895
+#name "Scorpion Stinger"
+#bonus
+#len 2
+#nratt 1
+#dmg 16
+#nostr
+#armorpiercing
+#secondaryeffect 52
 #end
 
 #newweapon 1992 -- simple renaming for flavour (SHARA)
@@ -635,7 +625,7 @@
 #flag "SlavesJAMsprite/Bamboo/AlethkarBanner.tga"
 
 #clearsites
-#startsite 1951 -- "Kolinar"
+#startsite "Kolinar" -- 1951
 
 
 #clearrec
@@ -689,7 +679,7 @@
 --- TROOP definitions for VIVIS
 
 --- Enlisted Enforcer
-#newmonster 6030 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6080 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Enlisted Enforcer" 
 #spr1 "SlavesJAMsprite/Adjective/enforcer_a.tga" -- remember to tag on the .tga to the end of the directory
 #spr1 "SlavesJAMsprite/Adjective/enforcer_b.tga"
@@ -723,7 +713,7 @@ They rely on two main lines of defense - firstly, they show no fear. This on itâ
 #end
 
 --- Hulking Halberdier
-#newmonster 6031 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6081 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Hulking Halberdier" 
 #spr1 "SlavesJAMsprite/Adjective/halberdier_a.tga" -- remember to tag on the .tga to the end of the directory
 #spr1 "SlavesJAMsprite/Adjective/halberdier_b.tga"
@@ -758,7 +748,7 @@ Larger beasts such as horses and oxen will often retain something of their size 
 #end
 
 --- Beast Brother
-#newmonster 6032 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6082 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Beast Brother" 
 #spr1 "SlavesJAMsprite/Adjective/brother_a.tga" -- remember to tag on the .tga to the end of the directory
 #spr1 "SlavesJAMsprite/Adjective/brother_b.tga"
@@ -793,7 +783,7 @@ Each Beastman bears some legacy of its original form in its appearance, its move
 #end
 
 --- Honored Hussar
-#newmonster 6033 
+#newmonster 6083 
 #name "Honored Hussar"
 #spr1 "SlavesJAMsprite/Adjective/hussar_a.tga"
 #spr2 "SlavesJAMsprite/Adjective/hussar_b.tga"
@@ -834,7 +824,7 @@ Some few Beastmen distinguish themselves by retaining a greater part of the phys
 --- COMMANDER definitions for VIVIS
 
 --- Adventuring Author
-#newmonster 6035 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6085 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Adventuring Author" 
 #spr1 "SlavesJAMsprite/Adjective/author_a.tga" -- remember to tag on the .tga to the end of the directory
 #spr1 "SlavesJAMsprite/Adjective/author_b.tga"
@@ -869,7 +859,7 @@ Various inexplicable trends come and go among these adventuring authors, the lat
 #end
 
 --- Greencloak General
-#newmonster 6036 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6086 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Greencloak General" 
 #spr1 "SlavesJAMsprite/Adjective/general_a.tga" -- remember to tag on the .tga to the end of the directory
 #spr1 "SlavesJAMsprite/Adjective/general_b.tga"
@@ -903,7 +893,7 @@ Various inexplicable trends come and go among these adventuring authors, the lat
 #end
 
 --- Commandment Chanter
-#newmonster 6037 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6087 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Commandment Chanter" 
 #spr1 "SlavesJAMsprite/Adjective/chanter_a.tga" -- remember to tag on the .tga to the end of the directory
 #spr1 "SlavesJAMsprite/Adjective/chanter_b.tga"
@@ -939,7 +929,7 @@ Commandment Chanters are responsible for ensuring the beastmen remain devoted to
 #end
 
 --- Seeking Student
-#newmonster 6038 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6088 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Seeking Student" 
 #spr1 "SlavesJAMsprite/Adjective/student_a.tga" -- remember to tag on the .tga to the end of the directory
 #spr1 "SlavesJAMsprite/Adjective/student_b.tga"
@@ -976,7 +966,7 @@ A seeking student is a junior mage, though this position still commands respect 
 #end
 
 --- Accredited Apprentice
-#newmonster 6039 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6089 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Accredited Apprentice" 
 #spr1 "SlavesJAMsprite/Adjective/apprentice_a.tga" -- remember to tag on the .tga to the end of the directory
 #spr1 "SlavesJAMsprite/Adjective/apprentice_b.tga"
@@ -1012,7 +1002,7 @@ An Accredited Apprentice is a more experienced mage, though they were not taught
 #end
 
 ---  Peerless Pupil
-#newmonster 6040 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6090 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Peerless Pupil" 
 #spr1 "SlavesJAMsprite/Adjective/pupil_a.tga" -- remember to tag on the .tga to the end of the directory
 #spr1 "SlavesJAMsprite/Adjective/pupil_b.tga"
@@ -1081,38 +1071,38 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #flag "SlavesJAMsprite/Adjective/vivisflag.tga"
 
 #clearsites
-#startsite 1950 -- "Island of Moreau" -- You can also use the site number
+#startsite "Island of Moreau" -- 1950 -- You can also use the site number
 
 
 #clearrec
-#addrecunit 6030 -- Enlisted Enforcer
-#addrecunit 6031 -- Hulking Halberdier
-#addrecunit 6032 -- Beast Brother
-#addrecunit 6033 -- Honored Hussar
+#addrecunit 6080 -- Enlisted Enforcer
+#addrecunit 6081 -- Hulking Halberdier
+#addrecunit 6082 -- Beast Brother
+#addrecunit 6083 -- Honored Hussar
 
-#addreccom 6035 -- Adventuring Author
-#addreccom 6036 -- Greencloak General
-#addreccom 6037 -- Commandment Chanter
-#addreccom 6038 -- Seeking Student
-#addreccom 6039 -- Accredited Apprentice
-#addreccom 6040 -- Peerless Pupil
+#addreccom 6085 -- Adventuring Author
+#addreccom 6086 -- Greencloak General
+#addreccom 6087 -- Commandment Chanter
+#addreccom 6088 -- Seeking Student
+#addreccom 6089 -- Accredited Apprentice
+#addreccom 6090 -- Peerless Pupil
 
-#defcom1 6036 -- Greencloak General
-#defunit1 6031 -- Hulking Halberdier
+#defcom1 6086 -- Greencloak General
+#defunit1 6081 -- Hulking Halberdier
 #defmult1 16 -- This many units will appear per 10 PD
-#defcom2 6036 -- Greencloak General
-#defunit2 6030 -- Enlisted Enforcer
+#defcom2 6086 -- Greencloak General
+#defunit2 6080 -- Enlisted Enforcer
 #defmult2 30 
 
-#wallcom 6036 -- Greencloak General 
-#wallunit 6030 -- Enlisted Enforcer
+#wallcom 6086 -- Greencloak General 
+#wallunit 6080 -- Enlisted Enforcer
 #wallmult 10
 
-#startcom 6036 -- Greencloack General
-#startscout 6035 -- Adventuring Author
-#startunittype1 6031 -- Hulking Halberdier
+#startcom 6086 -- Greencloack General
+#startscout 6085 -- Adventuring Author
+#startunittype1 6081 -- Hulking Halberdier
 #startunitnbrs1 25
-#startunittype2 6033 -- Beast Brother
+#startunittype2 6082 -- Beast Brother
 #startunitnbrs2 9
 
 #fortera 3 -- Just Imperialist Things TM
@@ -1137,8 +1127,10 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #name "Firebrand Preacher"
 #spr1 "SlavesJAMsprite/Pancake/FirebrandPreacher.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Pancake/FirebrandPreacher2.tga" -- remember to tag on the .tga to the end of the directory
-#weapon 11 -- Great Sword
 #weapon 4 -- Lance
+#weapon 11 -- Great Sword
+#weapon 1884 -- Pincer
+#weapon 1885 -- Stinger
 #armor 9 -- Cuirass
 #armor 118 -- Half Helmet
 #size 5
@@ -1174,8 +1166,10 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #name "Soulbound Templar" 
 #spr1 "SlavesJAMsprite/Pancake/SoulboundTemplar.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Pancake/SoulboundTemplar2.tga" -- remember to tag on the .tga to the end of the directory
-#weapon 11 -- Great Sword
 #weapon 4 -- Lance
+#weapon 11 -- Great Sword
+#weapon 237 -- Bite
+#weapon 236 -- Claw
 #armor 9 -- Cuirass
 #armor 118 -- Half Helmet
 #size 3
@@ -1541,7 +1535,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #flag "SlavesJAMsprite/Pancake/Flag.tga"
 
 #clearsites
-#startsite 1952 -- "The Forge of Souls" -- You can also use the site number
+#startsite "The Forge of Souls" -- 1952 -- You can also use the site number
 
 #likesterr 128
 
@@ -1973,7 +1967,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #flag "SlavesJAMsprite/Zen/Flag.tga"
 
 #clearsites
-#startsite 1953 -- "The Buried Darkness"
+#startsite "The Buried Darkness" -- 1953
 
 
 #clearrec
@@ -2453,7 +2447,7 @@ Priests: Weak." -- Notice the string ends here and only here
 #flag "SlavesJAMsprite/Isitaris/Flag.tga" -- Flag by Executor
 
 #clearsites
-#startsite 1954 -- "The Spire" -- You can also use the site number
+#startsite "The Spire" -- 1954 -- You can also use the site number
 
 -- Units and Commanders
 #clearrec
@@ -2502,7 +2496,7 @@ Priests: Weak." -- Notice the string ends here and only here
 --- Troop definitions for TLOAF
 
 --- Tloafan Fanatic
-#newmonster 6081
+#newmonster 6101
 #name "FIXME2"
 #spr1 "SlavesJAMsprite/JAM/Tloafan Fanatic.tga"
 #size 2
@@ -2535,7 +2529,7 @@ Priests: Weak." -- Notice the string ends here and only here
 #end
 
 --- Earth Piercer
-#newmonster 6080
+#newmonster 6100
 #name "Earth Piercer"
 #spr1 "SlavesJAMsprite/JAM/Earth Piercer.tga"
 #size 2
@@ -2877,7 +2871,7 @@ Priests: Weak." -- Notice the string ends here and only here
 #maxage 50
 #goodleader
 #magicskill 8 2
-#domsummon2 6081
+#domsummon2 6101
 #float
 #humanoid
 #itemslots 15494
@@ -2963,7 +2957,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 
 #clearrec
 #addrecunit 6076 -- Pwhoo Rider
-#addrecunit 6080 -- Earth Piercer
+#addrecunit 6100 -- Earth Piercer
 #addrecunit 6077 -- Floating Guardian
 #addrecunit 6078
 
@@ -2975,7 +2969,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #addreccom 6075 
 
 #defcom1 6070 -- This will lead your PD Troops, FIXME3
-#defunit1 6080 -- This is the unit that the PD calls for, FIXME1
+#defunit1 6100 -- This is the unit that the PD calls for, FIXME1
 #defmult1 15 -- This many units will appear per 10 PD
 #defcom2 6070 -- This will also lead your PD at 20, Commander
 #defunit2 6079 
