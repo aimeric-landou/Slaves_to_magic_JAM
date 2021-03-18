@@ -44,15 +44,6 @@
 #pathlevel 0 3
 #restricted 175
 #end
-
-#newspell
-#copyspell 1025
-#name "Enslavement"
-#researchlevel 7
-#aoe 1
-#restricted 175
-#end
-
 #newspell
 #copyspell 739 -- Power of the Spheres
 #name "Arcane Amplification"
