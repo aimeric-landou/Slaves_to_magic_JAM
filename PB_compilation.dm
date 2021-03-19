@@ -356,7 +356,7 @@
 ----- COMMANDER definitions for ALETHKAR
 
 --- Brightlord
-#newmonster 6030 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6024 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Brightlord"
 #spr1 "SlavesJAMsprite/Bamboo/Brightlord1.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Bamboo/Brightlord2.tga"
@@ -394,7 +394,7 @@
 #end
 
 --- Scribe
-#newmonster 6031 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6025 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Scribe"
 #spr1 "SlavesJAMsprite/Bamboo/Scribe1.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Bamboo/Scribe2.tga"
@@ -433,7 +433,7 @@
 #end
 
 --- Scholar
-#newmonster 6032 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6026 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Scholar"
 #spr1 "SlavesJAMsprite/Bamboo/Scholar1.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Bamboo/Scholar2.tga"
@@ -473,7 +473,7 @@
 #end
 
 --- Stormwarden
-#newmonster 6033 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6027 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Stormwarden"
 #spr1 "SlavesJAMsprite/Bamboo/Stormwarden1.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Bamboo/Stormwarden2.tga"
@@ -514,7 +514,7 @@
 #end
 
 --- Artifabrian
-#newmonster 6034 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6028 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Artifabrian"
 #spr1 "SlavesJAMsprite/Bamboo/Artifabrian1.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Bamboo/Artifabrian2.tga"
@@ -556,7 +556,7 @@
 #end
 
 --- Ardent
-#newmonster 6035 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6029 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Ardent"
 #spr1 "SlavesJAMsprite/Bamboo/Ardent1.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Bamboo/Ardent2.tga"
@@ -601,7 +601,7 @@
 #rarity 5 -- I believe this makes it unique
 #path Earth -- No idea what this button does
 #name "Kolinar"
-#homecom 6035 --Ardent
+#homecom 6029 --Ardent
 #homemon 6023
 #gems 1 1 -- 1 Air
 #gems 4 2 -- 2 Astral
@@ -633,28 +633,28 @@
 #addrecunit 6021 -- Drafted
 #addrecunit 6022 -- Contracted
 
-#addreccom 6030 -- Brightlord
-#addreccom 6031 -- Scribe
-#addreccom 6032 -- Scholar
-#addreccom 6033 -- Stormwarden
-#addreccom 6034 -- Antifabrian
+#addreccom 6024 -- Brightlord
+#addreccom 6025 -- Scribe
+#addreccom 6026 -- Scholar
+#addreccom 6027 -- Stormwarden
+#addreccom 6028 -- Antifabrian
 
-#defcom1 6030 -- Brightlord
+#defcom1 6024 -- Brightlord
 #defunit1 6020 -- Obligated
 #defmult1 8
 #defunit1b 6021 -- Drafted
 #defmult1b 8
-#defcom2 6030 -- Brightlord
+#defcom2 6024 -- Brightlord
 #defunit2 6022 -- Obligated
 #defmult2 15
 #defunit2b 60021 -- Drafted
 #defmult2b 10
 
-#wallcom 6030 -- Brightlord
+#wallcom 6024 -- Brightlord
 #wallunit 6020 -- Obligated
 #wallmult 10
 
-#startcom 6030 -- Brightlord
+#startcom 6024 -- Brightlord
 #startscout 426 -- Basic Scout
 #startunittype1 6021  -- Drafted
 #startunitnbrs1 16
@@ -679,7 +679,7 @@
 --- TROOP definitions for VIVIS
 
 --- Enlisted Enforcer
-#newmonster 6080 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6030 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Enlisted Enforcer" 
 #spr1 "SlavesJAMsprite/Adjective/enforcer_a.tga" -- remember to tag on the .tga to the end of the directory
 #spr1 "SlavesJAMsprite/Adjective/enforcer_b.tga"
@@ -713,7 +713,7 @@ They rely on two main lines of defense - firstly, they show no fear. This on itâ
 #end
 
 --- Hulking Halberdier
-#newmonster 6081 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6031 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Hulking Halberdier" 
 #spr1 "SlavesJAMsprite/Adjective/halberdier_a.tga" -- remember to tag on the .tga to the end of the directory
 #spr1 "SlavesJAMsprite/Adjective/halberdier_b.tga"
@@ -748,7 +748,7 @@ Larger beasts such as horses and oxen will often retain something of their size 
 #end
 
 --- Beast Brother
-#newmonster 6082 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6032 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Beast Brother" 
 #spr1 "SlavesJAMsprite/Adjective/brother_a.tga" -- remember to tag on the .tga to the end of the directory
 #spr1 "SlavesJAMsprite/Adjective/brother_b.tga"
@@ -783,7 +783,7 @@ Each Beastman bears some legacy of its original form in its appearance, its move
 #end
 
 --- Honored Hussar
-#newmonster 6083 
+#newmonster 6033 
 #name "Honored Hussar"
 #spr1 "SlavesJAMsprite/Adjective/hussar_a.tga"
 #spr2 "SlavesJAMsprite/Adjective/hussar_b.tga"
@@ -824,7 +824,7 @@ Some few Beastmen distinguish themselves by retaining a greater part of the phys
 --- COMMANDER definitions for VIVIS
 
 --- Adventuring Author
-#newmonster 6085 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6034 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Adventuring Author" 
 #spr1 "SlavesJAMsprite/Adjective/author_a.tga" -- remember to tag on the .tga to the end of the directory
 #spr1 "SlavesJAMsprite/Adjective/author_b.tga"
@@ -859,7 +859,7 @@ Various inexplicable trends come and go among these adventuring authors, the lat
 #end
 
 --- Greencloak General
-#newmonster 6086 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6035 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Greencloak General" 
 #spr1 "SlavesJAMsprite/Adjective/general_a.tga" -- remember to tag on the .tga to the end of the directory
 #spr1 "SlavesJAMsprite/Adjective/general_b.tga"
@@ -893,7 +893,7 @@ Various inexplicable trends come and go among these adventuring authors, the lat
 #end
 
 --- Commandment Chanter
-#newmonster 6087 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6036 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Commandment Chanter" 
 #spr1 "SlavesJAMsprite/Adjective/chanter_a.tga" -- remember to tag on the .tga to the end of the directory
 #spr1 "SlavesJAMsprite/Adjective/chanter_b.tga"
@@ -929,7 +929,7 @@ Commandment Chanters are responsible for ensuring the beastmen remain devoted to
 #end
 
 --- Seeking Student
-#newmonster 6088 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6037 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Seeking Student" 
 #spr1 "SlavesJAMsprite/Adjective/student_a.tga" -- remember to tag on the .tga to the end of the directory
 #spr1 "SlavesJAMsprite/Adjective/student_b.tga"
@@ -966,7 +966,7 @@ A seeking student is a junior mage, though this position still commands respect 
 #end
 
 --- Accredited Apprentice
-#newmonster 6089 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6038 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Accredited Apprentice" 
 #spr1 "SlavesJAMsprite/Adjective/apprentice_a.tga" -- remember to tag on the .tga to the end of the directory
 #spr1 "SlavesJAMsprite/Adjective/apprentice_b.tga"
@@ -1002,7 +1002,7 @@ An Accredited Apprentice is a more experienced mage, though they were not taught
 #end
 
 ---  Peerless Pupil
-#newmonster 6090 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6039 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Peerless Pupil" 
 #spr1 "SlavesJAMsprite/Adjective/pupil_a.tga" -- remember to tag on the .tga to the end of the directory
 #spr1 "SlavesJAMsprite/Adjective/pupil_b.tga"
@@ -1075,34 +1075,34 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 
 
 #clearrec
-#addrecunit 6080 -- Enlisted Enforcer
-#addrecunit 6081 -- Hulking Halberdier
-#addrecunit 6082 -- Beast Brother
-#addrecunit 6083 -- Honored Hussar
+#addrecunit 6030 -- Enlisted Enforcer
+#addrecunit 6031 -- Hulking Halberdier
+#addrecunit 6032 -- Beast Brother
+#addrecunit 6033 -- Honored Hussar
 
-#addreccom 6085 -- Adventuring Author
-#addreccom 6086 -- Greencloak General
-#addreccom 6087 -- Commandment Chanter
-#addreccom 6088 -- Seeking Student
-#addreccom 6089 -- Accredited Apprentice
-#addreccom 6090 -- Peerless Pupil
+#addreccom 6034 -- Adventuring Author
+#addreccom 6035 -- Greencloak General
+#addreccom 6036 -- Commandment Chanter
+#addreccom 6037 -- Seeking Student
+#addreccom 6038 -- Accredited Apprentice
+#addreccom 6039 -- Peerless Pupil
 
-#defcom1 6086 -- Greencloak General
-#defunit1 6081 -- Hulking Halberdier
+#defcom1 6035 -- Greencloak General
+#defunit1 6031 -- Hulking Halberdier
 #defmult1 16 -- This many units will appear per 10 PD
-#defcom2 6086 -- Greencloak General
-#defunit2 6080 -- Enlisted Enforcer
+#defcom2 6035 -- Greencloak General
+#defunit2 6030 -- Enlisted Enforcer
 #defmult2 30 
 
-#wallcom 6086 -- Greencloak General 
-#wallunit 6080 -- Enlisted Enforcer
+#wallcom 6035 -- Greencloak General 
+#wallunit 6030 -- Enlisted Enforcer
 #wallmult 10
 
-#startcom 6086 -- Greencloack General
-#startscout 6085 -- Adventuring Author
-#startunittype1 6081 -- Hulking Halberdier
+#startcom 6035 -- Greencloack General
+#startscout 6034 -- Adventuring Author
+#startunittype1 6031 -- Hulking Halberdier
 #startunitnbrs1 25
-#startunittype2 6082 -- Beast Brother
+#startunittype2 6032 -- Beast Brother
 #startunitnbrs2 9
 
 #fortera 3 -- Just Imperialist Things TM
@@ -1235,7 +1235,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #end
 
 --- Crusader Serf
-#newmonster 6054 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6053 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Crusader Serf" 
 #spr1 "SlavesJAMsprite/Pancake/CrusaderSerf.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Pancake/CrusaderSerf2.tga" -- remember to tag on the .tga to the end of the directory
@@ -1267,7 +1267,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #itemslots 15494
 #end
 
-#newmonster 6060
+#newmonster 6018
 #copystats 694
 #copyspr 694
 #name "Templar Revenant"
@@ -1279,7 +1279,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 --- COMMANDER definitions for THE DUAL CULTS
 
 --- Firebrand Apostle
-#newmonster 6055 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6054 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Firebrand Apostle" 
 #spr1 "SlavesJAMsprite/Pancake/FirebrandApostle.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Pancake/FirebrandApostle2.tga" -- remember to tag on the .tga to the end of the directory
@@ -1318,7 +1318,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #end
 
 --- Soulbound Votary
-#newmonster 6056 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6055 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Soulbound Votary" 
 #spr1 "SlavesJAMsprite/Pancake/SoulboundVotary.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Pancake/SoulboundVotary2.tga" -- remember to tag on the .tga to the end of the directory
@@ -1355,7 +1355,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #end
 
 --- Firebrand Patriarch
-#newmonster 6057 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6056 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Firebrand Patriarch" 
 #spr1 "SlavesJAMsprite/Pancake/FirebrandPatriarch.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Pancake/FirebrandPatriarch2.tga" -- remember to tag on the .tga to the end of the directory
@@ -1393,7 +1393,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #end
 
 --- Keeper of Souls
-#newmonster 6058 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6057 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Keeper of Souls" 
 #spr1 "SlavesJAMsprite/Pancake/KeeperOfSouls.tga" -- remember to tag on the .tga to the end of the directory
 #spr1 "SlavesJAMsprite/Pancake/KeeperOfSouls2.tga" -- remember to tag on the .tga to the end of the directory
@@ -1432,7 +1432,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #end
 
 --- Keeper of the Forge
-#newmonster 6059 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6058 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Keeper of the Forge" 
 #spr1 "SlavesJAMsprite/Pancake/KeeperOfTheForge.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Pancake/KeeperOfTheForge2.tga" -- remember to tag on the .tga to the end of the directory
@@ -1472,7 +1472,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #end
 
 --- Templar Gatekeeper
-#newmonster 6060 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6059 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Templar Gatekeeper" 
 #spr1 "SlavesJAMsprite/Pancake/TemplarGatekeeper.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Pancake/TemplarGatekeeper2.tga" -- remember to tag on the .tga to the end of the directory
@@ -1492,7 +1492,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #enc 3
 #maxage 50
 #poorleader
-#templetrainer 6060
+#templetrainer 6019
 #slowrec
 #holy
 #swimming
@@ -1543,20 +1543,20 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #addrecunit 6050
 #addrecunit 6051 -- This will add the monster tag as a unit recruit from forts
 #addrecunit 6052
-#addrecunit 6054 -- Crusader Serf
+#addrecunit 6053 -- Crusader Serf
 
+#addreccom 6054
 #addreccom 6055
 #addreccom 6056
 #addreccom 6057
 #addreccom 6058
 #addreccom 6059
-#addreccom 6060
 
 #defcom1 34
-#defunit1 6054 -- Crusader Serf
+#defunit1 6053 -- Crusader Serf
 #defmult1 10 -- This many units will appear per 10 PD
 #defcom2 34
-#defunit2 6054 -- Crusader Serf
+#defunit2 6053 -- Crusader Serf
 #defmult2 10 -- This many units will appear per 10 PD after 20
 
 #wallcom 34
@@ -1565,7 +1565,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 
 #startcom 34
 #startscout 426
-#startunittype1 6054 -- Crusader Serf
+#startunittype1 6053 -- Crusader Serf
 #startunitnbrs1 20 -- This many of the aforementioned unit will appear
 
 #fortera 2 
@@ -1657,7 +1657,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #end
 
 
---- Blood Lily Warroirs
+--- Blood Lily Warriors
 #newmonster 6043
 #name "Blood Lily Warrior"
 #spr1 "SlavesJAMsprite/Zen/BloodLillyWarrior.tga"
@@ -1728,7 +1728,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 --- COMMANDER definitions for NOTH SOSET
 
 --- Ivy Marksman
-#newmonster 6050
+#newmonster 6044
 #name "Fire Ivy Marksman"
 #spr1 "SlavesJAMsprite/Zen/FireIvyMarksman.tga"
 #weapon 1892 -- Heavy Composite Bow
@@ -1762,7 +1762,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #end
 
 --- Ivy Marksman
-#newmonster 6052
+#newmonster 6045
 #name "Ivy Marksman"
 #spr1 "SlavesJAMsprite/Zen/IvyMarksman.tga"
 #weapon 1892 -- Heavy Composite Bow
@@ -1795,7 +1795,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #end
 
 --- Attendant Master
-#newmonster 6051
+#newmonster 6046
 #name "Attendant Master"
 #spr1 "SlavesJAMsprite/Zen/AttendantMaster.tga"
 #weapon 1893 -- Heavy Sling
@@ -1828,7 +1828,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #end
 
 --- Blood Lily Cultivator
-#newmonster 6053
+#newmonster 6047
 #name "Blood Lily Cultivator"
 #spr1 "SlavesJAMsprite/Zen/BloodLillyCultivator.tga"
 #weapon 1893 -- Heavy Sling
@@ -1863,7 +1863,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #end
 
 --- Blood Lily Advisor
-#newmonster 6054
+#newmonster 6048
 #name "Blood Lily Advisor"
 #spr1 "SlavesJAMsprite/Zen/BloodLillyAdvisor.tga"
 #weapon 1893 -- Heavy Sling
@@ -1898,7 +1898,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #end
 
 --- Attendant Advisor
-#newmonster 6055
+#newmonster 6049
 #name "Attendant Advisor"
 #spr1 "SlavesJAMsprite/Zen/AttendantAdvisor.tga"
 #weapon 1893 -- Heavy Sling
@@ -1942,7 +1942,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #rarity 5 -- I believe this makes it unique
 #path Earth -- No idea what this button does
 #name "The Buried Darkness"
-#homecom 6055 -- Attendant Advisor
+#homecom 6049 -- Attendant Advisor
 #gems 3 1 -- 1 Earth
 #gems 7 4 -- 4 Blood
 #gems 0 1 -- 1 Fire
@@ -1976,24 +1976,24 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #addrecunit 6042 -- Ice Vine Archer
 #addrecunit 6043 -- Blood Lily Warrior
 
-#addreccom 6050 -- Fire Ivy Marksman
-#addreccom 6051 -- Attendant Master
-#addreccom 6052 -- Ivy Marksman
-#addreccom 6053 -- Blood Lily Cultivator
-#addreccom 6054 -- Blood Lily Attendant
+#addreccom 6044 -- Fire Ivy Marksman
+#addreccom 6045 -- Attendant Master
+#addreccom 6046 -- Ivy Marksman
+#addreccom 6047 -- Blood Lily Cultivator
+#addreccom 6048 -- Blood Lily Attendant
 
-#defcom1 6051 -- Attendant Master
+#defcom1 6045 -- Attendant Master
 #defunit1 6040 -- Steel Rose Warrior
 #defmult1 25
-#defcom2 6051 -- Attendant Master
+#defcom2 6045 -- Attendant Master
 #defunit2 6042 -- Ice Vine Archer
 #defmult2 23
 
-#wallcom 6051 -- Attendant Master
+#wallcom 6045 -- Attendant Master
 #wallunit 6050 -- Steel Rose Warrior
 #wallmult 12
 
-#startcom 6051 -- Attendant Master
+#startcom 6045 -- Attendant Master
 #startscout 426 -- Generic Scout
 #startunittype1 6040 -- Steel Rose Warrior
 #startunitnbrs1 50
@@ -2021,7 +2021,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 --- TROOP definitions for SHARA
 
 --- Repel Infantry
-#newmonster 6056 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6060 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Pikeneer" -- This is the unit type name, like Logrian Slinger or Thaumaturg
 #spr1 "SlavesJAMsprite/Isitaris/Pikeneer.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Isitaris/Pikeneer_animation.tga" -- remember to tag on the .tga to the end of the directory
@@ -2056,7 +2056,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #end
 
 --- Gryphon Rider
-#newmonster 6057 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6061 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Gryphon Rider" -- This is the unit type name, like Logrian Slinger or Thaumaturg
 #spr1 "SlavesJAMsprite/Isitaris/GryphonRider_Unit.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Isitaris/GryphonRider_Unit_animation.tga" -- remember to tag on the .tga to the end of the directory
@@ -2098,7 +2098,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #end
 
 --- Patrol Chaff
-#newmonster 6058 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6062 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Sharan Militia" -- This is the unit type name, like Logrian Slinger or Thaumaturg
 #spr1 "SlavesJAMsprite/Isitaris/Slave.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Isitaris/Slave_animation.tga" -- remember to tag on the .tga to the end of the directory
@@ -2133,7 +2133,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #end
 
 --- Dual Wielders
-#newmonster 6059 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6063 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Light Swordsman" -- This is the unit type name, like Logrian Slinger or Thaumaturg
 #spr1 "SlavesJAMsprite/Isitaris/Swordsman.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Isitaris/Swordsman_attacking.tga" -- remember to tag on the .tga to the end of the directory
@@ -2172,7 +2172,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 --- COMMANDER definitions for SHARA
 
 --leader
-#newmonster 6060 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6064 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Sharan Commander" -- This is the unit type name, like Logrian Slinger or Thaumaturg
 #spr1 "SlavesJAMsprite/Isitaris/GryphonRider_Captain.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Isitaris/GryphonRider_Captain_Animation.tga" -- remember to tag on the .tga to the end of the directory
@@ -2212,7 +2212,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 
 -- mages
 
-#newmonster 6061 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6065 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Grand Ritualist" -- This is the unit type name, like Logrian Slinger or Thaumaturg
 #spr1 "SlavesJAMsprite/Isitaris/BloodSummoner.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Isitaris/BloodSummoner_animation.tga" -- remember to tag on the .tga to the end of the directory
@@ -2250,7 +2250,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #itemslots 15494
 #end
 
-#newmonster 6062 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6066 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Harvester" -- This is the unit type name, like Logrian Slinger or Thaumaturg
 #spr1 "SlavesJAMsprite/Isitaris/BloodHunter.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Isitaris/BloodHunter_animation.tga" -- remember to tag on the .tga to the end of the directory
@@ -2286,7 +2286,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #itemslots 15494
 #end
 
-#newmonster 6063 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6067 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Astrologist" -- This is the unit type name, like Logrian Slinger or Thaumaturg
 #spr1 "SlavesJAMsprite/Isitaris/Mage2.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Isitaris/Mage2_animation.tga" -- remember to tag on the .tga to the end of the directory
@@ -2323,7 +2323,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #itemslots 15494
 #end
 
-#newmonster 6064 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6068 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "War Weaver" -- This is the unit type name, like Logrian Slinger or Thaumaturg
 #spr1 "SlavesJAMsprite/Isitaris/BattleMage.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Isitaris/BattleMage_Animation.tga" -- remember to tag on the .tga to the end of the directory
@@ -2362,7 +2362,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #itemslots 15494
 #end
 
-#newmonster 6065 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#newmonster 6069 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Hand of Hadar" -- This is the unit type name, like Logrian Slinger or Thaumaturg
 #spr1 "SlavesJAMsprite/Isitaris/Priest.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Isitaris/Priest_animation.tga" -- remember to tag on the .tga to the end of the directory
@@ -2400,7 +2400,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #end
 
 --- Custom God -- only renaming and change of description (SHARA)
-#newmonster 6066
+#newmonster 6019
 #copystats 2850 -- Statue of the Underworld
 #copyspr 5008 -- sprites from the Statue of the Outer Gods
 #name "Statue of the Hungry God"
@@ -2416,9 +2416,9 @@ P.S. reflavour of Statue of the Underworld"
 #rarity 5 -- I believe this makes it unique
 #path 9 -- No idea what this button does
 #name "The Spire" -- Name of the site, keep it short generally
-#homecom 6061 -- Blood Summoner - This commander will be exclusively recruited from this site, and will show up on the recruitment overview on the ation screen
-#homecom 6065 -- H3 Priest 	- This commander will be exclusively recruited from this site, and will show up on the recruitment overview on the ation screen
-#homemon 6057 -- Gryphon Rider	- This monster will be exclusively recruited from this site, and will show up on the recruitment overview on the ation screen
+#homecom 6065 -- Blood Summoner - This commander will be exclusively recruited from this site, and will show up on the recruitment overview on the ation screen
+#homecom 6069 -- H3 Priest 	- This commander will be exclusively recruited from this site, and will show up on the recruitment overview on the ation screen
+#homemon 6061 -- Gryphon Rider	- This monster will be exclusively recruited from this site, and will show up on the recruitment overview on the ation screen
 #gems 1 4 -- 4 A gems
 #gems 4 1 -- 1 S gem
 #end
@@ -2451,33 +2451,33 @@ Priests: Weak." -- Notice the string ends here and only here
 
 -- Units and Commanders
 #clearrec
-#addrecunit 6056
--- #addrecunit 6057 -- Cap-only 
-#addrecunit 6058
-#addrecunit 6059 
+#addrecunit 6060
+-- #addrecunit 6061 -- Cap-only 
+#addrecunit 6062
+#addrecunit 6063 
 
-#addreccom 6060 
--- #addreccom 6061 -- Cap-only
-#addreccom 6062 
-#addreccom 6063 
-#addreccom 6064
+#addreccom 6064 
 -- #addreccom 6065 -- Cap-only
+#addreccom 6066 
+#addreccom 6067 
+#addreccom 6068
+-- #addreccom 6069 -- Cap-only
 
 -- PD and Siege defenders
-#defcom1 6060 -- This will lead your PD Troops 
-#defunit1 6056 -- This is the unit that the PD calls for
+#defcom1 6064 -- This will lead your PD Troops 
+#defunit1 6060 -- This is the unit that the PD calls for
 #defmult1 14 -- This many units will appear per 10 PD
-#defcom2 6060 -- This will also lead your PD after 20
-#defunit2 6056 -- This unit will start appearing after 20 PD
+#defcom2 6064 -- This will also lead your PD after 20
+#defunit2 6060 -- This unit will start appearing after 20 PD
 #defmult2 21 -- This many units will appear per 10 PD after 20
 
-#wallcom 6060 -- This commander will guard the walls when sieged
-#wallunit 6056 -- This unit type will guard the walls when sieged
+#wallcom 6064 -- This commander will guard the walls when sieged
+#wallunit 6060 -- This unit type will guard the walls when sieged
 #wallmult 12 -- How many units there will be, no ifs or buts, no modifiers or anything. Just this many units.
 
-#startcom 6060 -- Your starting troop leader you spawn in with
+#startcom 6064 -- Your starting troop leader you spawn in with
 #startscout 426 -- Your starting Scout - vanilla scout
-#startunittype1 6056  -- This unit will appear when you spawn in
+#startunittype1 6060  -- This unit will appear when you spawn in
 #startunitnbrs1 12 -- This many of the aforementioned unit will appear
 
 #fortera 3 -- Just Imperialist Things TM
@@ -2486,7 +2486,7 @@ Priests: Weak." -- Notice the string ends here and only here
 
 #homerealm 3 -- Mediterranean
 #homerealm 10 -- Default Gods
-#addgod 6066 -- statue of the underwold reflavoured
+#addgod 6019 -- statue of the underwold reflavoured
 
 #templepic 14 -- 
 
