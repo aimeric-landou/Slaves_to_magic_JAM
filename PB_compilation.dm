@@ -98,7 +98,7 @@
 #pathlevel 0 4
 #spec 12599296 -- Ignore shields, friendlies only, use UW
 #fatiguecost 200
-#restricted 173 -- Tloaf
+#restricted 174 -- Tloaf
 #end
 
 #newspell
@@ -121,8 +121,31 @@
 #path 1 0
 #pathlevel 1 1
 #spec 70368744194048 -- Flyers immune, enemies only, ignores shields
-#restricted 173 -- Tloaf
+#restricted 174 -- Tloaf
 #nextspell "Burning Rock"
+#end
+
+#newspell
+#copyspell 1025 -- Enslave Mind
+#name "Mental Oppression"
+#researchlevel 5
+#path 0 0
+#pathlevel 0 3
+#path 1 3
+#pathlevel 1 1
+#restricted 175
+#end
+
+#newspell
+#copyspell 736 -- Summon Earthpower
+#name "Summon Volcanic Power"
+#details "Grants +1 Earth and Fire magic, Reinvigoration +4"
+#researchlevel 6
+#pathlevel 0 1
+#path 1 0
+#pathlevel 1 1
+#damage 266240 -- Earth and Fire power
+#restricted 175
 #end
 
 
@@ -179,6 +202,12 @@
 #newweapon 1992 -- simple renaming for flavour (SHARA)
 #copyweapon "Halberd"
 #name "Banner"
+#end
+
+#newweapon 1993
+#copyweapon 29 -- Claw
+#name "AP Claw" -- Mr. Stone Body and all
+#armorpiercing
 #end
 
 #newarmor 801 -- simple renaming for flavour
@@ -2994,6 +3023,456 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #homerealm 7
 #templepic 8 -- Ruined Temple, for all that lives on ground must be destroyed
 #riverstart
+
+#end
+
+
+
+
+
+--- Troop definitions for (Insert nation name, if you want)
+
+--- Militia Dude
+#newmonster 6091 
+#name "Militia Dude"
+#spr1 "SlavesJAMsprite/FIXME.tga"
+#armor 120
+#armor 10
+#weapon 253
+#size 2
+#hp 15
+#prot 1
+#mr 10
+#mor 11
+#str 10
+#att 10
+#def 7
+#prec 10
+#ap 10
+#mapmove 14
+#enc 4
+#supplybonus -1
+#maxage 50
+#poorleader
+#humanoid
+#horrormark
+#gcost 10008
+#rcost 1
+#rpcost 10000
+#nametype 100
+#descr "FIXME"
+#itemslots 15494
+#end
+
+--- Thrice Clawed
+#newmonster 6092 
+#name "Thrice Clawed"
+#spr1 "SlavesJAMsprite/FIXME.tga"
+#weapon 1900 --- AP Claw
+#weapon 1900 --- AP Claw
+#weapon 1900 --- AP Claw
+#weapon 4 -- Lance
+#armor 14 -- Hauberk
+#armor 118 -- Half Helmet
+#size 3
+#ressize 2
+#hp 16
+#prot 5
+#mr 11
+#mor 10
+#str 12
+#att 10
+#def 10
+#prec 10
+#ap 24
+#mapmove 20
+#enc 5
+#supplybonus -1
+#maxage 50
+#poorleader
+#reclimit 4
+#mountedhumanoid
+#mounted
+#gcost 10010
+#rcost 1
+#rpcost 10000
+#nametype 100
+#descr "FIXME"
+#itemslots 5262
+#end
+
+--- Guard
+#newmonster 6093
+#name "Guard"
+#spr1 "SlavesJAMsprite/FIXME.tga"
+#weapon 2 -- Pike
+#armor 9 -- Cuirass
+#armor 118 -- Half Helmet
+#size 2
+#hp 15
+#prot 1
+#mr 10
+#mor 13
+#str 10
+#att 12
+#def 9
+#prec 10
+#ap 10
+#mapmove 14
+#enc 4
+#supplybonus -1
+#maxage 50
+#poorleader
+#humanoid
+#eyeloss
+#gcost 10010
+#rcost 1
+#rpcost 10000
+#nametype 100
+#descr "FIXME"
+#itemslots 15494
+#end
+
+#newmonster 6094 -- Super Hawk
+#copystats 1380
+#copyspr 1380
+#darkvision 50
+#patrolbonus 2
+#holy
+#end
+
+
+--- Heavy
+#newmonster 6095 
+#name "Heavy"
+#spr1 "SlavesJAMsprite/FIXME.tga"
+#weapon 11 -- Great Sword
+#armor 14 -- Hauberk
+#armor 118 -- Half Helmet
+#size 2
+#hp 16
+#prot 1
+#mr 11
+#mor 13
+#str 14
+#att 9
+#def 10
+#prec 10
+#ap 10
+#mapmove 14
+#enc 4
+#supplybonus -1
+#maxage 50
+#poorleader
+#formationfighter 3
+#humanoid
+#gcost 10010
+#rcost 1
+#rpcost 10000
+#nametype 100
+#descr "FIXME"
+#itemslots 15494
+#end
+
+
+
+
+--- Commander definitions for (Insert nation name, if you want)
+
+--- Scorp Scout
+#newmonster 6096 
+#name "Scorp Scou"
+#spr1 "SlavesJAMsprite/FIXME.tga"
+#weapon 4
+#weapon 1000 -- Scorpion Pincer
+#weapon 1001 -- Scorpion Stinger
+#weapon 11 -- Great Sword
+#armor 120
+#armor 10
+#armor 112 -- GHS
+#size 5
+#ressize 2
+#mounted
+#hp 15
+#prot 1
+#mr 10
+#mor 10
+#str 10
+#att 12
+#def 9
+#prec 10
+#ap 12
+#mapmove 16
+#enc 6
+#supplybonus -1
+#maxage 50
+#stealthy 0
+#noleader
+#mountedhumanoid
+#gcost 10030
+#rcost 1
+#rpcost 10000
+#nametype 100
+#descr "FIXME"
+#itemslots 5262
+#end
+
+--- Communioneer
+#newmonster 6097
+#name "Communioneer"
+#spr1 "SlavesJAMsprite/FIXME.tga"
+#weapon 9
+#armor 158
+#size 2
+#hp 15
+#prot 1
+#mr 15
+#mor 10
+#str 12
+#att 9
+#def 10
+#prec 10
+#ap 10
+#mapmove 14
+#enc 4
+#supplybonus -1
+#maxage 50
+#older -8
+#poorleader
+#humanoid
+#magicskill 4 1
+#magicskill 7 1
+#custommagic 19584 10
+#custommagic 19584 10
+#gcost 10010
+#rcost 1
+#rpcost 10000
+#nametype 100
+#descr "FIXME"
+#itemslots 15494
+#end
+
+--- Line Mage
+#newmonster 6098
+#name "Line Mage"
+#spr1 "SlavesJAMsprite/FIXME.tga"
+#weapon 252 
+#armor 119
+#armor 10
+#armor 112 -- GHS
+#size 2
+#hp 15
+#prot 1
+#mr 14
+#mor 10
+#str 10
+#att 10
+#def 10
+#prec 10
+#ap 10
+#mapmove 14
+#enc 4
+#supplybonus -1
+#maxage 50
+#older -8
+#magicskill 4 1
+#magicskill 3 1
+#resources 10
+#custommagic 1152 100 -- FE
+#custommagic 2176 100 -- FS
+#goodleader
+#humanoid
+#gcost 10010
+#rcost 1
+#rpcost 10000
+#nametype 100
+#descr "FIXME"
+#itemslots 15494
+#end
+
+--- Thug
+#newmonster 6099
+#name "Thug"
+#spr1 "SlavesJAMsprite/FIXME.tga"
+#weapon 8 -- BS
+#armor 14 -- Hauberk
+#armor 118 - HH
+#armor 112 -- GHS
+#size 5
+#ressize 2
+#hp 16
+#prot 1
+#mr 15
+#mor 10
+#str 12
+#att 10
+#def 10
+#prec 10
+#ap 12
+#mapmove 16
+#enc 6
+#supplybonus -1
+#maxage 50
+#magicskill 0 1
+#magicskill 3 1
+#custommagic 1152 100 -- FE
+#custommagic 16512 100 -- FB
+#poorleader
+#combatcaster
+#mountedhumanoid
+#gcost 10040
+#rcost 1
+#rpcost 10000
+#nametype 100
+#descr "FIXME"
+#itemslots 5262
+#end
+
+--- Slow Moe
+#newmonster 6102
+#name "Slow Moe"
+#spr1 "SlavesJAMsprite/FIXME.tga"
+#weapon 9
+#armor 158
+#size 2
+#hp 15
+#prot 1
+#mr 15
+#mor 11
+#str 10
+#att 10
+#def 10
+#prec 10
+#ap 10
+#mapmove 14
+#enc 4
+#supplybonus -1
+#maxage 50
+#poorleader
+#nobadevents 15
+#slowrec
+#holy
+#magicskill 8 1
+#magicskill 4 2
+#custommagic 1152 100
+#custommagic 1152 100
+#humanoid
+#older -16
+#gcost 10010
+#rcost 1
+#rpcost 10000
+#nametype 100
+#descr "FIXME"
+#itemslots 15494
+#end
+
+--- Hawker
+#newmonster 6103
+#name "Hawker"
+#spr1 "SlavesJAMsprite/FIXME.tga"
+#weapon 8 -- BS
+#armor 14 -- Hauberk
+#armor 118 - HH
+#armor 112 -- GHS
+#size 3
+#ressize 2
+#hp 15
+#prot 1
+#mr 12
+#mor 12
+#str 10
+#att 10
+#def 10
+#prec 10
+#ap 24
+#mapmove 20
+#enc 5
+#supplybonus -1
+#maxage 50
+#goodleader
+#mountedhumanoid
+#templetrainer 6081
+#inspirational 2
+#mounted
+#gcost 10020
+#rcost 1
+#rpcost 10000
+#nametype 100
+#descr "FIXME"
+#itemslots 13446
+#end
+
+
+--- Sites for (Insert name here, if you wanna)
+#newsite 1956 -- DE goes up to 1902, so I'll be using 1950 to the limit of 1999
+#level 0 -- Pretty sure this makes it instantly visible
+#rarity 5 -- I believe this makes it unique
+#path Earth -- No idea what this button does
+#name "FIXME" -- Name of the site, keep it short generally
+#gems 0 2 -- Look to the mod manual for the magic path numbers
+#gems 3 1 -- This gives you 1 gem of path 3
+#gems 6 2 -- This gives you 2 gems of path 6
+#end
+
+
+
+-- Nation 180: (Insert name here, if you wanna)
+#selectnation 175 -- DE has nations up to 168, apparently
+#clear -- Keep this in, I have no idea what happens when you dont
+#era 2 
+#name "FIX" -- Main name, like Ulm
+#epithet "ME" -- The thing that appears after the automatically made comma
+#descr "FIXME" -- The blurb that shows above te recruitment options when you select the nation
+#summary "FIXME" -- Notice the string ends here and only here
+
+
+#brief "No description" -- No idea when this is used
+#color 0.0 0.5 0.0 -- This thing is the main background and what represents your nation on scoregraphs
+#secondarycolor 0.5 0.0 0.0 -- Same idea, if this one is absent it reverts to the the one above
+#flag "SlavesJAMsprite/Flag.tga"
+
+#clearsites
+#startsite "FIXME" -- You can also use the site number
+
+
+#clearrec
+#addrecunit 6091 -- Militia Dude
+#addrecunit 6092 -- Thrice Clawed
+#addrecunit 6093 -- Guard
+#addrecunit 6095 -- Heavy
+
+#syncretism 1
+
+#addreccom 6096 -- Scout
+#addreccom 6097 -- Communioneer
+#addreccom 6098 -- Line Mage
+#addreccom 6099 -- Thug
+#addreccom 6102 -- Slow Moe
+#addreccom 6103 -- Hawker
+
+#defcom1 6099
+#defunit1 6093
+#defmult1 10 -- This many units will appear per 10 PD
+#defcom2 6099
+#defunit2 6091
+#defmult2 10 -- This many units will appear per 10 PD after 20
+
+#wallcom 34
+#wallunit 6093
+#wallmult 10
+
+#startcom 34
+#startscout 426
+#startunittype1 6092 -- Thrice Clawed
+#startunitnbrs1 20 -- This many of the aforementioned unit will appear
+
+#fortera 2
+#idealcold 0 -- Starting at Cold 3 means 120 less design points
+
+#homerealm 6 -- Toad Time
+#homerealm 10 -- Default Gods
+
+#templepic 10 -- Toad Worship calls for Forest Temple
 
 #end
 #end
