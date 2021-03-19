@@ -3403,7 +3403,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 
 
 --- Sites for (Insert name here, if you wanna)
-#newsite 1520 -- DE goes up to 1902, so I'll be using 1950 to the limit of 1999
+#newsite 1956 -- DE goes up to 1902, so I'll be using 1950 to the limit of 1999
 #level 0 -- Pretty sure this makes it instantly visible
 #rarity 5 -- I believe this makes it unique
 #path Earth -- No idea what this button does
