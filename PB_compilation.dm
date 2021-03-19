@@ -2496,7 +2496,7 @@ Priests: Weak." -- Notice the string ends here and only here
 --- Troop definitions for TLOAF
 
 --- Tloafan Fanatic
-#newmonster 6101
+#newmonster 6016
 #name "FIXME2"
 #spr1 "SlavesJAMsprite/JAM/Tloafan Fanatic.tga"
 #size 2
@@ -2529,7 +2529,7 @@ Priests: Weak." -- Notice the string ends here and only here
 #end
 
 --- Earth Piercer
-#newmonster 6100
+#newmonster 6017
 #name "Earth Piercer"
 #spr1 "SlavesJAMsprite/JAM/Earth Piercer.tga"
 #size 2
@@ -2778,7 +2778,7 @@ Priests: Weak." -- Notice the string ends here and only here
 
 --- Earth Cracker
 #newmonster 6073
-#name "Earth Melter"
+#name "Earth Cracker"
 #spr1 "SlavesJAMsprite/JAM/Earth Cracker.tga"
 #size 3
 #ressize 2
@@ -2871,7 +2871,7 @@ Priests: Weak." -- Notice the string ends here and only here
 #maxage 50
 #goodleader
 #magicskill 8 2
-#domsummon2 6101
+#domsummon2 6016
 #float
 #humanoid
 #itemslots 15494
@@ -2920,7 +2920,7 @@ Priests: Weak." -- Notice the string ends here and only here
 #end
 
 
---- Sites for (TLOAF
+--- Sites for TLOAF
 #newsite 1955 -- DE goes up to 1902, so I'll usually use 1950 to the limit of 1999
 #level 0 --  Level 0 sites are automatically discovered, but 1 to 4 requires a mage of that rank to search for it
 #rarity 5 -- Sites that are never used as a random site
@@ -2953,23 +2953,24 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #flag "SlavesJAMsprite/JAM/Flag.tga" -- The flag of the nation
 
 #clearsites
-#startsite 1955 -- "The Floating Complex" -- You can also use the site number instead
+#startsite "The Floating Complex" -- 1955 -- You can also use the site number instead
 
 #clearrec
 #addrecunit 6076 -- Pwhoo Rider
-#addrecunit 6100 -- Earth Piercer
+#addrecunit 6017 -- Earth Piercer
 #addrecunit 6077 -- Floating Guardian
-#addrecunit 6078
+#addrecunit 6078 -- Burden Bearer
+#addrecunit 6079 -- Blade Whirler
 
-#addreccom 6070 
-#addreccom 6071
-#addreccom 6072 
-#addreccom 6073 
-#addreccom 6074
-#addreccom 6075 
+#addreccom 6070 -- Tloafan General
+#addreccom 6071 -- Terramorphic Zealot
+#addreccom 6072 -- Ascended Fletcher
+#addreccom 6073 -- Earth Cracker
+#addreccom 6074 -- Earth Melter
+#addreccom 6075 -- Pwhoo Captain
 
 #defcom1 6070 -- This will lead your PD Troops, FIXME3
-#defunit1 6100 -- This is the unit that the PD calls for, FIXME1
+#defunit1 6017 -- This is the unit that the PD calls for, FIXME1
 #defmult1 15 -- This many units will appear per 10 PD
 #defcom2 6070 -- This will also lead your PD at 20, Commander
 #defunit2 6079 
