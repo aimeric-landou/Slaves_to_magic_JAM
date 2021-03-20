@@ -3043,12 +3043,12 @@ Regular Infrastructure" -- Notice the string ends here and only here
 
 
 
---- Troop definitions for (Insert nation name, if you want)
+--- Troop definitions for Taqnian
 
 --- Militia Dude
 #newmonster 6081 
-#name "Militia Dude"
-#spr1 "SlavesJAMsprite/FIXME.tga"
+#name "Taqnian Militia"
+#spr1 "SlavesJAMsprite/Morvarch/Militia.tga"
 #armor 120
 #armor 10
 #weapon 253
@@ -3073,14 +3073,14 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #rcost 1
 #rpcost 10000
 #nametype 100
-#descr "FIXME"
+#descr "The most basic conscripts of the Taqnian military, the militia have seen only a few benefits from the rise of the augmented. A little hardier than your average human due to mutating magic added to the drinking water, they arn't equipped with much more than a simple hatchet and leather armor. Special magic worked into their blood acts as a lure of sorts for horrors, causing any who drench themselves in it during combat to suddenly gain the attention of those awful creates."
 #itemslots 15494
 #end
 
 --- Thrice Clawed
 #newmonster 6082
-#name "Thrice Clawed"
-#spr1 "SlavesJAMsprite/FIXME.tga"
+#name "Enhanced"
+#spr1 "SlavesJAMsprite/Morvarch/Claws.tga"
 #weapon 1993 --- AP Claw
 #weapon 1993 --- AP Claw
 #weapon 1993 --- AP Claw
@@ -3108,16 +3108,17 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #mounted
 #gcost 10010
 #rcost 1
+#drawsize -50
 #rpcost 10000
 #nametype 100
-#descr "FIXME"
+#descr "Taken from those soldiers most dedicated to the propoganda of the augmented, the enhanced are fused to armor and given an assortment of mentally controlled blades that cut through even the most heavy of armors with far more ease than any sword. Given a mount to allow them to focus more on controlling their weapons than moving, the enhanced act as an elite troop for the Taqnian military."
 #itemslots 5262
 #end
 
 --- Guard
 #newmonster 6083
-#name "Guard"
-#spr1 "SlavesJAMsprite/FIXME.tga"
+#name "Taqnian Pikemen"
+#spr1 "SlavesJAMsprite/Morvarch/Pike.tga"
 #weapon 2 -- Pike
 #armor 9 -- Cuirass
 #armor 118 -- Half Helmet
@@ -3138,11 +3139,12 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #poorleader
 #humanoid
 #eyeloss
+#drawsize -50
 #gcost 10010
 #rcost 1
 #rpcost 10000
 #nametype 100
-#descr "FIXME"
+#descr "With the discovery of newer, stronger alloys, pikes were quickly discovered to be a superior weapon to the old spears and hatchets. As a result, new professional soldiers are trained with the pike, and augmented with a poisonous blood that will blind their enemies when struck."
 #itemslots 15494
 #end
 
@@ -3157,8 +3159,8 @@ Regular Infrastructure" -- Notice the string ends here and only here
 
 --- Heavy
 #newmonster 6085 
-#name "Heavy"
-#spr1 "SlavesJAMsprite/FIXME.tga"
+#name "Taqnian Breakers"
+#spr1 "SlavesJAMsprite/Morvarch/Breaker.tga"
 #weapon 11 -- Great Sword
 #armor 14 -- Hauberk
 #armor 118 -- Half Helmet
@@ -3181,9 +3183,10 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #humanoid
 #gcost 10010
 #rcost 1
+#drawsize -50
 #rpcost 10000
 #nametype 100
-#descr "FIXME"
+#descr "The elite footsoldiers of Taqnian's old, conventional ermy, the Taqnian breakers betrayed the rest of the military to the augmented, cementing their place at the top in a nation previously dominated by cavalry. Now enhanced by earthen magic to increase toughness, the breakers trust in their armor and skill as they wade in with two handed greatswords."
 #itemslots 15494
 #end
 
@@ -3194,8 +3197,8 @@ Regular Infrastructure" -- Notice the string ends here and only here
 
 --- Scorp Scout
 #newmonster 6086 
-#name "Scorp Scou"
-#spr1 "SlavesJAMsprite/FIXME.tga"
+#name "Tulsum Auxillary"
+#spr1 "SlavesJAMsprite/Morvarch/Auxillary.tga"
 #weapon 4
 #weapon "Scorpion Pincer"
 #weapon "Scorpion Stinger"
@@ -3219,6 +3222,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #enc 6
 #supplybonus -1
 #maxage 50
+#drawsize -50
 #stealthy 0
 #noleader
 #mountedhumanoid
@@ -3226,14 +3230,14 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #rcost 1
 #rpcost 10000
 #nametype 100
-#descr "FIXME"
+#descr "Conscripted from Taqnian's latest, and first conquest, Tulsum auxillaries ride the tamed scorpions they are infamous for behind enemy lines to strike at vulnerable lands. Augmented with the strength in one arm to swing a two handed weapon, they are intimidating warriors."
 #itemslots 5262
 #end
 
 --- Communioneer
 #newmonster 6087
-#name "Communioneer"
-#spr1 "SlavesJAMsprite/FIXME.tga"
+#name "Taqnian Supplicants"
+#spr1 "SlavesJAMsprite/Morvarch/Supplicant.tga"
 #weapon 9
 #armor 158
 #size 2
@@ -3256,19 +3260,19 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #magicskill 4 1
 #magicskill 7 1
 #custommagic 19584 10
-#custommagic 19584 10
 #gcost 10010
 #rcost 1
 #rpcost 10000
+#drawsize -50
 #nametype 100
-#descr "FIXME"
+#descr "Remnants of Taqnia's old magery, those deemed too low in standing to be a threat were allowed to live and conscripted into the new army. Some among the supplicants, as they are condescendingly named, seek emancipation, while others strive for the knowledge to join the augmented."
 #itemslots 15494
 #end
 
 --- Line Mage
 #newmonster 6088
-#name "Line Mage"
-#spr1 "SlavesJAMsprite/FIXME.tga"
+#name "Augmented"
+#spr1 "SlavesJAMsprite/Morvarch/Augmented.tga"
 #weapon 252 
 #armor 119
 #armor 10
@@ -3296,17 +3300,18 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #goodleader
 #humanoid
 #gcost 10010
+#drawsize -50
 #rcost 1
 #rpcost 10000
 #nametype 100
-#descr "FIXME"
+#descr "Mainline members of the cult of obsessive bio-engineers that have taken over the country of Taqnian, Augmented primarily spend their time creating new serums, metal augmentations and similar to enhance the productivity and military might of Taqnian. They are often improved themselves, commonly replacing worn out parts of themselves to allow them to live longer and take heavier blows than most learned men."
 #itemslots 15494
 #end
 
 --- Thug
 #newmonster 6089
-#name "Thug"
-#spr1 "SlavesJAMsprite/FIXME.tga"
+#name "Augmented Champion"
+#spr1 "SlavesJAMsprite/Morvarch/Champion.tga"
 #weapon 8 -- BS
 #armor 14 -- Hauberk
 #armor 118 - HH
@@ -3332,19 +3337,20 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #custommagic 16512 100 -- FB
 #poorleader
 #combatcaster
+#drawsize -50
 #mountedhumanoid
 #gcost 10040
 #rcost 1
 #rpcost 10000
 #nametype 100
-#descr "FIXME"
+#descr "A select few augmented suddenly get the urge to prove their superiority on the field of battle, and oddly enough this has happened enough that there is now a designated proceedure for it. Following a period of intense combat training, the newly annointed Augmented Champions are given a giant scorpion mount and the finest arms and armor."
 #itemslots 5262
 #end
 
 --- Slow Moe
 #newmonster 6090
-#name "Slow Moe"
-#spr1 "SlavesJAMsprite/FIXME.tga"
+#name "Ascended"
+#spr1 "SlavesJAMsprite/Morvarch/Ascended.tga"
 #weapon 9
 #armor 158
 #size 2
@@ -3372,17 +3378,18 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #humanoid
 #older -16
 #gcost 10010
+#drawsize -50
 #rcost 1
 #rpcost 10000
 #nametype 100
-#descr "FIXME"
+#descr "Leaders of the cult of the Augmented, Ascended claim to have surpased the limitations of mortal, unimproved flesh to become superior beings. Older mages, heavily augmented, Ascended tend to develop oddities, and are often found obsessively looking over economic plans for errors."
 #itemslots 15494
 #end
 
 --- Hawker
 #newmonster 6091
-#name "Hawker"
-#spr1 "SlavesJAMsprite/FIXME.tga"
+#name "Priest of the Old Ways"
+#spr1 "SlavesJAMsprite/Morvarch/Priest.tga"
 #weapon 8 -- BS
 #armor 14 -- Hauberk
 #armor 118 - HH
@@ -3411,7 +3418,10 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #rcost 1
 #rpcost 10000
 #nametype 100
-#descr "FIXME"
+#drawsize -50
+#magicskill 8 1
+#rpcost 1
+#descr "Taqnian's national religion has now survived 150 years and 20 regime changes. The Preists of the Old Ways have essentially been the bedrock of the nation for their order's entire existance, always being too valuable and too compliant for new incoming leaders to bother trying to remove from their heavily entrenched power. They commonly act as commanders of Taqnian's armies, and can beseech the help of great sacred hawks to aid in battle."
 #itemslots 13446
 #end
 
@@ -3421,7 +3431,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #level 0 -- Pretty sure this makes it instantly visible
 #rarity 5 -- I believe this makes it unique
 #path Earth -- No idea what this button does
-#name "FIXME" -- Name of the site, keep it short generally
+#name "Flesh Forges" -- Name of the site, keep it short generally
 #gems 0 2 -- Look to the mod manual for the magic path numbers
 #gems 3 1 -- This gives you 1 gem of path 3
 #gems 6 2 -- This gives you 2 gems of path 6
@@ -3429,13 +3439,13 @@ Regular Infrastructure" -- Notice the string ends here and only here
 
 
 
--- Nation 176: (Insert name here, if you wanna)
+-- Nation 176: Taqnian
 #selectnation 176 -- DE has nations up to 168, apparently
 #clear -- Keep this in, I have no idea what happens when you dont
 #era 2 
-#name "FIX" -- Main name, like Ulm
-#epithet "ME" -- The thing that appears after the automatically made comma
-#descr "FIXME" -- The blurb that shows above te recruitment options when you select the nation
+#name "Taqnian"
+#epithet "The Glorious Evolution"
+#descr "Taqnian has a long and sordid history of losing wars, occupation and vassaledge. Constantly a target for others due to their huge reserves of rare metals, there isn't many gaps in Taqnian history where they arn't beholden to another nation in some fashion. All of this will soon change. The newest faction to rise to the top in Taqnian is a group of skilled biomancers and forgers, they call themselves the augmented and seek to 'Improve' on what they see are the weak human forms of the nation of Taqnian. Already their biomancy has had an effect, and even those not augmented by metal are much hardier than the average human. Having already seized control, they seek to spread their message to the rest of the world, by force if neccesary."
 #summary "FIXME" -- Notice the string ends here and only here
 
 
@@ -3445,23 +3455,23 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #flag "SlavesJAMsprite/Flag.tga"
 
 #clearsites
-#startsite "FIXME" -- You can also use the site number
+#startsite "Flesh Forges" -- You can also use the site number
 
 
 #clearrec
-#addrecunit 6091 -- Militia Dude
-#addrecunit 6092 -- Thrice Clawed
-#addrecunit 6093 -- Guard
-#addrecunit 6095 -- Heavy
+#addrecunit 6081 -- Militia Dude
+#addrecunit 6082 -- Thrice Clawed
+#addrecunit 6083 -- Guard
+#addrecunit 6085 -- Heavy
 
 #syncretism 1
 
-#addreccom 6096 -- Scout
-#addreccom 6097 -- Communioneer
-#addreccom 6098 -- Line Mage
-#addreccom 6099 -- Thug
-#addreccom 6102 -- Slow Moe
-#addreccom 6103 -- Hawker
+#addreccom 6086 -- Scout
+#addreccom 6087 -- Communioneer
+#addreccom 6088 -- Line Mage
+#addreccom 6089 -- Thug
+#addreccom 6090 -- Slow Moe
+#addreccom 6091 -- Hawker
 
 #defcom1 6099
 #defunit1 6093
