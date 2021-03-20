@@ -827,6 +827,8 @@ Each Beastman bears some legacy of its original form in its appearance, its move
 #spr2 "SlavesJAMsprite/Adjective/hussar_b.tga"
 #weapon 4 -- Lance
 #weapon 11 -- Greatsword
+#weapon 237 -- Bite
+#weapon 236 -- Claw
 #armor 118 -- Half Helmet
 #armor 14 -- Plate Hauberk
 #size 3
@@ -1086,8 +1088,8 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #rarity 5 -- I believe this makes it unique
 #path Earth -- No idea what this button does
 #name "Island of Moreau" -- Name of the site, keep it short generally
-#gems 1 2 -- 1 Water
-#gems 2 1 -- Air
+#gems 1 1 -- 1 Water
+#gems 2 1 -- 1 Air
 #gems 6 3 -- 3 Nature
 #end
 
@@ -2236,6 +2238,8 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #ressize 2
 #weapon 4 -- "Lance"
 #weapon 8 -- "Broad Sword"
+#weapon 237 -- Bite
+#weapon 236 -- Claw
 #armor 14   -- plate cuirass
 #armor 118 -- half helmet
 #armor 1   -- buckler
@@ -3077,9 +3081,9 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #newmonster 6092 
 #name "Thrice Clawed"
 #spr1 "SlavesJAMsprite/FIXME.tga"
-#weapon 1900 --- AP Claw
-#weapon 1900 --- AP Claw
-#weapon 1900 --- AP Claw
+#weapon 1993 --- AP Claw
+#weapon 1993 --- AP Claw
+#weapon 1993 --- AP Claw
 #weapon 4 -- Lance
 #armor 14 -- Hauberk
 #armor 118 -- Half Helmet
