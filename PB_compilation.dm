@@ -3449,34 +3449,34 @@ Regular Infrastructure" -- Notice the string ends here and only here
 
 
 #clearrec
-#addrecunit 6091 -- Militia Dude
-#addrecunit 6092 -- Thrice Clawed
-#addrecunit 6093 -- Guard
-#addrecunit 6095 -- Heavy
+#addrecunit 6081 -- Militia Dude
+#addrecunit 6082 -- Thrice Clawed
+#addrecunit 6083 -- Guard
+#addrecunit 6085 -- Heavy
 
 #syncretism 1
 
-#addreccom 6096 -- Scout
-#addreccom 6097 -- Communioneer
-#addreccom 6098 -- Line Mage
-#addreccom 6099 -- Thug
-#addreccom 6102 -- Slow Moe
-#addreccom 6103 -- Hawker
+#addreccom 6086 -- Scout
+#addreccom 6087 -- Communioneer
+#addreccom 6088 -- Line Mage
+#addreccom 6089 -- Thug
+#addreccom 6090 -- Slow Moe
+#addreccom 6091 -- Hawker
 
-#defcom1 6099
-#defunit1 6093
+#defcom1 6089
+#defunit1 6083
 #defmult1 10 -- This many units will appear per 10 PD
-#defcom2 6099
-#defunit2 6091
+#defcom2 6089
+#defunit2 6081
 #defmult2 10 -- This many units will appear per 10 PD after 20
 
 #wallcom 34
-#wallunit 6093
+#wallunit 6083
 #wallmult 10
 
 #startcom 34
 #startscout 426
-#startunittype1 6092 -- Thrice Clawed
+#startunittype1 6082 -- Thrice Clawed
 #startunitnbrs1 20 -- This many of the aforementioned unit will appear
 
 #fortera 2
