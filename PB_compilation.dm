@@ -764,8 +764,8 @@ They rely on two main lines of defense - firstly, they show no fear. This on itâ
 #mr 10
 #mor 10
 #str 13
-#att 10
-#def 11
+#att 12
+#def 10
 #prec 10
 #ap 12
 #mapmove 18
@@ -850,6 +850,7 @@ Each Beastman bears some legacy of its original form in its appearance, its move
 #reclimit 4
 #mounted
 #animal
+#darkvision 50
 #gcost 10033
 #rcost 1
 #rpcost 10000
@@ -907,7 +908,8 @@ Various inexplicable trends come and go among these adventuring authors, the lat
 #weapon 8 -- Broadsword
 #armor 118 -- Half Helmet
 #armor 9 -- Plate Cuirass
-#size 2
+#size 3
+#ressize 2
 #hp 10
 #prot 0
 #mr 10
@@ -916,9 +918,9 @@ Various inexplicable trends come and go among these adventuring authors, the lat
 #att 10
 #def 10
 #prec 10
-#ap 10
-#mapmove 14
-#enc 3
+#ap 24
+#mapmove 20
+#enc 4
 #maxage 50
 #goodleader
 #inspirational
