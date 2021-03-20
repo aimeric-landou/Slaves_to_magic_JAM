@@ -3046,7 +3046,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 --- Troop definitions for (Insert nation name, if you want)
 
 --- Militia Dude
-#newmonster 6091 
+#newmonster 6081 
 #name "Militia Dude"
 #spr1 "SlavesJAMsprite/FIXME.tga"
 #armor 120
@@ -3078,7 +3078,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #end
 
 --- Thrice Clawed
-#newmonster 6092 
+#newmonster 6082
 #name "Thrice Clawed"
 #spr1 "SlavesJAMsprite/FIXME.tga"
 #weapon 1993 --- AP Claw
@@ -3115,7 +3115,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #end
 
 --- Guard
-#newmonster 6093
+#newmonster 6083
 #name "Guard"
 #spr1 "SlavesJAMsprite/FIXME.tga"
 #weapon 2 -- Pike
@@ -3146,7 +3146,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #itemslots 15494
 #end
 
-#newmonster 6094 -- Super Hawk
+#newmonster 6084 -- Super Hawk
 #copystats 1380
 #copyspr 1380
 #darkvision 50
@@ -3156,7 +3156,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 
 
 --- Heavy
-#newmonster 6095 
+#newmonster 6085 
 #name "Heavy"
 #spr1 "SlavesJAMsprite/FIXME.tga"
 #weapon 11 -- Great Sword
@@ -3193,7 +3193,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 --- Commander definitions for (Insert nation name, if you want)
 
 --- Scorp Scout
-#newmonster 6096 
+#newmonster 6086 
 #name "Scorp Scou"
 #spr1 "SlavesJAMsprite/FIXME.tga"
 #weapon 4
@@ -3231,7 +3231,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #end
 
 --- Communioneer
-#newmonster 6097
+#newmonster 6087
 #name "Communioneer"
 #spr1 "SlavesJAMsprite/FIXME.tga"
 #weapon 9
@@ -3266,7 +3266,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #end
 
 --- Line Mage
-#newmonster 6098
+#newmonster 6088
 #name "Line Mage"
 #spr1 "SlavesJAMsprite/FIXME.tga"
 #weapon 252 
@@ -3304,7 +3304,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #end
 
 --- Thug
-#newmonster 6099
+#newmonster 6089
 #name "Thug"
 #spr1 "SlavesJAMsprite/FIXME.tga"
 #weapon 8 -- BS
@@ -3342,7 +3342,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #end
 
 --- Slow Moe
-#newmonster 6102
+#newmonster 6090
 #name "Slow Moe"
 #spr1 "SlavesJAMsprite/FIXME.tga"
 #weapon 9
@@ -3380,7 +3380,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #end
 
 --- Hawker
-#newmonster 6103
+#newmonster 6091
 #name "Hawker"
 #spr1 "SlavesJAMsprite/FIXME.tga"
 #weapon 8 -- BS
@@ -3404,7 +3404,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #maxage 50
 #goodleader
 #mountedhumanoid
-#templetrainer 6081
+#templetrainer 6084
 #inspirational 2
 #mounted
 #gcost 10020
