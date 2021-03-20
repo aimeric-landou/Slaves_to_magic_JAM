@@ -152,12 +152,21 @@
 
 --- New Weapons
 
+#newweapon 1890
+#copyweapon "Spear"
+#name "Heavy Spear"
+#melee50
+#dmg 7
+#rcost 2
+#att 3
+#end
+
 #newweapon 1891
 #copyweapon 18 -- Battleaxe
 #name "Heavy Battleaxe"
 #melee50
 #dmg 13
-#rcost 4
+#rcost 2
 #att 4
 #end
 
@@ -278,7 +287,7 @@
 #name "Drafted"
 #spr1 "SlavesJAMsprite/Bamboo/Drafted1.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Bamboo/Drafted2.tga"
-#weapon 1890 -- Heavy Spear
+#weapon "Heavy Spear"
 #armor 20 -- Iron Cap
 #armor 13 -- Chainmail Hauberk
 #armor 3 -- Kite Shield
@@ -313,7 +322,7 @@
 #name "Contracted"
 #spr1 "SlavesJAMsprite/Bamboo/Contracted1.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Bamboo/Contracted2.tga"
-#weapon 1891 -- Heavy Battleaxe
+#weapon "Heavy Battleaxe"
 #armor 20 -- Iron Cap
 #armor 13 -- Chainmail Hauberk
 #size 2
@@ -347,7 +356,7 @@
 #name "Favoured"
 #spr1 "SlavesJAMsprite/Bamboo/Favoured1.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Bamboo/Favoured2.tga"
-#weapon 1890 -- Heavy Spear
+#weapon "Heavy Spear"
 #weapon 596 -- Light Lance
 #weapon 237 -- Kitty Maw
 #weapon 236 -- Kitty Claw
@@ -389,7 +398,7 @@
 #name "Brightlord"
 #spr1 "SlavesJAMsprite/Bamboo/Brightlord1.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Bamboo/Brightlord2.tga"
-#weapon 1890 -- Heavy Spear
+#weapon "Heavy Spear"
 #armor 20 -- Iron Cap
 #armor 13 -- Chainmail Hauberk
 #armor 3 -- Kite Shield
@@ -455,7 +464,7 @@
 #forestsurvival
 #gcost 10010 
 #rcost 1 -- Do NOT change this, it automatically adds the cost of equipment in game
-#rpcost 10000 
+#rpcost 2 
 #nametype 119 -- Generic female names
 #descr "Scribes are entry level paper pushers, known for spotting their leadership's mistakes and preventing them from causing more harm to themselves. They translate and read for the generals and their husbands, as it is feminine in Alethi for the female to read no man willingly does so. Still, no society or army can function without the support of a horde of scribes." 
 #itemslots 15494
@@ -506,7 +515,7 @@
 #name "Stormwarden"
 #spr1 "SlavesJAMsprite/Bamboo/Stormwarden1.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Bamboo/Stormwarden2.tga"
-#weapon 1890 -- Heavy Spear
+#weapon "Heavy Spear"
 #weapon 24 -- Longbow
 #armor 120 -- Leather Cap
 #armor 158 -- Robes
@@ -547,7 +556,7 @@
 #name "Artifabrian"
 #spr1 "SlavesJAMsprite/Bamboo/Artifabrian1.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Bamboo/Artifabrian2.tga"
-#weapon 1890 -- Heavy Spear
+#weapon "Heavy Spear"
 #weapon 24 -- Longbow
 #armor 120 -- Leather Cap
 #armor 158 -- Robes
@@ -589,7 +598,7 @@
 #name "Ardent"
 #spr1 "SlavesJAMsprite/Bamboo/Ardent1.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Bamboo/Ardent2.tga"
-#weapon 1890 -- Heavy Spear
+#weapon "Heavy Spear"
 #weapon 24 -- Longbow
 #armor 120 -- Leather Cap
 #armor 158 -- Robes
@@ -1158,8 +1167,8 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #spr2 "SlavesJAMsprite/Pancake/FirebrandPreacher2.tga" -- remember to tag on the .tga to the end of the directory
 #weapon 4 -- Lance
 #weapon 11 -- Great Sword
-#weapon 1884 -- Pincer
-#weapon 1885 -- Stinger
+#weapon "Scorpion Pincer"
+#weapon "Scorpion Stinger"
 #armor 9 -- Cuirass
 #armor 118 -- Half Helmet
 #size 5
@@ -1624,7 +1633,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #newmonster 6040
 #name "Steel Rose Warrior"
 #spr1 "SlavesJAMsprite/Zen/SteelRoseWarrior.tga"
-#weapon 1892 -- Heavy Composite Bow
+#weapon "Heavy Composite Bow"
 #armor 120 -- Leather Cap
 #armor 44 -- Furs
 #size 2
@@ -1656,7 +1665,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #newmonster 6041
 #name "Iron Pine Warrior"
 #spr1 "SlavesJAMsprite/Zen/IronPineWarrior.tga"
-#weapon 1893 -- Heavy Sling
+#weapon "Heavy Sling"
 #armor 120 -- Leather Cap
 #armor 44 -- Furs
 #armor 4 -- Tower Shield
@@ -1725,7 +1734,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #newmonster 6042
 #name "Ice Vine Archer"
 #spr1 "SlavesJAMsprite/Zen/IceVineArcher.tga"
-#weapon 1892 -- Heavy Composite Bow
+#weapon "Heavy Composite Bow"
 #armor 120 -- Leather Cap
 #armor 44 -- Furs
 #size 2
@@ -1760,7 +1769,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #newmonster 6044
 #name "Fire Ivy Marksman"
 #spr1 "SlavesJAMsprite/Zen/FireIvyMarksman.tga"
-#weapon 1892 -- Heavy Composite Bow
+#weapon "Heavy Composite Bow"
 #armor 126 -- Legionary Helmet
 #armor 12 -- Scale Mail Hauberk
 #size 2
@@ -1794,7 +1803,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #newmonster 6045
 #name "Ivy Marksman"
 #spr1 "SlavesJAMsprite/Zen/IvyMarksman.tga"
-#weapon 1892 -- Heavy Composite Bow
+#weapon "Heavy Composite Bow"
 #armor 126 -- Legionary Helmet
 #armor 12 -- Scale Mail Hauberk
 #size 2
@@ -1827,7 +1836,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #newmonster 6046
 #name "Attendant Master"
 #spr1 "SlavesJAMsprite/Zen/AttendantMaster.tga"
-#weapon 1893 -- Heavy Sling
+#weapon "Heavy Sling"
 #armor 126 -- Legionary Helmet
 #armor 12 -- Scale Mail Hauberk
 #armor 4 -- Tower Shield
@@ -1860,7 +1869,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #newmonster 6047
 #name "Blood Lily Cultivator"
 #spr1 "SlavesJAMsprite/Zen/BloodLillyCultivator.tga"
-#weapon 1893 -- Heavy Sling
+#weapon "Heavy Sling"
 #armor 126 -- Legionary Helmet
 #armor 44 -- Furs
 #armor 4 -- Tower Shield
@@ -1895,7 +1904,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #newmonster 6048
 #name "Blood Lily Advisor"
 #spr1 "SlavesJAMsprite/Zen/BloodLillyAdvisor.tga"
-#weapon 1893 -- Heavy Sling
+#weapon "Heavy Sling"
 #armor 126 -- Legionary Helmet
 #armor 44 -- Furs
 #armor 4 -- Tower Shield
@@ -1930,7 +1939,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #newmonster 6049
 #name "Attendant Advisor"
 #spr1 "SlavesJAMsprite/Zen/AttendantAdvisor.tga"
-#weapon 1893 -- Heavy Sling
+#weapon "Heavy Sling"
 #armor 126 -- Legionary Helmet
 #armor 44 -- Furs
 #armor 4 -- Tower Shield
@@ -2150,8 +2159,8 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #slave
 #deathcurse
 #weapon 2 -- "Pike"
-#armor 801 -- "Leather and Cloth"
-#armor 120 -- "Leather Cap"
+#armor "Leather and Cloth"
+#armor "Leather Cap"
 #humanoid
 #gcost 10009 -- Add 10000 to make it autocalc, so this is base price 10 plus or minus autocalc
 #rcost 1 -- Do NOT change this, it automatically adds the cost of equipment in game
@@ -2186,10 +2195,10 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #darkvision 50
 #ambidextrous 2
 #humanoid
-#weapon 8 -- "Broad Sword"
-#weapon 8 -- "Broad Sword" 
-#armor 9 -- "Plate Cuirass"
-#armor 118 -- "Half Helmet"
+#weapon "Broad Sword"
+#weapon "Broad Sword" 
+#armor "Plate Cuirass"
+#armor "Half Helmet"
 #gcost 10013 -- Add 10000 to make it autocalc, so this is base price 10 plus or minus autocalc
 #rcost 1 -- Do NOT change this, it automatically adds the cost of equipment in game
 #rpcost 10000 -- Base value multiplied by 1000, same for commanders and troops
@@ -3184,8 +3193,8 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #name "Scorp Scou"
 #spr1 "SlavesJAMsprite/FIXME.tga"
 #weapon 4
-#weapon 1000 -- Scorpion Pincer
-#weapon 1001 -- Scorpion Stinger
+#weapon "Scorpion Pincer"
+#weapon "Scorpion Stinger"
 #weapon 11 -- Great Sword
 #armor 120
 #armor 10
@@ -3416,8 +3425,8 @@ Regular Infrastructure" -- Notice the string ends here and only here
 
 
 
--- Nation 180: (Insert name here, if you wanna)
-#selectnation 175 -- DE has nations up to 168, apparently
+-- Nation 176: (Insert name here, if you wanna)
+#selectnation 176 -- DE has nations up to 168, apparently
 #clear -- Keep this in, I have no idea what happens when you dont
 #era 2 
 #name "FIX" -- Main name, like Ulm
