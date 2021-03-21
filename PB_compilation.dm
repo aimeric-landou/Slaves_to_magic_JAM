@@ -1169,19 +1169,19 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 
 
 
-
 --- TROOP definitions for THE DUAL CULTS
 
 --- Firebrand Preacher
 #newmonster 6050 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Firebrand Preacher"
+#descr "The clergy of the firebrand cult are many, and their works reach far and wide. Yet not all men of the cloth are skilled in the more cultural arts. Some, instead, find that God has granted them talents in more martial aspects of human potential. These such men of God often find themelves welcomed enthusiastically into the crusading armies of the Templars." 
 #spr1 "SlavesJAMsprite/Pancake/FirebrandPreacher.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Pancake/FirebrandPreacher2.tga" -- remember to tag on the .tga to the end of the directory
 #weapon 4 -- Lance
 #weapon 11 -- Great Sword
 #weapon "Scorpion Pincer"
 #weapon "Scorpion Stinger"
-#armor 9 -- Cuirass
+#armor 14 -- Hauberk
 #armor 118 -- Half Helmet
 #size 5
 #ressize 2
@@ -1194,7 +1194,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #def 16
 #prec 10
 #ap 12
-#mapmove 14
+#mapmove 16
 #enc 5
 #maxage 50
 #poorleader
@@ -1207,20 +1207,20 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #rcost 1 -- Do NOT change this, it automatically adds the cost of equipment in game
 #rpcost 10000 -- Base value multiplied by 1000, same for commanders and troops
 #nametype 100 -- Generic male names
-#descr "FIXME" 
 #itemslots 13446
 #end
 
 --- Soulbound Templar
 #newmonster 6051 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Soulbound Templar" 
+#descr "Those Templars who prove their dedication to the Cult of Souls are often granted its favor, and their souls bound to it in one of the few remaining secretive rituals that were allowed to remain after the end of the first crusade, and the judgement of the Firebrand Cult." 
 #spr1 "SlavesJAMsprite/Pancake/SoulboundTemplar.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Pancake/SoulboundTemplar2.tga" -- remember to tag on the .tga to the end of the directory
 #weapon 4 -- Lance
 #weapon 11 -- Great Sword
 #weapon 237 -- Bite
 #weapon 236 -- Claw
-#armor 9 -- Cuirass
+#armor 14 -- Hauberk
 #armor 118 -- Half Helmet
 #size 3
 #ressize 2
@@ -1246,13 +1246,13 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #rcost 1 -- Do NOT change this, it automatically adds the cost of equipment in game
 #rpcost 10000 -- Base value multiplied by 1000, same for commanders and troops
 #nametype 100 -- Generic male names
-#descr "FIXME" 
 #itemslots 13446
 #end
 
 --- Cult Templar
 #newmonster 6052 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Cult Templar" 
+#descr "The footman of the Cults, their mortal lives tithed to the Forge of Souls, are in turn imbued with one of it's most malign and wrothful aspects. Those who dare oppose the will of the Forge will find themselves struck blind for their insolence, before being put to the sword or lashed to the pyre." 
 #spr1 "SlavesJAMsprite/Pancake/CultTemplar.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Pancake/CultTemplar2.tga" -- remember to tag on the .tga to the end of the directory
 #weapon 8 -- BS
@@ -1280,29 +1280,29 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #rcost 1 -- Do NOT change this, it automatically adds the cost of equipment in game
 #rpcost 10000 -- Base value multiplied by 1000, same for commanders and troops
 #nametype 100 -- Generic male names
-#descr "FIXME" 
 #itemslots 15494
 #end
 
 --- Crusader Serf
 #newmonster 6053 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Crusader Serf" 
+#descr "The Dual Cults employ more in their armies than just the blessed and the bound, and the commoner will always have a place next to their betters.. so long as they are willing to spend their mortal lives in the name of the Forge." 
 #spr1 "SlavesJAMsprite/Pancake/CrusaderSerf.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Pancake/CrusaderSerf2.tga" -- remember to tag on the .tga to the end of the directory
 #weapon 2 -- Pike
-#armor 9 -- Cuirass
+#armor 14 -- Hauberk
 #armor 118 -- Half Helmet
 #size 2
 #hp 10
 #prot 0
 #mr 11
 #mor 12
-#str 12
+#str 11
 #att 14
 #def 9
 #prec 10
 #ap 10
-#mapmove 14
+#mapmove 16
 #enc 3
 #maxage 50
 #poorleader
@@ -1313,7 +1313,6 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #rcost 1 -- Do NOT change this, it automatically adds the cost of equipment in game
 #rpcost 10000 -- Base value multiplied by 1000, same for commanders and troops
 #nametype 100 -- Generic male names
-#descr "FIXME" 
 #itemslots 15494
 #end
 
@@ -1321,7 +1320,14 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #copystats 694
 #copyspr 694
 #name "Templar Revenant"
+#descr "The macabre aspect of the Revenants ended with the conclusion of the first crusades. Once the returning warriors discovered the methods employed to raise their fallen to fight again, they smote those immediately responsible for the practice before they were mollified by the Cult's Patriarchs. Now, a more elegant process has been developed- drawing upon the wellspring of energy that is the Soul Forge and enticing the souls of the fallen as they return to their immortal hearth, the masters of the Cult of Souls developed a way to create life from false bodies. Empowered by the souls of the zealous and the vengeful, and animated by the craft of the Forgers of Souls, the Revenants march to war again." 
+#clearspec -- had to get rid of undisciplined
 #holy
+#animal
+#forestsurvival
+#mountainsurvival
+#darkvision 50
+#twiceborn 5772
 #hp 48
 #str 22
 #end
@@ -1331,6 +1337,8 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 --- Firebrand Apostle
 #newmonster 6054 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Firebrand Apostle" 
+#fixedname "."
+#descr "FIXME" 
 #spr1 "SlavesJAMsprite/Pancake/FirebrandApostle.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Pancake/FirebrandApostle2.tga" -- remember to tag on the .tga to the end of the directory
 #weapon 8 -- BS
@@ -1340,11 +1348,11 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #size 2
 #hp 10
 #prot 0
-#mr 14
+#mr 15
 #mor 10
-#str 9
+#str 10
 #att 10
-#def 12
+#def 10
 #prec 10
 #ap 10
 #mapmove 14
@@ -1363,13 +1371,14 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #rcost 1 -- Do NOT change this, it automatically adds the cost of equipment in game
 #rpcost 10000 -- Base value multiplied by 1000, same for commanders and troops
 #nametype 100 -- Generic male names
-#descr "FIXME" 
 #itemslots 15494
 #end
 
 --- Soulbound Votary
 #newmonster 6055 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Soulbound Votary" 
+#fixedname "."
+#descr "All those of magical potency are tithed by divine mandate to the Soul Forge, no matter how powerful- or how modest. The votaries are a humble order, their mortal lives committed to furthering the ambitions of the Cults in the name of the Forge." 
 #spr1 "SlavesJAMsprite/Pancake/SoulboundVotary.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Pancake/SoulboundVotary2.tga" -- remember to tag on the .tga to the end of the directory
 #weapon 8 -- BS
@@ -1400,20 +1409,22 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #rcost 1 -- Do NOT change this, it automatically adds the cost of equipment in game
 #rpcost 10000 -- Base value multiplied by 1000, same for commanders and troops
 #nametype 100 -- Generic male names
-#descr "FIXME" 
 #itemslots 15494
 #end
 
 --- Firebrand Patriarch
 #newmonster 6056 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Firebrand Patriarch" 
+#fixedname "."
+#descr "Rarely, a man is deemed worthy of both the mark of the firebrand cult as well as the rites of soul forging. Where once the rituals of the patriarchs stripped away the magic from the chosen in order to ensure they retained the balance of the cults' powers within their body, the reaffirming of the Duality after the end of the first crusades has allowed those of both natures to retain their powers, as the potential for schism within them has been mollified. While their magical potency remains, it is rare that a patriarch now emerges with the same kind of divine strength that they once universally commanded. But even so, each one is imbued with a small measure of the wrath of God itself." 
 #spr1 "SlavesJAMsprite/Pancake/FirebrandPatriarch.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Pancake/FirebrandPatriarch2.tga" -- remember to tag on the .tga to the end of the directory
 #weapon 8 -- BS
 #armor 44 -- Furs
 #armor 118 -- Half Helmet
 #armor 1 -- Buckler
-#size 2
+#size 3
+#ressize 2
 #hp 10
 #prot 0
 #mr 15
@@ -1422,9 +1433,9 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #att 10
 #def 10
 #prec 10
-#ap 10
-#mapmove 14
-#enc 3
+#ap 24
+#mapmove 20
+#enc 4
 #maxage 200
 #goodleader
 #holy
@@ -1433,18 +1444,20 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #custommagic 34816 100
 #custommagic 32768 10
 #drainimmune
-#humanoid
+#mounted
+#mountedhumanoid
 #gcost 10010 -- Add 10000 to make it autocalc, so this is base price 10 plus or minus autocalc
 #rcost 1 -- Do NOT change this, it automatically adds the cost of equipment in game
 #rpcost 10000 -- Base value multiplied by 1000, same for commanders and troops
 #nametype 100 -- Generic male names
-#descr "FIXME" 
 #itemslots 15494
 #end
 
 --- Keeper of Souls
 #newmonster 6057 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Keeper of Souls" 
+#fixedname "."
+#descr "The masters of the Cult of Souls, the keepers are potent mages and some of the few remaining members of their order who were allowed to retain the secrets of their cult." 
 #spr1 "SlavesJAMsprite/Pancake/KeeperOfSouls.tga" -- remember to tag on the .tga to the end of the directory
 #spr1 "SlavesJAMsprite/Pancake/KeeperOfSouls2.tga" -- remember to tag on the .tga to the end of the directory
 #weapon 8 -- BS
@@ -1477,13 +1490,14 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #rcost 1 -- Do NOT change this, it automatically adds the cost of equipment in game
 #rpcost 10000 -- Base value multiplied by 1000, same for commanders and troops
 #nametype 100 -- Generic male names
-#descr "FIXME" 
 #itemslots 15494
 #end
 
 --- Keeper of the Forge
 #newmonster 6058 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Keeper of the Forge" 
+#fixedname "."
+#descr "The hallowed keepers of the Soul Forge are sometimes sent from their place of craft and worship to perform their holy works within and upon the rest of the world, and its people. They are among the most magically potent of the Duality, and serve it utterly and without division." 
 #spr1 "SlavesJAMsprite/Pancake/KeeperOfTheForge.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Pancake/KeeperOfTheForge2.tga" -- remember to tag on the .tga to the end of the directory
 #weapon 8 -- BS
@@ -1517,17 +1531,18 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #rcost 1 -- Do NOT change this, it automatically adds the cost of equipment in game
 #rpcost 10000 -- Base value multiplied by 1000, same for commanders and troops
 #nametype 100 -- Generic male names
-#descr "FIXME" 
 #itemslots 15494
 #end
 
 --- Templar Gatekeeper
 #newmonster 6059 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Templar Gatekeeper" 
+#fixedname "."
+#descr "An eternally loyal servant of the Cults, tithed not just mortally but in totality to the Soul Forge. They protect the shrines and sacred places of the Cults, no matter how small, and will fight unto death to defend their faith." 
 #spr1 "SlavesJAMsprite/Pancake/TemplarGatekeeper.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Pancake/TemplarGatekeeper2.tga" -- remember to tag on the .tga to the end of the directory
 #weapon 5 -- Halberd
-#armor 14 -- Cuirass
+#armor 44 -- Furs
 #size 2
 #hp 10
 #prot 0
@@ -1542,7 +1557,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #enc 3
 #maxage 50
 #poorleader
-#templetrainer 6019
+#templetrainer 6018
 #slowrec
 #holy
 #swimming
@@ -1552,7 +1567,6 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #rcost 1 -- Do NOT change this, it automatically adds the cost of equipment in game
 #rpcost 10000 -- Base value multiplied by 1000, same for commanders and troops
 #nametype 100 -- Generic male names
-#descr "FIXME" 
 #itemslots 15494
 #end
 
@@ -1567,34 +1581,27 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #gems 6 2 -- This gives you 2 gems of path 6
 #end
 
-
-
 -- Nation 175: The Dual Cults
 #selectnation 175 -- DE has nations up to 168, apparently
 #clear -- Keep this in, I have no idea what happens when you dont
 #era 2
 #name "The Dual Cults" -- Main name, like Ulm
 #epithet "Fire and Soul" -- The thing that appears after the automatically made comma
-#descr "FIXME" -- The blurb that shows above te recruitment options when you select the nation
-#summary "FIXME" -- Notice the string ends here and only here
-
-
-#brief "No description" -- No idea when this is used
+#descr "The nature of each of the cults has evolved with time, and their purposes have shifted. The Firebrand Cult remains bellicose and zealous, but their fury has been tempered into a more refined edge. The Cult of Souls has been humbled as the honored warriors and mages of the Firebrand Cult returned home from their crusades, and reasserted their position in the duality. Now, the two work in closer concert, and the strength of the Duality is returning. With renewed zeal and tempered souls, the Cults prepare to crusade again." -- The blurb that shows above te recruitment options when you select the nation
+#summary "Unofficially called Scorpionfriends by some." -- Notice the string ends here and only here
+#brief "Scorpionfriends" -- No idea when this is used
 #color 255 55 175 -- This thing is the main background and what represents your nation on scoregraphs
 #secondarycolor 100 30 220 -- Same idea, if this one is absent it reverts to the the one above
 #flag "SlavesJAMsprite/Pancake/Flag.tga"
-
 #clearsites
 #startsite "The Forge of Souls" -- 1952 -- You can also use the site number
-
-#likesterr 128
+#likesterr 0 -- was 128 forest but i learned recently that it apparently doesnt really change anything, at least supposedly
 
 #clearrec
 #addrecunit 6050
 #addrecunit 6051 -- This will add the monster tag as a unit recruit from forts
 #addrecunit 6052
 #addrecunit 6053 -- Crusader Serf
-
 #addreccom 6054
 #addreccom 6055
 #addreccom 6056
@@ -1619,20 +1626,16 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #startunitnbrs1 20 -- This many of the aforementioned unit will appear
 
 #fortera 2 
-
 #syncretism 1
-
+#earthblessbonus 1
 #idealcold -1 
-
-#homerealm 1
+#homerealm 1 -- I dont know which one has the oriental gods in it, but I dont think it really matters if there are extra realms in here. sooooo meh
 #homerealm 2
 #homerealm 3
 #homerealm 4
 #homerealm 10 -- Default Gods
 --REMEMBER TO REMOVE THIS AFTER TESTING
-
-#templepic 10 -- Toad Worship calls for Forest Temple
-
+#templepic 23
 #end
 
 
