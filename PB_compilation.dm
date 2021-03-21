@@ -3857,7 +3857,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #mapmove 14
 #enc 3
 #custommagic 26112 200
-#magicskill 7 2
+#magicskill 7 1
 #magicskill 6 2
 #slowrec
 #eyes 4
