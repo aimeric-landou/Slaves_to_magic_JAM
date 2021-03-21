@@ -45,11 +45,15 @@
 #restricted 175
 #end
 
-#newspell
-#copyspell 1025
-#name "Enslavement"
-#researchlevel 7
-#aoe 1
+#copyspell "Enslavement"
+#name "Soul Binding"
+#descr "The gifts of magic are granted to those of the Cults by the Forge of Souls, which empowers the chosen with wonderous power. When called to work their craft in times of war, the Soul Forgers of the Cults can draw out the souls of the heretic and the heathen, and reforge them in the image of the Forge's chosen, forever tethering it to the Soul Forge alongside the rest of the faithful. A strong will can resist the binding, but the Forgers are skillful in their craft and can perform their work upon multiple souls at once."
+#restricted 175
+#end
+
+#copyspell "Polypal growth"
+#name "Rouse the Soul"
+#descr "The potency of the soul is awoken within the bodies of the faithful, infusing their flesh with the strength the Forge imbued within them as they drew their first breath. This semi-aware potency is at once an aspect of both the man and the soul, and will attempt to protect both from harm. If its will is defied however, the malign aspect of the soul releases a spiteful burst of virulent death before withdrawing from the realm of the flesh."
 #restricted 175
 #end
 
