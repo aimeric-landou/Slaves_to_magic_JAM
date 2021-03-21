@@ -219,6 +219,16 @@
 #armorpiercing
 #end
 
+#newweapon 1896
+#copyweapon 10 -- "Falchion"
+#name "Heavy Falchion"
+#melee50
+#dmg 12
+#rcost 5
+#att 4
+#end
+
+
 #newarmor 801 -- simple renaming for flavour
 #copyarmor "Furs"
 #name "Leather and Cloth"
@@ -3496,6 +3506,442 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #homerealm 10 -- Default Gods
 
 #templepic 10 -- Toad Worship calls for Forest Temple
+
+#end
+
+
+--- Troop definitions for Egeros
+
+#newmonster 6001
+#copystats 295
+#name "Egeros Familiar"
+#desc "A venomous serpents with a malign will, serves as a familiar for the Exarchs of Egeros"
+#mor 20
+#def 11
+#end
+
+--- Husk Guard
+#newmonster 6002
+#name "Husk Guard"
+#spr1 "SlavesJAMsprite/Oraculum/guard.tga"
+#weapon 24 -- Longbow
+#armor 8 -- Chain Mail Cuirass
+#armor 20 -- Iron Cap
+#size 2
+#hp 10
+#prot 0
+#mr 10
+#mor 8
+#str 12
+#att 7
+#def 8
+#prec 10
+#ap 10
+#mapmove 14
+#enc 3
+#maxage 50
+#poorleader
+#humanoid
+#itemslots 15494
+#gcost 10008
+#castledef 1
+#poisonres 5
+#slave
+#rcost 1
+#rpcost 10000
+#nametype 100
+#descr "Husks form the rank and file of Egeros’ armies. These unfortunates have been afflicted by the Withering Plague, an unnatural disease concocted by the servants of Nuvorok which causes their bodies to excrete an excess of black bile, almost drowning all other humours. Their forms waste away and dry out, causing their flesh and skin to shrivel in a way that makes them resemble animated skeletons more than living humans. In spite of this, they retain a surprising vigour in their limbs, and are fully capable of matching able-bodied warriors blow to blow. Husk Guards are sluggish and lethargic due to their melancholic constitution, and are therefore most often found manning fortress ramparts."
+#end
+
+-- Husk Defiler
+#newmonster 6003
+#name "Husk Defiler"
+#spr1 "SlavesJAMsprite/Oraculum/defiler.tga"
+#weapon 1896 -- "Heavy Falchion"
+#weapon 1896 -- "Heavy Falchion"
+#armor 13 -- Chain Hauberk
+#armor 20 -- Iron Cap
+#size 2
+#hp 16
+#prot 0
+#mr 11
+#mor 10
+#str 10
+#att 10
+#def 12
+#prec 10
+#ambidextrous 2
+#pillagebonus 2
+#bers 2
+#ap 10
+#mapmove 14
+#enc 4
+#supplybonus -1
+#maxage 50
+#poorleader
+#humanoid
+#poisonres 5
+#itemslots 15494
+#gcost 10015
+#rcost 1
+#rpcost 10000
+#nametype 100
+#descr "Not all Husks are listless and morose. In some of them, the Withering Plague causes an afflux of choleric yellow bile alongside the black humour of the spleen. These mutated warriors have the same desiccated appearance as their brethren, but their sinewy strength is matched by a violent and irascible temperament. On feeling pain, they fly into a blind rage, savagely hacking their way through their assailants without regard for their own life and limb. These Defilers become the footsoldiers of Egeros, forgoing most defensive equipment in favour of twin blades through which to channel their burning aggression."
+#end
+
+-- Putrescent Hulk
+#newmonster 6004
+#name "Putrescent Hulk"
+#spr1 "SlavesJAMsprite/Oraculum/putrescent.tga"
+#weapon 1891 -- Heavy Battleaxe
+#armor 13 -- Chain Hauberk
+#armor 20 -- Iron Cap
+#size 2
+#hp 15
+#prot 0
+#mr 10
+#mor 10
+#str 12
+#att 
+#def 10
+#prec 10
+#ap 10
+#mapmove 14
+#enc 4
+#supplybonus -1
+#maxage 50
+#pillagebonus 2
+#slimer 0
+#poorleader
+#humanoid
+#poisonres 5
+#itemslots 15494
+#gcost 10012
+#rcost 1
+#rpcost 10000
+#nametype 100
+#descr "FIXME"
+#end
+
+-- Virulent Abomination
+#newmonster 6005
+#name "Virulent Abomination"
+#spr1 "SlavesJAMsprite/Oraculum/virulent.tga"
+#weapon 1891 -- Heavy Battleaxe
+#armor 13 -- Chain Hauberk
+#armor 20 -- Iron Cap
+#size 3
+#hp 21
+#prot 0
+#mr 10
+#mor 10
+#str 15
+#att 9
+#def 10
+#prec 10
+#ap 10
+#mapmove 16
+#enc 4
+#supplybonus -1
+#maxage 50
+#poorleader
+#poisonarmor 10
+#humanoid
+#poisonres 5
+#itemslots 15494
+#gcost 10014
+#rcost 1
+#rpcost 10000
+#nametype 100
+#descr "Most victims of the Bloating die when the disease reaches its terminal stages, their body unable to support its own malformed mass. Some few, however, manage to endure the ravages of the curse through incredible resilience. Their forms adapt to the ravenous hunger, growing to unnatural size and oozing deadly venom from their contaminated skin. Even the mage-rulers of Egeros look at these towering horrors with some apprehension, but the creatures are easily controlled, the last vestiges of their mind buried deep under layers of misshapen flesh. Their humours tend to develop a curious alignment which includes a notable amount of sanguine fluid, making them unnervingly jolly and enthusiastic in battle."
+#end
+
+
+--- Commander definitions for EGEROS
+
+-- Mendicant Leper
+#newmonster 6006
+#name "Mendicant Leper"
+#spr1 "SlavesJAMsprite/Oraculum/leper.tga"
+#weapon 9 -- Dagger
+#size 2
+#hp 10
+#prot 0
+#mr 10
+#mor 10
+#str 10
+#att 10
+#def 10
+#prec 10
+#ap 10
+#mapmove 14
+#enc 3
+#maxage 50
+#noleader
+#humanoid
+#poisonres 5
+#itemslots 15494
+#stealthy 20
+#forestsurvival
+#mountainsurvival
+#gcost 10015
+#rcost 1
+#rpcost 10000
+#nametype 100
+#descr "All around the world, lepers are shunned and despised. People turn their eyes away when passing by their huddled, ragged figures, as if fearing that their loathsome affliction might contaminate them through looks alone. Yet in Egeros disease and deformity are the order of the day, and even the most reviled of human dregs can find a purpose. The followers of Nuvorok exploit the stigma of leprosy, using the diseased as spies that skulk around enemy cities and camps without being spared a glance. For their own part, many lepers see this as a chance to take revenge on a world that scorned them, and gladly serve the infernal cult’s cause."
+#end
+
+-- Bilious Enforcer
+#newmonster 6007
+#name "Bilious Enforcer"
+#spr1 "SlavesJAMsprite/Oraculum/enforcer.tga"
+#weapon 596 -- Light Lance
+#weapon 19 -- Doggo!
+#armor 8 -- Chain Mail Cuirass
+#armor 20 -- Iron Cap
+#armor 3 -- Kite Shield
+#size 3
+#ressize 2
+#hp 10
+#prot 0
+#mr 10
+#mor 10
+#str 10
+#att 10
+#def 10
+#prec 10
+#ap 22
+#mapmove 20
+#enc 4
+#maxage 50
+#goodleader
+#taskmaster 2
+#mountedhumanoid
+#mounted
+#itemslots 13446
+#poisonres 5
+#gcost 10030
+#rcost 1
+#rpcost 10000
+#nametype 100
+#descr "The health of the human body depends on the balance of its four internal humours. Should their condition be disrupted, both flesh and spirit will be tormented with pain and ennui. The mages of Egeros have learned to pervert this inner order, twisting men into the shape of vile horrors. Enforcers were once renowned warriors who have been transformed into ghoulish brutes by an excess of sanguine essence and choleric bile. Their martial skill and wrathful temper inspire respect even in the dull minds of Egeros’ monstrous troops, allowing them to lead the plagued throngs in battle. However, this comes at the cost of an irritable and vengeful disposition, and both Enforcers and the scavenger wolves they ride take pleasure in spitefully mutilating fallen enemies."
+#end
+
+-- Daemonolater Exarch
+#newmonster 6008
+#name "Daemonolater Exarch"
+#spr1 "SlavesJAMsprite/Oraculum/exarch.tga"
+#weapon 252 -- Club
+#armor 158 -- Robes
+#size 2
+#hp 10
+#prot 0
+#mr 12
+#mor 12
+#str 10
+#att 10
+#def 10
+#prec 10
+#ap 10
+#mapmove 14
+#enc 3
+#maxage 50
+#okleader
+#magicskill 8 2
+#swimming
+#humanoid
+#templetrainer 6001
+#poisonres 5
+#itemslots 15494
+#gcost 10010
+#rcost 1
+#rpcost 10000
+#nametype 100
+#descr "Once, the clergy of Egeros offered comfort and encouragement to their countrymen in trying times, reassuring them that distant but benevolent gods were watching over the land. However, they have since sworn themselves to the demonic spirit Nuvorok, and preach the word of his ascendance. The Exarchs are the spiritual leaders of the new faith, and both the aberrations of the Pestilential Realm and their master’s infernal legions will eagerly follow them in battle. These sinister clerics take pleasure in desecrating the shrines of other gods, turning them into foul sanctuaries dedicated to their patron, and can imbue venomous serpents with a malign will to serve as their familiars."
+#end
+
+-- Disciple of Nuvorok
+#newmonster 6009
+#name "Disciple of Nuvorok"
+#spr1 "SlavesJAMsprite/Oraculum/disciple.tga"
+#weapon 9 -- Dagger
+#armor 158 -- Robes
+#size 2
+#hp 10
+#prot 0
+#mr 14
+#mor 10
+#str 10
+#att 10
+#def 10
+#prec 10
+#ap 10
+#mapmove 14
+#enc 3
+#maxage 50
+#magicskill 7 1
+#custommagic 25088 10 -- BWN
+#crossbreeder 5
+#poorleader
+#humanoid
+#poisonres 5
+#itemslots 15494
+#gcost 10015
+#rcost 1
+#rpcost 10000
+#nametype 100
+#descr "The cult of Nuvorok was founded by sages and healers who sought a cure for the plague that ravaged their land. Now, tempted by the whispers of the fiend, they have resolved to lead their people in a war of conquest to ensure their survival. Disciples are the apprentices and neophytes of the cult, tasked with attending to basic ministrations. They study arcane and infernal lore, seek out and capture suitable victims for ritual sacrifice and magical experiments, and occasionally perform simple incantations. Some Disciples are adept at breeding mutant thralls to bolster Egeros’ hordes, and they are often the most likely to be inducted into the higher mysteries of the order."
+#end
+
+-- Herald of Corrosion
+#newmonster 6010
+#name "Herald of Corrosion"
+#spr1 "SlavesJAMsprite/Oraculum/herald.tga"
+#weapon 252 -- Club
+#armor 158 -- Robes
+#size 2
+#hp 10
+#prot 0
+#mr 10
+#mor 10
+#str 10
+#att 10
+#def 10
+#prec 10
+#ap 10
+#mapmove 14
+#enc 3
+#maxage 50
+#poorleader
+#humanoid
+#recuperation 
+#crossbreeder 5
+#eyes 4
+#unsurr 2
+#magicskill 2 1
+#magicskill 6 1
+#custommagic 25600 200
+#poisonres 5
+#itemslots 15494
+#gcost 10030
+#rcost 1
+#rpcost 10000
+#nametype 100
+#descr "The most skilful and diligent of the Disciples of Nuvorok are instructed in the second circle of the cult’s esoteric knowledge and become Heralds of Corrosion. These fearsome enchanters command a wide variety of sorcerous powers, which more often than not are invoked to bring ruin upon the foes of Egeros. Nothing is safe from the Heralds’ corruptive touch: by summoning otherworldly might, they can turn air into deadly poisonous mist, earth into clinging mud, and fine iron weapons into rusted wrecks. Most infamous of all, however, is their ability to warp the flesh and humours of living beings, such that many of them are themselves mutated in some way. To ply their visceral arts, Heralds must have strong wills and robust stomachs, and quite a few Disciples have failed their trials of promotion simply by being overwhelmed with revulsion at the deeds of their superiors."
+#end
+
+-- Archon of Blight
+#newmonster 6011
+#name "Archon of Blight"
+#spr1 "SlavesJAMsprite/Oraculum/archon.tga"
+#weapon 1 -- Spear
+#armor 158 -- Robes
+#size 2
+#hp 10
+#prot 0
+#mr 10
+#mor 10
+#str 10
+#att 10
+#def 10
+#prec 10
+#ap 10
+#mapmove 14
+#enc 3
+#custommagic 26112 200
+#magicskill 7 2
+#magicskill 6 2
+#slowrec
+#eyes 4
+#unsurr 2
+#castledef 20
+#poisonarmor 10
+#crossbreeder 5
+#maxage 200
+#poorleader
+#humanoid
+#poisonres 5
+#itemslots 15494
+#gcost 10010
+#rcost 1
+#rpcost 10000
+#nametype 100
+#descr "Only the most devoted, ruthless and magically potent followers of Nuvorok can hope to attain the rank of Archon, a member of the order’s inmost circle. Unparalleled sorcerers and effective rulers of all Egeros, the Archons have each and every one gained almost complete mastery over the inner balance of their bodies, allowing them to subsist without food for months on end and extending their lifespans to unnatural lengths. Little remains of their human appearance, replaced by a nightmarish chimeric visage. Nor is their expertise limited to their own flesh alone, for it is they who oversee the transformation of the people of Egeros into monstrosities of freakish might. The path to such exalted knowledge is long and laborious, and Archons of Blight are rarely seen outside their strongholds, but whenever one of them takes to the field it is a very ill omen for the enemies of the Reign of Pestilence."
+#end
+
+
+
+--- Sites for Egeros
+#newsite 1950 -- DE goes up to 1902, so I'll usually use 1950 to the limit of 1999
+#level 0 --  Level 0 sites are automatically discovered, but 1 to 4 requires a mage of that rank to search for it
+#rarity 5 -- Sites that are never used as a random site
+#path Earth -- No idea what this button does, I think it has something to do with the icon
+#name "Cradle of Affliction" -- Name of the site, keep it short generally
+
+#homecom 6010 -- This commander will be exclusively recruited from this site, and will show up on the recruitment overview on the nation screen
+#gems 2 1 -- This gives you 2 gems of path 2, so 2 Fire gems
+#gems 3 2 -- This gives you 1 gem of path 3, so 2 earth gems
+#gems 6 2 -- This gives you 2 gems of path 6, so 2 nature gems
+#end
+
+
+
+-- Nation 177: Egeros
+#selectnation 177 -- DE has nations up to 168, apparently
+#clear -- Keep this in, I have no idea what happens when you dont
+#era 2 -- Middle age
+#name "Egeros" -- Main name, like Ulm
+#epithet "Reign of Pestilence" -- The thing that appears after the automatically made comma, like "Last f the Giants"
+#descr "FIXME" -- The blurb that shows directly above the recruitment options when you select the nation, usually detailing infrastucture costs
+#summary "A land of rolling plains and placid rivers, Egeros is blessed with fertile soil and rich harvests, but has often been wracked by virulent plagues that hatch in its stagnant marshes. Its populace has long sought to placate the creeping death with offerings to the gods of legend. When magic was released into the world, a disease of incredible ferocity swept over the countryside, slaying thousands. In desperation, many turned to human sacrifice, hoping to appease the unseen reaper with the gift of blood. The gruesome libations drew the attention of Nuvorok, a wicked infernal spirit, who appeared in dreams to the priests and wise men of Egeros and offered them a pact. In exchange for their worship, he would grant them the power to manipulate the humours of the body and save their people from the illness. With this arcane knowledge, the disease was halted, but Nuvorok’s insidious influence twisted his followers into a cruel cult that inflicts foul mutations on its thralls. Now the people of Egeros draw strength from their afflictions, and seek to claim the world in the name of their fiendish master." -- Notice the string ends here and only here
+#brief "No description" -- No idea when this is used
+#color 0.0 0.5 0.0 -- This thing is the main background and what represents your nation on scoregraphs
+#secondarycolor 0.5 0.0 0.0 -- Same idea but for secondary background colour, if this one is absent it reverts to the the one above
+#flag "SlavesJAMsprite/Oraculum/flag.tga" -- The flag of the nation
+
+#clearsites
+#startsite "Cradle of Affliction" -- You can also use the site number instead
+
+
+#clearrec
+#addrecunit 6002 -- Husk Guard
+#addrecunit 6003 -- Husk Defiler
+#addrecunit 6004 -- Putrescent Hulk
+#addrecunit 6005 -- Virulent Abomination
+
+#addreccom 6006 -- Mendicant Leper
+#addreccom 6007 -- Bilious Enforcer
+#addreccom 6008 -- Daemonolater Exarch
+#addreccom 6009 -- Disciple of Nuvorok
+#addreccom 6010 -- Herald of Corrosion
+#addreccom 6011 -- Archon of Blight
+
+
+
+#defcom1 6007 -- Bilious Enforcer
+#defunit1 6000 -- This is the unit that the PD calls for, FIXME1
+#defmult1 15 -- This many units will appear per 10 PD
+#defcom2 6007 -- Bilious Enforcer
+#defunit2 6003 -- Husk Defiler
+#defmult2 10 -- This many units will appear per 10 PD at and after 20
+
+#wallcom 6007 -- Bilious Enforcer
+#wallunit 6002 -- Husk Guard
+#wallmult 12 -- How many units there will be, no ifs or buts, no modifiers or anything. Just this many units.
+
+#startcom 6007 -- Bilious Enforcer
+#startscout 6006 -- Mendicant Leper
+#startunittype1 6003 -- Husk Defiler
+#startunitnbrs1 20 -- This many of the aforementioned unit will appear
+
+
+
+#fortera 2 -- Middle Age forts
+#idealcold 0 -- Use a negative to start in heat
+
+#homerealm 1 -- North
+#homerealm 10 -- Default Gods
+#templepic 10 -- This is the graphic for temples, Forest Temple
 
 #end
 #end
