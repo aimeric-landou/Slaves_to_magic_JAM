@@ -2536,7 +2536,7 @@ Priests: Weak." -- Notice the string ends here and only here
 #startcom 6064 -- Your starting troop leader you spawn in with
 #startscout 426 -- Your starting Scout - vanilla scout
 #startunittype1 6060  -- This unit will appear when you spawn in
-#startunitnbrs1 12 -- This many of the aforementioned unit will appear
+#startunitnbrs1 15 -- This many of the aforementioned unit will appear
 
 #fortera 3 -- Just Imperialist Things TM
 -- #castleprod 40 -- Just Industrial Things TM
