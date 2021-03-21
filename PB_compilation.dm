@@ -1661,7 +1661,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #rcost 1 -- Leave as is, weapon and armour added to this
 #rpcost 16000
 #nametype 100 -- Generic Male Names
-#descr "FIXME"
+#descr "The enslaved folk of Noth Soset comprise the vast majority of the Lord's armies. Poorly armour and easily outmatched by dedicated infantry forces, they rely of a hail of arrow fire to thin the foe before contact. The Steel Rose Warriors excell in defensive warfare. They shower the foe with heavy arrow fire from the safety of their fortifications."
 #itemslots 15494
 #end
 
@@ -1694,7 +1694,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #rcost 1 -- Leave as is, weapon and armour added to this
 #rpcost 16000
 #nametype 100 -- Generic Male Names
-#descr "FIXME"
+#descr "The enslaved folk of Noth Soset comprise the vast majority of the Lord's armies. Poorly armour and easily outmatched by dedicated infantry forces, they rely of a hail of arrow fire to thin the foe before contact. Those of the Iron Pine are the offensive bulk of the army. Formed into shield walls and laying down barrages of iron rain they excell at pinning fort defenders."
 #itemslots 15494
 #end
 
@@ -1730,7 +1730,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #rcost 1
 #rpcost 16000
 #nametype 100
-#descr "FIXME"
+#descr "The road to freedom in Noth Soset is a hard and greuling task. Only through heroic effort can anyone stand a chance of earning a modicome of freedom. As part of the 'Ceremony of Champions' these paragons of society receive the blessing of the lord. The warroirs form the elite shock troops of the kingdom and while of lesser quality than some lands, they are in plentiful supply."
 #itemslots 13446
 #end
 
@@ -1762,14 +1762,14 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #rcost 1 -- Leave as is, weapon and armour added to this
 #rpcost 16000
 #nametype 100 -- Generic Male Names
-#descr "FIXME"
+#descr "Particular emphasis is placed on ranged warfare and as such the strongest and most accurate archers are premoted to the ranks of the Ice Vines. Blessed by the lords many priests they reap a terrible toll on any foe before them."
 #itemslots 15494
 #end
 
 
 --- COMMANDER definitions for NOTH SOSET
 
---- Ivy Marksman
+--- Fire Ivy Marksman
 #newmonster 6044
 #name "Fire Ivy Marksman"
 #spr1 "SlavesJAMsprite/Zen/FireIvyMarksman.tga"
@@ -1799,7 +1799,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #rcost 1 -- Leave as is, weapon and armour added to this
 #rpcost 16000
 #nametype 100 -- Generic Male Names
-#descr "FIXME"
+#descr "Dispite the lords obsession with the power of blood these relics of a time before his guiding hand have proven their worth time and again. They march along side the armies of Noth Soset and ignight the arrows loosed apon his enimies."
 #itemslots 15494
 #end
 
@@ -1832,7 +1832,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #rcost 1
 #rpcost 16000
 #nametype 100
-#descr "FIXME"
+#descr "A prime example of the changes wrought by the coming of the one true god, the Ivy Marksman is a leathal tool in the arsenal of an Noth Sosetian commander. Trained in siege warfare and equipped for long range combat, they leave much to be desired in the field of leading men."
 #itemslots 13446
 #end
 
@@ -1865,7 +1865,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #rcost 1 -- Leave as is, weapon and armour added to this
 #rpcost 16000
 #nametype 100 -- Generic Male Names
-#descr "FIXME"
+#descr "Well trained leaders of men these commanders have a single task at hand. To keep their men in fighting formation. Tactics in Noth Soset is for an army to be comprised of only the assets needed for the task at hand. In this way the one true god seeks to defuse the power of those bellow it while laying claim to the lives of all those under the domination of Noth Soset."
 #itemslots 15494
 #end
 
@@ -1900,7 +1900,8 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #rcost 1 -- Leave as is, weapon and armour added to this
 #rpcost 16000
 #nametype 100 -- Generic Male Names
-#descr "FIXME"
+#descr "The true mages of Noth Soset must first learn to master the path of blood. By the lords primary law all parts of his 'Blood Machine' are the property of the one true god. As such they are bound with the strongest devotion and oaths of servitude.
+Blood lilly cultivator's are the boots on the ground for their lords bloody machinations. While there is no ruling stating that men are forbidden from using magic, it is widely understood the lord of all prizes above all: flesh of man steeped in strong magics. Like all mages heavy body armor is shunned in favor of enhanced magic flow."
 #itemslots 15494
 #end
 
@@ -1935,7 +1936,8 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #rcost 1 -- Leave as is, weapon and armour added to this
 #rpcost 16000
 #nametype 100 -- Generic Male Names
-#descr "FIXME"
+#descr "By the lords primary law all parts of his 'Blood Machine' as such each mage is the property of the one true god. As such they are bound with the strongest devotion and oaths of servitude.
+Blood lilly Advisor's are the highest position most mages will ever achieve in their life. Those that are spared the horrors of war instead find themselves summoning the dread forces of hell to aid their lords holy demands. Like all mages of Noth Soset heavy body armor is shunned in favor of enhanced magic flow."
 #itemslots 15494
 #end
 
@@ -1973,7 +1975,8 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #rcost 1 -- Leave as is, weapon and armour added to this
 #rpcost 16000
 #nametype 100 -- Generic Male Names
-#descr "FIXME"
+#descr "By the lords primary law all parts of his 'Blood Machine' as such each mage is the property of the one true god. As such they are bound with the strongest devotion and oaths of servitude.
+The pinnacle of magic knowledge that a normal mortal may obtain. After surpassing the training of those beneath them they must completely devoted themselves to their lord and as such are ordained as the highest priests in Noth Soset. Like all mages of Noth Soset heavy body armor is shunned in favor of enhanced magic flow."
 #itemslots 15494
 #end
 
@@ -1999,8 +2002,11 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #era 2 -- Middle age
 #name "Noth Soset"
 #epithet "Slaves to Reason"
-#descr "FIXME"
-#summary "FIXME" -- Notice the string ends here and only here
+#descr "Noth Soset, a land already stratified further warped by the coming of the one true god. All serve through bonds of devotion or slavery though sometimes both. The genral population is held in contempt. Taxed and living in constant fear of abduction to feed the insatiable hunger of the demonic allies of the one  true god."
+#summary "Race: Humans
+Military: Cheap disposible heavy archers and shielded slingers. Sacred elite archers and duel wielding medium infantry in every fort.
+Priests: Plentiful low level with capital priests of high to insane potancey.
+Dominion: Standard, coastal forts have +20% income." -- Notice the string ends here and only here
 
 
 #brief "No description" -- No idea when this is used
