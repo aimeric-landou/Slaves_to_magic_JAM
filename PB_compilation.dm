@@ -3880,7 +3880,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 
 
 --- Sites for Egeros
-#newsite 1950 -- DE goes up to 1902, so I'll usually use 1950 to the limit of 1999
+#newsite 1957 -- DE goes up to 1902, so I'll usually use 1950 to the limit of 1999
 #level 0 --  Level 0 sites are automatically discovered, but 1 to 4 requires a mage of that rank to search for it
 #rarity 5 -- Sites that are never used as a random site
 #path Earth -- No idea what this button does, I think it has something to do with the icon
