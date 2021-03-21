@@ -3610,7 +3610,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #mr 10
 #mor 10
 #str 12
-#att 
+#att 9
 #def 10
 #prec 10
 #ap 10
