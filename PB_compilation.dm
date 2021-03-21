@@ -2139,6 +2139,7 @@ Dominion: Standard, coastal forts have +20% income." -- Notice the string ends h
 #spiritsight
 #supplybonus -1
 #mounted
+#mountedhumanoid
 #humanoid
 #ressize 2
 #ambidextrous 2
@@ -2255,6 +2256,7 @@ Dominion: Standard, coastal forts have +20% income." -- Notice the string ends h
 #fireres 3
 #supplybonus -1
 #mounted
+#mountedhumanoid
 #ressize 2
 #weapon 4 -- "Lance"
 #weapon 8 -- "Broad Sword"
