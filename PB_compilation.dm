@@ -2476,7 +2476,6 @@ P.S. reflavour of Statue of the Underworld"
 #path 9 -- No idea what this button does
 #name "The Spire" -- Name of the site, keep it short generally
 #homecom 6065 -- Blood Summoner - This commander will be exclusively recruited from this site, and will show up on the recruitment overview on the ation screen
-#homecom 6069 -- H3 Priest 	- This commander will be exclusively recruited from this site, and will show up on the recruitment overview on the ation screen
 #homemon 6061 -- Gryphon Rider	- This monster will be exclusively recruited from this site, and will show up on the recruitment overview on the ation screen
 #gems 1 4 -- 4 A gems
 #gems 4 1 -- 1 S gem
@@ -2520,7 +2519,7 @@ Priests: Weak." -- Notice the string ends here and only here
 #addreccom 6066 
 #addreccom 6067 
 #addreccom 6068
--- #addreccom 6069 -- Cap-only
+#addreccom 6069
 
 -- PD and Siege defenders
 #defcom1 6064 -- This will lead your PD Troops 
