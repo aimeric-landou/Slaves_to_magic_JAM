@@ -240,16 +240,15 @@
 #def -3
 #enc 5
 #rcost 25
-#name "Heavy Plate Hauberk"
+#name "Full Plate Mail"
 #end
 
 #newarmor 803 -- Protected Half Helmet
 #copyarmor 118
 #prot 21
 #def -1
-#enc 1
 #rcost 4
-#name "Heavy Half Helmet"
+#name "Full Helmet"
 #end
 
 
