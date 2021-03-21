@@ -76,7 +76,7 @@
 #descr "The order of the War Weavers still remembers the ancient teachings of the winds. The caster summons an Air Elemental to aid him in battle. Air Elementals can fly and can send enemies flying through the air. They are very difficult to harm. Elementals shrink when they are hit by powerful strikes."
 #researchlevel 4
 #pathlevel 0 2
-#restricted 222
+#restricted 173
 #end
 
 #newspell
@@ -88,7 +88,7 @@
 #aoe 666
 #fatiguecost 300
 #spec 12599296 -- Use UW, Ignore Shields, Friendly units only
-#restricted 222
+#restricted 173
 #end
 
 #newspell
