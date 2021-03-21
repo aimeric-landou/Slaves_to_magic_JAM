@@ -2347,12 +2347,13 @@ Dominion: Standard, coastal forts have +20% income." -- Notice the string ends h
 #end
 
 #newmonster 6067 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
-#name "Astrologist" -- This is the unit type name, like Logrian Slinger or Thaumaturg
+#name "Augur" -- This is the unit type name, like Logrian Slinger or Thaumaturg
 #spr1 "SlavesJAMsprite/Isitaris/Mage2.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Isitaris/Mage2_animation.tga" -- remember to tag on the .tga to the end of the directory
 #drawsize -30 --unit 116 pixel high
-#custommagic 18432 200 -- BS +2
-#custommagic 18432 200 -- BS +2
+#custommagic 2560 100 -- WS +1
+#custommagic 2560 100 -- WS +1
+#custommagic 512 10 -- W 0.1 
 #size 2
 #hp 15
 #prot 0
@@ -2362,11 +2363,10 @@ Dominion: Standard, coastal forts have +20% income." -- Notice the string ends h
 #att 10
 #def 10
 #prec 10
-#ap 10
-#mapmove 14
+#ap 12
+#mapmove 16
 #enc 4
 #maxage 50
-#older -8
 #poorleader
 #shockres 10
 #fireres 3
@@ -2379,7 +2379,7 @@ Dominion: Standard, coastal forts have +20% income." -- Notice the string ends h
 #rcost 1 -- Do NOT change this, it automatically adds the cost of equipment in game
 #rpcost 10000 -- Base value multiplied by 1000, same for commanders and troops
 #nametype 111 -- Caelum male names
-#descr "For centuries the Astrologists studied the stars in dynamic academies. They first got contacted by the Hungry God, and they first walked down the path of corruption. They now count among themselves the most powerful practitioners of blood magic in all Shara, alongside the most powerful weavers of astral magic. One of the first tricks Sharan mages learn is the ability to hover and reduce the strain of long journeys. Since the introduction of blood magic in Sharan society, macabre ceremonies are organised at the end of one’s long mage training to rejuvenate their bodies. They arbor the ritualistic Sharan tattoos that protect them from lightning."
+#descr "When the True God was found amongst the stars, the old beliefs quickly crumbled, and the few mage-priests still preaching them soon saw the truth in the word of Hadar. They have since abandoned their beliefs, and do not preach anymore, and the Hands have taken the augurs’ position of power in Shara. One of the first tricks Sharan mages learn is the ability to hover and reduce the strain of long journeys. They arbor the ritualistic Sharan tattoos that protect them from lightning."
 #itemslots 15494
 #end
 
@@ -2427,14 +2427,13 @@ Dominion: Standard, coastal forts have +20% income." -- Notice the string ends h
 #spr1 "SlavesJAMsprite/Isitaris/Priest.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Isitaris/Priest_animation.tga" -- remember to tag on the .tga to the end of the directory
 #drawsize -30 --unit 116 pixel high
-#custommagic 2560 200 -- WS +2
-#custommagic 512 10 -- W 0.1 
-#magicskill 8 3 -- H3
+#custommagic 18432 200 -- BS +2
+#custommagic 18432 200 -- BS +2
 #size 2
 #hp 15
 #prot 0
-#mr 18
-#mor 13
+#mr 14
+#mor 10
 #str 10
 #att 10
 #def 10
@@ -2446,16 +2445,17 @@ Dominion: Standard, coastal forts have +20% income." -- Notice the string ends h
 #older -8
 #poorleader
 #fireres 3
+#shockres 10
 #supplybonus -1
 #float
 #armor 158 -- "Robes"
 #weapon 1992 -- "Banner"
 #humanoid
-#gcost 10015 -- Add 10000 to make it autocalc, so this is base price 10 plus or minus autocalc
+#gcost 10020 -- Add 10000 to make it autocalc, so this is base price 10 plus or minus autocalc
 #rcost 1 -- Do NOT change this, it automatically adds the cost of equipment in game
 #rpcost 10000 -- Base value multiplied by 1000, same for commanders and troops
-#nametype 111 -- Caelum male names
-#descr "When the True God was found amongst the stars, the old beliefs quickly crumbled, and the few mage-priests still preaching them soon saw the truth in the word of Hadar. They now call themselves its Hands, and their words hold great power in Shara, although they rarely command the livings."
+#nametype 111 -- Caelum male namesand the few astrologist-priests stil
+#descr "For centuries the astrologists of Shara studied the stars in dynamic academies. They first got contacted by the Hungry God, and they first walked down the path of corruption. They count among themselves the most powerful practitioners of blood magic in all Shara, alongside the most powerful weavers of astral magic. They now call themselves its Hands, and their words hold great power in Shara. One of the first tricks Sharan mages learn is the ability to hover and reduce the strain of long journeys. Since the introduction of blood magic in Sharan society, macabre ceremonies are organised at the end of one’s long mage training to rejuvenate their bodies. They arbor the ritualistic Sharan tattoos that protect them from lightning."
 #itemslots 15494
 #end
 
