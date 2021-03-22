@@ -1311,7 +1311,6 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #enc 3
 #maxage 50
 #poorleader
-#holy
 #formationfighter 3
 #humanoid
 #gcost 10010 -- Add 10000 to make it autocalc, so this is base price 10 plus or minus autocalc
@@ -3037,20 +3036,22 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #addreccom 6075 -- Pwhoo Captain
 
 #defcom1 6070 -- This will lead your PD Troops, FIXME3
-#defunit1 6017 -- This is the unit that the PD calls for, FIXME1
-#defmult1 15 -- This many units will appear per 10 PD
+#defunit1 6079 -- This is the unit that the PD calls for, FIXME1
+#defmult1 12 -- This many units will appear per 10 PD
 #defcom2 6070 -- This will also lead your PD at 20, Commander
-#defunit2 6079 
-#defmult2 10 -- This many units will appear per 10 PD at and after 20
+#defunit2 6078
+#defmult2 23 -- This many units will appear per 10 PD at and after 20
 
-#wallcom 64 -- This commander will guard the walls when sieged
-#wallunit 33 -- This unit type will guard the walls when sieged
-#wallmult 12 -- How many units there will be, no ifs or buts, no modifiers or anything. Just this many units.
+#wallcom 6070 -- This commander will guard the walls when sieged
+#wallunit 6017 -- This unit type will guard the walls when sieged
+#wallmult 10 -- How many units there will be, no ifs or buts, no modifiers or anything. Just this many units.
 
 #startcom 6070 -- Your starting troop leader you spawn in with
 #startscout 426 -- Your starting Scout, Scout
-#startunittype1 6078
-#startunitnbrs1 20 -- This many of the aforementioned unit will appear
+#startunittype1 6079
+#startunitnbrs1 17 -- This many of the aforementioned unit will appear
+#startunittype2 6017
+#startunitnbrs2 3 -- This many of the aforementioned unit will appear
 
 
 
@@ -3635,7 +3636,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #rcost 1
 #rpcost 10000
 #nametype 100
-#descr "FIXME"
+#descr "Among the arcane mutations devised by the acolytes of the fiend Nuvorok, none are more revolting than the Bloating. This curse causes its victims to become swollen with phlegmatic humour, causing a hideous expansion of the body, accompanied by numerous deformities and the eventual decay of still living flesh. All throughout the progress of the sickness, the wretched host is possessed by a boundless hunger, which compels them to fuel their unnatural growth by devouring anything in sight and soon reaches cannibalistic intensity. Hulks trudge into battle driven by their craving as much as by the command of their masters, and can spew decomposing sludge at their foes, hampering and dazing them with phlegmatic apathy."
 #end
 
 -- Virulent Abomination
@@ -3893,7 +3894,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #path Earth -- No idea what this button does, I think it has something to do with the icon
 #name "Cradle of Affliction" -- Name of the site, keep it short generally
 
-#homecom 6010 -- This commander will be exclusively recruited from this site, and will show up on the recruitment overview on the nation screen
+#homecom 6011 -- This commander will be exclusively recruited from this site, and will show up on the recruitment overview on the nation screen
 #gems 2 1 -- This gives you 2 gems of path 2, so 2 Fire gems
 #gems 3 2 -- This gives you 1 gem of path 3, so 2 earth gems
 #gems 6 2 -- This gives you 2 gems of path 6, so 2 nature gems
@@ -3907,8 +3908,8 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #era 2 -- Middle age
 #name "Egeros" -- Main name, like Ulm
 #epithet "Reign of Pestilence" -- The thing that appears after the automatically made comma, like "Last f the Giants"
-#descr "FIXME" -- The blurb that shows directly above the recruitment options when you select the nation, usually detailing infrastucture costs
-#summary "A land of rolling plains and placid rivers, Egeros is blessed with fertile soil and rich harvests, but has often been wracked by virulent plagues that hatch in its stagnant marshes. Its populace has long sought to placate the creeping death with offerings to the gods of legend. When magic was released into the world, a disease of incredible ferocity swept over the countryside, slaying thousands. In desperation, many turned to human sacrifice, hoping to appease the unseen reaper with the gift of blood. The gruesome libations drew the attention of Nuvorok, a wicked infernal spirit, who appeared in dreams to the priests and wise men of Egeros and offered them a pact. In exchange for their worship, he would grant them the power to manipulate the humours of the body and save their people from the illness. With this arcane knowledge, the disease was halted, but Nuvorok’s insidious influence twisted his followers into a cruel cult that inflicts foul mutations on its thralls. Now the people of Egeros draw strength from their afflictions, and seek to claim the world in the name of their fiendish master." -- Notice the string ends here and only here
+#descr "A land of rolling plains and placid rivers, Egeros is blessed with fertile soil and rich harvests, but has often been wracked by virulent plagues that hatch in its stagnant marshes. Its populace has long sought to placate the creeping death with offerings to the gods of legend. When magic was released into the world, a disease of incredible ferocity swept over the countryside, slaying thousands. In desperation, many turned to human sacrifice, hoping to appease the unseen reaper with the gift of blood. The gruesome libations drew the attention of Nuvorok, a wicked infernal spirit, who appeared in dreams to the priests and wise men of Egeros and offered them a pact. In exchange for their worship, he would grant them the power to manipulate the humours of the body and save their people from the illness. With this arcane knowledge, the disease was halted, but Nuvorok’s insidious influence twisted his followers into a cruel cult that inflicts foul mutations on its thralls. Now the people of Egeros draw strength from their afflictions, and seek to claim the world in the name of their fiendish master." -- The blurb that shows directly above the recruitment options when you select the nation, usually detailing infrastucture costs
+#summary "Nadir make me unnerved" -- Notice the string ends here and only here
 #brief "No description" -- No idea when this is used
 #color 0.0 0.5 0.0 -- This thing is the main background and what represents your nation on scoregraphs
 #secondarycolor 0.5 0.0 0.0 -- Same idea but for secondary background colour, if this one is absent it reverts to the the one above
@@ -3929,7 +3930,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #addreccom 6008 -- Daemonolater Exarch
 #addreccom 6009 -- Disciple of Nuvorok
 #addreccom 6010 -- Herald of Corrosion
-#addreccom 6011 -- Archon of Blight
+-- #addreccom 6011 -- Archon of Blight
 
 
 
