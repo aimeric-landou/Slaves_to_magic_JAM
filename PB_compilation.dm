@@ -3894,6 +3894,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #path Earth -- No idea what this button does, I think it has something to do with the icon
 #name "Cradle of Affliction" -- Name of the site, keep it short generally
 
+
 #gems 2 1 -- This gives you 2 gems of path 2, so 2 Fire gems
 #gems 3 2 -- This gives you 1 gem of path 3, so 2 earth gems
 #gems 6 2 -- This gives you 2 gems of path 6, so 2 nature gems
@@ -3908,6 +3909,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #name "Egeros" -- Main name, like Ulm
 #epithet "Reign of Pestilence" -- The thing that appears after the automatically made comma, like "Last f the Giants"
 #descr "A land of rolling plains and placid rivers, Egeros is blessed with fertile soil and rich harvests, but has often been wracked by virulent plagues that hatch in its stagnant marshes. Its populace has long sought to placate the creeping death with offerings to the gods of legend. When magic was released into the world, a disease of incredible ferocity swept over the countryside, slaying thousands. In desperation, many turned to human sacrifice, hoping to appease the unseen reaper with the gift of blood. The gruesome libations drew the attention of Nuvorok, a wicked infernal spirit, who appeared in dreams to the priests and wise men of Egeros and offered them a pact. In exchange for their worship, he would grant them the power to manipulate the humours of the body and save their people from the illness. With this arcane knowledge, the disease was halted, but Nuvorok’s insidious influence twisted his followers into a cruel cult that inflicts foul mutations on its thralls. Now the people of Egeros draw strength from their afflictions, and seek to claim the world in the name of their fiendish master." -- The blurb that shows directly above the recruitment options when you select the nation, usually detailing infrastucture costs
+
 #brief "No description" -- No idea when this is used
 #color 0.0 0.5 0.0 -- This thing is the main background and what represents your nation on scoregraphs
 #secondarycolor 0.5 0.0 0.0 -- Same idea but for secondary background colour, if this one is absent it reverts to the the one above
