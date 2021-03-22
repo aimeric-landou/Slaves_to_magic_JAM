@@ -3587,7 +3587,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #prec 10
 #ambidextrous 2
 #pillagebonus 2
-#bers 2
+#berserk 2
 #ap 10
 #mapmove 14
 #enc 4
