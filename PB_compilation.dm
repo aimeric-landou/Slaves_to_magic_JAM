@@ -3530,7 +3530,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #newmonster 6001
 #copystats 295
 #name "Egeros Familiar"
-#desc "A venomous serpents with a malign will, serves as a familiar for the Exarchs of Egeros"
+#desc "A venomous serpent imbued with a malign will to serve as a familiar for the Exarchs of Egeros."
 #mor 20
 #def 11
 #end
@@ -3540,7 +3540,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #name "Husk Guard"
 #spr1 "SlavesJAMsprite/Oraculum/guard.tga"
 #weapon 24 -- Longbow
-#armor 8 -- Chain Mail Cuirass
+#armor 44 -- Furs
 #armor 20 -- Iron Cap
 #size 2
 #hp 10
@@ -3626,7 +3626,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #supplybonus -1
 #maxage 50
 #pillagebonus 2
-#slimer 0
+#slimer 1
 #poorleader
 #humanoid
 #poisonres 5
@@ -3635,7 +3635,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #rcost 1
 #rpcost 10000
 #nametype 100
-#descr "FIXME"
+#descr "Among the arcane mutations devised by the acolytes of the fiend Nuvorok, none are more revolting than the Bloating. This curse causes its victims to become swollen with phlegmatic humour, causing a hideous expansion of the body, accompanied by numerous deformities and the eventual decay of still living flesh. All throughout the progress of the sickness, the wretched host is possessed by a boundless hunger, which compels them to fuel their unnatural growth by devouring anything in sight and soon reaches cannibalistic intensity. Hulks trudge into battle driven by their craving as much as by the command of their masters, and can spew decomposing sludge at their foes, hampering and dazing them with phlegmatic apathy."
 #end
 
 -- Virulent Abomination
@@ -3711,6 +3711,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #name "Bilious Enforcer"
 #spr1 "SlavesJAMsprite/Oraculum/enforcer.tga"
 #weapon 596 -- Light Lance
+#weapon 10 -- Falchion
 #weapon 19 -- Doggo!
 #armor 8 -- Chain Mail Cuirass
 #armor 20 -- Iron Cap
@@ -3795,7 +3796,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #enc 3
 #maxage 50
 #magicskill 7 1
-#custommagic 25088 10 -- BWN
+#custommagic 25088 100 -- BWN
 #crossbreeder 5
 #poorleader
 #humanoid
@@ -3890,10 +3891,10 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #newsite 1957 -- DE goes up to 1902, so I'll usually use 1950 to the limit of 1999
 #level 0 --  Level 0 sites are automatically discovered, but 1 to 4 requires a mage of that rank to search for it
 #rarity 5 -- Sites that are never used as a random site
-#path Earth -- No idea what this button does, I think it has something to do with the icon
+#path 2 -- No idea what this button does, I think it has something to do with the icon
 #name "Cradle of Affliction" -- Name of the site, keep it short generally
 
-#homecom 6010 -- This commander will be exclusively recruited from this site, and will show up on the recruitment overview on the nation screen
+#homecom 6011 -- Archon of Blight
 #gems 2 1 -- This gives you 2 gems of path 2, so 2 Fire gems
 #gems 3 2 -- This gives you 1 gem of path 3, so 2 earth gems
 #gems 6 2 -- This gives you 2 gems of path 6, so 2 nature gems
@@ -3907,11 +3908,15 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #era 2 -- Middle age
 #name "Egeros" -- Main name, like Ulm
 #epithet "Reign of Pestilence" -- The thing that appears after the automatically made comma, like "Last f the Giants"
-#descr "FIXME" -- The blurb that shows directly above the recruitment options when you select the nation, usually detailing infrastucture costs
-#summary "A land of rolling plains and placid rivers, Egeros is blessed with fertile soil and rich harvests, but has often been wracked by virulent plagues that hatch in its stagnant marshes. Its populace has long sought to placate the creeping death with offerings to the gods of legend. When magic was released into the world, a disease of incredible ferocity swept over the countryside, slaying thousands. In desperation, many turned to human sacrifice, hoping to appease the unseen reaper with the gift of blood. The gruesome libations drew the attention of Nuvorok, a wicked infernal spirit, who appeared in dreams to the priests and wise men of Egeros and offered them a pact. In exchange for their worship, he would grant them the power to manipulate the humours of the body and save their people from the illness. With this arcane knowledge, the disease was halted, but Nuvorok’s insidious influence twisted his followers into a cruel cult that inflicts foul mutations on its thralls. Now the people of Egeros draw strength from their afflictions, and seek to claim the world in the name of their fiendish master." -- Notice the string ends here and only here
+#descr "A land of rolling plains and placid rivers, Egeros is blessed with fertile soil and rich harvests, but has often been wracked by virulent plagues that hatch in its stagnant marshes. Its populace has long sought to placate the creeping death with offerings to the gods of legend. When magic was released into the world, a disease of incredible ferocity swept over the countryside, slaying thousands. In desperation, many turned to human sacrifice, hoping to appease the unseen reaper with the gift of blood. The gruesome libations drew the attention of Nuvorok, a wicked infernal spirit, who appeared in dreams to the priests and wise men of Egeros and offered them a pact. In exchange for their worship, he would grant them the power to manipulate the humours of the body and save their people from the illness. With this arcane knowledge, the disease was halted, but Nuvorok’s insidious influence twisted his followers into a cruel cult that inflicts foul mutations on its thralls. Now the people of Egeros draw strength from their afflictions, and seek to claim the world in the name of their fiendish master." -- The blurb that shows directly above the recruitment options when you select the nation, usually detailing infrastucture costs
+#summary "Race: Blighted humans.
+Military: Desiccated husks, bloated monstrosities.
+Magic: Nature, Blood, Water, some Earth.
+Priests: Average.
+Forts: Standard Forts." -- Notice the string ends here and only here
 #brief "No description" -- No idea when this is used
-#color 0.0 0.5 0.0 -- This thing is the main background and what represents your nation on scoregraphs
-#secondarycolor 0.5 0.0 0.0 -- Same idea but for secondary background colour, if this one is absent it reverts to the the one above
+#color 1.33 0.36 0.21 -- This thing is the main background and what represents your nation on scoregraphs
+#secondarycolor 1.94 0.15 0.27 -- Same idea but for secondary background colour, if this one is absent it reverts to the the one above
 #flag "SlavesJAMsprite/Oraculum/flag.tga" -- The flag of the nation
 
 #clearsites
@@ -3929,15 +3934,14 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #addreccom 6008 -- Daemonolater Exarch
 #addreccom 6009 -- Disciple of Nuvorok
 #addreccom 6010 -- Herald of Corrosion
-#addreccom 6011 -- Archon of Blight
 
 
 
 #defcom1 6007 -- Bilious Enforcer
-#defunit1 6000 -- This is the unit that the PD calls for, FIXME1
+#defunit1 6003 -- Husk Defiler
 #defmult1 15 -- This many units will appear per 10 PD
-#defcom2 6007 -- Bilious Enforcer
-#defunit2 6003 -- Husk Defiler
+#defcom2 6008 -- Daemonolater Exarch
+#defunit2 6004 -- Putrescent Hulk
 #defmult2 10 -- This many units will appear per 10 PD at and after 20
 
 #wallcom 6007 -- Bilious Enforcer
