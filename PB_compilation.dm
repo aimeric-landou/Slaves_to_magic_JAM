@@ -1596,7 +1596,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #brief "Scorpionfriends" -- No idea when this is used
 #color 255 55 175 -- This thing is the main background and what represents your nation on scoregraphs
 #secondarycolor 100 30 220 -- Same idea, if this one is absent it reverts to the the one above
-#flag "SlavesJAMsprite/Pancake/Flag.tga"
+#flag "SlavesJAMsprite/Pancake/Dual_Cults_Flag.tga"
 #clearsites
 #startsite "The Forge of Souls" -- 1952 -- You can also use the site number
 #likesterr 0 -- was 128 forest but i learned recently that it apparently doesnt really change anything, at least supposedly
