@@ -3111,8 +3111,6 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #weapon 1993 --- AP Claw
 #weapon 1993 --- AP Claw
 #weapon 1993 --- AP Claw
-#weapon "Scorpion Pincer"
-#weapon "Scorpion Stinger"
 #armor 14 -- Hauberk
 #armor 118 -- Half Helmet
 #size 3
@@ -3178,13 +3176,16 @@ Regular Infrastructure" -- Notice the string ends here and only here
 
 #newmonster 6084 -- Super Hawk
 #copystats 1380
+#copyspr 1380
+#name "Taqnian War Birb"
+#descr "The great hawks of Taqnian are only called such colloquially, as any foreigner would marvel at the strange and exotic beauty of the War Birb beyond anything they would have expected upon hearing their simpler local moniker. As for the natives, they tend to find the surprised looks on the foreigners' faces to be quite funny."
 #spr1 "SlavesJAMsprite/Morvarch/morvarch_birb.tga"
 #spr2 "SlavesJAMsprite/Morvarch/morvarch_birb2.tga"
 #darkvision 50
 #patrolbonus 2
 #holy
+#mr 12
 #end
-
 
 --- Heavy
 #newmonster 6085 
@@ -3342,6 +3343,8 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #name "Augmented Champion"
 #spr1 "SlavesJAMsprite/Morvarch/Champion.tga"
 #weapon 8 -- BS
+#weapon "Scorpion Pincer"
+#weapon "Scorpion Stinger"
 #armor 14 -- Hauberk
 #armor 118 - HH
 #armor 112 -- GHS
