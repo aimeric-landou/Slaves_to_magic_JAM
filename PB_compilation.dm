@@ -1267,8 +1267,8 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #size 2
 #hp 10
 #prot 0
-#mr 11
-#mor 10
+#mr 10
+#mor 13
 #str 9
 #att 10
 #def 12
@@ -1295,19 +1295,19 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #spr1 "SlavesJAMsprite/Pancake/CrusaderSerf.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Pancake/CrusaderSerf2.tga" -- remember to tag on the .tga to the end of the directory
 #weapon 2 -- Pike
-#armor 14 -- Hauberk
+#armor 9 -- Cuirass
 #armor 118 -- Half Helmet
 #size 2
 #hp 10
 #prot 0
 #mr 11
 #mor 12
-#str 11
+#str 12
 #att 14
 #def 9
 #prec 10
 #ap 10
-#mapmove 16
+#mapmove 14
 #enc 3
 #maxage 50
 #poorleader
@@ -1320,22 +1320,23 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #itemslots 15494
 #end
 
-#newmonster 6018
+#newmonster 6018 -- turns out that bearo 694 doesn't work super well with my bless, and so i had to go back to birbs because they don't actually need to synergize with my actual troops to be useful. Birbs being able to fly does well enough for them there. This does mean that my sprite is gonna be very not-fitting and the lore doesnt account for the flying but fuck it we're doing it live
 #copystats 694
 #copyspr 694
 #name "Templar Revenant" -- totemic bearo
-#descr "The macabre aspect of the Revenants ended with the conclusion of the first crusades. Once the returning warriors discovered the methods employed to raise their fallen to fight again, they smote those immediately responsible for the practice before they were mollified by the Cult's Patriarchs. Now, a more elegant process has been developed- drawing upon the wellspring of energy that is the Soul Forge and enticing the souls of the fallen as they return to their immortal hearth, the masters of the Cult of Souls developed a way to create life from false bodies. Empowered by the souls of the zealous and the vengeful, and animated by the craft of the Forgers of Souls, the Revenants march to war again." 
+#descr "The macabre aspect of the Revenants ended with the conclusion of the first crusades. Once the returning warriors discovered the methods employed to raise their fallen to fight again, they smote those immediately responsible for the practice before they were mollified by the Cult's Patriarchs. Now, a more elegant process has been developed- drawing upon the wellspring of energy that is the Soul Forge and enticing the souls of the fallen as they return to their immortal hearth, the masters of the Cult of Souls developed a way to create life from false bodies. Empowered by the souls of the zealous and the vengeful, and animated by the craft of the Forgers of Souls, the Revenants march to war again.
+
+...
+
+As they are merely vessels for the souls inhabiting them, Revenants are devoid of most emotions or interests. During times of rest between marches and battles, they often spend their time aiding in rudimentary tasks about the encampment, or simply amble about. Interestingly however, they consistently display a very specific habit whenever the army is encamped along any substantial body of water. Every single able-bodied Revenant will doggedly search for mollusks. They will spend every waking hour doing this until the army prepares to march again, nearly without exception. As such, most commanders generally try to position their encampments away from lakes or coastlines whenever Revenants are within their ranks, as they will entirely ignore any attempts to gain their assistance in their usual labors whenever this 'opportunity' is made available to them.
+
+Oh and they fly. Because we said so. Don't think too hard about their weapons either." 
 #spr1 "SlavesJAMsprite/Pancake/TemplarRevenant.tga"
 #spr2 "SlavesJAMsprite/Pancake/TemplarRevenant2.tga"
-#clearspec -- had to get rid of undisciplined
 #holy
-#animal
-#forestsurvival
-#mountainsurvival
+#mr 12
 #darkvision 50
-#twiceborn 5772
-#hp 48
-#str 22
+#patrolbonus 2
 #end
 
 --- COMMANDER definitions for THE DUAL CULTS
@@ -1430,8 +1431,7 @@ And of those who resist the will of the Cults, they shall fuel their pyres."
 #armor 44 -- Furs
 #armor 118 -- Half Helmet
 #armor 1 -- Buckler
-#size 3
-#ressize 2
+#size 2
 #hp 10
 #prot 0
 #mr 15
@@ -1463,9 +1463,54 @@ And of those who resist the will of the Cults, they shall fuel their pyres."
 #newmonster 6057 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Keeper of Souls" 
 #fixedname "."
-#descr "The masters of the Cult of Souls, the keepers are potent mages and some of the few remaining members of their order who were permitted to retain some of the secrets of their cult." 
+#descr "The masters of the Cult of Souls, the keepers are potent mages and some of the few remaining members of their order who were permitted to retain some of the secrets of their cult.
+
+...
+
+For reasons known only to the highest echelons of the Cult of Souls, they also have an unusual fascination with mollusks. Every single one of them. Down to the last man." 
 #spr1 "SlavesJAMsprite/Pancake/KeeperOfSouls.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Pancake/KeeperOfSouls2.tga" -- remember to tag on the .tga to the end of the directory
+#weapon 8 -- BS
+#armor 44 -- Furs
+#armor 118 -- Half Helmet
+#armor 1 -- Buckler
+#size 2
+#hp 10
+#prot 0
+#mr 14
+#mor 13
+#str 10
+#att 10
+#def 10
+#prec 10
+#ap 10
+#mapmove 14
+#enc 3
+#maxage 50
+#makepearls 3
+#poorleader
+#holy
+#custommagic 10240 100
+#custommagic 10240 100
+#custommagic 10240 100
+#drainimmune
+#custommagic 8704 100
+#custommagic 8192 10
+#humanoid
+#gcost 10010 -- Add 10000 to make it autocalc, so this is base price 10 plus or minus autocalc
+#rcost 1 -- Do NOT change this, it automatically adds the cost of equipment in game
+#rpcost 10000 -- Base value multiplied by 1000, same for commanders and troops
+#nametype 100 -- Generic male names
+#itemslots 15494
+#end
+
+--- Keeper of the Forge
+#newmonster 6058 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
+#name "Keeper of the Forge" 
+#fixedname "."
+#descr "The hallowed keepers of the Soul Forge are sometimes sent from their place of craft and worship to perform their holy works within and upon the rest of the world, and its people. They are among the most magically potent of the Duality, and serve it utterly and without division." 
+#spr1 "SlavesJAMsprite/Pancake/KeeperOfTheForge.tga" -- remember to tag on the .tga to the end of the directory
+#spr2 "SlavesJAMsprite/Pancake/KeeperOfTheForge2.tga" -- remember to tag on the .tga to the end of the directory
 #weapon 8 -- BS
 #armor 44 -- Furs
 #armor 118 -- Half Helmet
@@ -1482,54 +1527,8 @@ And of those who resist the will of the Cults, they shall fuel their pyres."
 #ap 10
 #mapmove 14
 #enc 3
-#maxage 50
-#poorleader
-#holy
-#custommagic 10240 100
-#custommagic 10240 100
-#custommagic 10240 100
-#drainimmune
-#custommagic 8704 100
-#custommagic 8192 10
-#humanoid
-#gcost 10000 -- Add 10000 to make it autocalc, so this is base price 10 plus or minus autocalc
-#rcost 1 -- Do NOT change this, it automatically adds the cost of equipment in game
-#rpcost 10000 -- Base value multiplied by 1000, same for commanders and troops
-#nametype 100 -- Generic male names
-#itemslots 15494
-#end
-
---- Keeper of the Forge
-#newmonster 6058 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
-#name "Keeper of the Forge" 
-#fixedname "."
-#descr "The hallowed keepers of the Soul Forge are sometimes sent from their place of craft and worship to perform their holy works within and upon the rest of the world, and its people. They are among the most magically potent of the Duality, and serve it utterly and without division.
-
-...
-
-For reasons known only to the highest echelons of the Cult of Souls, they also have an unusual fascination with mollusks. Every single one of them. Down to the last man." 
-#spr1 "SlavesJAMsprite/Pancake/KeeperOfTheForge.tga" -- remember to tag on the .tga to the end of the directory
-#spr2 "SlavesJAMsprite/Pancake/KeeperOfTheForge2.tga" -- remember to tag on the .tga to the end of the directory
-#weapon 8 -- BS
-#armor 44 -- Furs
-#armor 118 -- Half Helmet
-#armor 1 -- Buckler
-#size 2
-#hp 10
-#prot 0
-#mr 14
-#mor 10
-#str 10
-#att 10
-#def 10
-#prec 10
-#ap 10
-#mapmove 14
-#enc 3
 #maxage 200
-#makepearls 3
-#custommagic 2560 100
-#custommagic 2560 100
+#magicskill 2 1
 #custommagic 2560 100
 #drainimmune
 #custommagic 640 100
@@ -1537,7 +1536,7 @@ For reasons known only to the highest echelons of the Cult of Souls, they also h
 #poorleader
 #holy
 #humanoid
-#gcost 10010 -- Add 10000 to make it autocalc, so this is base price 10 plus or minus autocalc
+#gcost 10000 -- Add 10000 to make it autocalc, so this is base price 10 plus or minus autocalc
 #rcost 1 -- Do NOT change this, it automatically adds the cost of equipment in game
 #rpcost 10000 -- Base value multiplied by 1000, same for commanders and troops
 #nametype 100 -- Generic male names
@@ -1590,8 +1589,8 @@ Among their sacred duties is also the preparation of the false flesh of the Reve
 #rarity 5 -- I believe this makes it unique
 #path Earth -- No idea what this button does
 #name "The Forge of Souls" -- Name of the site, keep it short generally
-#gems 4 3 -- Look to the mod manual for the magic path numbers
-#gems 6 2 -- This gives you 2 gems of path 6
+#gems 2 3 -- Look to the mod manual for the magic path numbers
+#gems 4 2 -- Look to the mod manual for the magic path numbers
 #end
 -- Nation 175: The Dual Cults
 #selectnation 175 -- DE has nations up to 168, apparently
@@ -1604,7 +1603,7 @@ Among their sacred duties is also the preparation of the false flesh of the Reve
 #brief "Scorpionfriends" -- No idea when this is used
 #color 255 55 175 -- This thing is the main background and what represents your nation on scoregraphs
 #secondarycolor 100 30 220 -- Same idea, if this one is absent it reverts to the the one above
--- #flag "SlavesJAMsprite/Pancake/Dual_Cults_Flag.tga"
+#flag "SlavesJAMsprite/Pancake/Dual_Cults_Flag.tga"
 #clearsites
 #startsite "The Forge of Souls" -- 1952 -- You can also use the site number
 #likesterr 0 -- was 128 forest but i learned recently that it apparently doesnt really change anything, at least supposedly
@@ -1621,17 +1620,17 @@ Among their sacred duties is also the preparation of the false flesh of the Reve
 #addreccom 6059
 #defcom1 34
 #defunit1 6053 -- Crusader Serf
-#defmult1 10 -- This many units will appear per 10 PD
+#defmult1 20 -- This many units will appear per 10 PD
 #defcom2 34
 #defunit2 6053 -- Crusader Serf
-#defmult2 10 -- This many units will appear per 10 PD after 20
+#defmult2 30 -- This many units will appear per 10 PD after 20
 #wallcom 34
-#wallunit 6054 -- Crusader Serf
+#wallunit 6053 -- Crusader Serf
 #wallmult 10
 #startcom 34
 #startscout 426
 #startunittype1 6053 -- Crusader Serf
-#startunitnbrs1 20 -- This many of the aforementioned unit will appear
+#startunitnbrs1 23 -- This many of the aforementioned unit will appear
 #fortera 2 
 #syncretism 1
 #earthblessbonus 1
@@ -1641,10 +1640,8 @@ Among their sacred duties is also the preparation of the false flesh of the Reve
 #homerealm 3
 #homerealm 4
 #homerealm 10 -- Default Gods
---REMEMBER TO REMOVE THIS AFTER TESTING
 #templepic 23
 #end
-
 
 
 
