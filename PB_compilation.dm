@@ -3110,10 +3110,12 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #newmonster 6082
 #name "Enhanced"
 #spr1 "SlavesJAMsprite/Morvarch/Claws.tga"
-#weapon 1993 --- AP Claw
-#weapon 1993 --- AP Claw
-#weapon 1993 --- AP Claw
 #weapon 4 -- Lance
+#weapon 1993 --- AP Claw
+#weapon 1993 --- AP Claw
+#weapon 1993 --- AP Claw
+#weapon "Scorpion Pincer"
+#weapon "Scorpion Stinger"
 #armor 14 -- Hauberk
 #armor 118 -- Half Helmet
 #size 3
