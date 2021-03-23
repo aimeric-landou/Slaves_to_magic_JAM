@@ -3181,7 +3181,8 @@ Regular Infrastructure" -- Notice the string ends here and only here
 
 #newmonster 6084 -- Super Hawk
 #copystats 1380
-#copyspr 1380
+#spr1 "SlavesJAMsprite/Morvarch/morvarch_birb.tga"
+#spr2 "SlavesJAMsprite/Morvarch/morvarch_birb2.tga"
 #darkvision 50
 #patrolbonus 2
 #holy
