@@ -3213,8 +3213,8 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #mr 11
 #mor 13
 #str 14
-#att 9
-#def 10
+#att 11
+#def 9
 #prec 10
 #ap 10
 #mapmove 14
@@ -3531,8 +3531,10 @@ Regular Infrastructure" -- Notice the string ends here and only here
 
 #startcom 34
 #startscout 426
-#startunittype1 6082 -- Thrice Clawed
-#startunitnbrs1 20 -- This many of the aforementioned unit will appear
+#startunittype1 6085 -- Breakers
+#startunitnbrs1 15 -- This many of the aforementioned unit will appear
+#startunittype1 6081 -- Militia
+#startunitnbrs1 15 -- This many of the aforementioned unit will appear
 
 #fortera 2
 #idealcold 0 -- Starting at Cold 3 means 120 less design points
