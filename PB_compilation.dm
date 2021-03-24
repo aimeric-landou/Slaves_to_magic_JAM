@@ -898,7 +898,7 @@ Some few Beastmen distinguish themselves by retaining a greater part of the phys
 #enc 3
 #maxage 50
 #noleader
-#stealthy 30
+#stealthy 45
 #spy
 #swampsurvival
 #humanoid
@@ -936,7 +936,7 @@ Various inexplicable trends come and go among these adventuring authors, the lat
 #enc 4
 #maxage 50
 #goodleader
-#inspirational
+#inspirational 2
 #mountedhumanoid
 #mounted
 #gcost 10010 -- Add 10000 to make it autocalc
@@ -1066,8 +1066,8 @@ An Accredited Apprentice is a more experienced mage, though they were not taught
 #size 2
 #hp 10
 #prot 0
-#mr 12
-#mor 12
+#mr 16
+#mor 13
 #str 10
 #att 10
 #def 10
