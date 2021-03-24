@@ -2059,7 +2059,7 @@ Dominion: Standard, coastal forts have +20% income." -- Notice the string ends h
 #startcom 6045 -- Attendant Master
 #startscout 426 -- Generic Scout
 #startunittype1 6040 -- Steel Rose Warrior
-#startunitnbrs1 50
+#startunitnbrs1 38
 
 #addgod 2082
 
