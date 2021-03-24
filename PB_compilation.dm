@@ -2341,28 +2341,27 @@ Dominion: Standard, coastal forts have +20% income." -- Notice the string ends h
 #hp 15
 #prot 0
 #mr 14
-#mor 10
+#mor 8
 #str 10
-#att 10
-#def 10
+#att 8
+#def 8
 #prec 10
 #ap 12
 #mapmove 16
 #enc 4
 #maxage 50
 #poorleader
-#shockres 10
 #fireres 3
 #supplybonus -1
-#float
+#slave
 #armor 158 -- "Robes"
 #weapon 9 -- "Dagger"
 #humanoid
-#gcost 10020 -- Add 10000 to make it autocalc, so this is base price 10 plus or minus autocalc
+#gcost 10000 -- Add 10000 to make it autocalc, so this is base price 10 plus or minus autocalc
 #rcost 1 -- Do NOT change this, it automatically adds the cost of equipment in game
 #rpcost 10000 -- Base value multiplied by 1000, same for commanders and troops
 #nametype 111 -- Caelum male names
-#descr "With the coming of the new god, a sect of hemomancers flourished in the ancient Shara. The sect is now tasked by the ruling castes with the collecting of fresh blood for the use of Astrologists and Grand Ritualists. They are now taught the manipulation of blood magic in the repurposed academies of Shara. One of the first tricks Sharan mages learn is the ability to hover and reduce the strain of long journeys. They arbor the ritualistic Sharan tattoos that protect them from lightning."
+#descr "With the coming of the new god, a sect of hemomancers flourished in the ancient Shara. They enter willingly into a life of servitude and spill blood in the name of Hadar. The sect is now tasked by the ruling castes with the collecting of fresh blood for the use of Astrologists and Grand Ritualists. They are now taught the manipulation of blood magic in the repurposed academies of Shara. One of the first tricks Sharan mages learn is the ability to hover and reduce the strain of long journeys. They arbor the ritualistic Sharan tattoos that protect them from lightning."
 #itemslots 15494
 #end
 
