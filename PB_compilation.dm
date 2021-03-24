@@ -667,8 +667,20 @@
 #name "Alethkar"
 #epithet "Stormlight Princedoms"
 #descr "Alethkar is a land of windswept hills periodically battered by brutal storms. Storms with such force that to be left out during one is a ritual death sentence. Storms so powerful it shapes the people, their architecture, their society and their religion. The storms are not without their benefits however; rich nutrients are churned up from the sea and deposited on the fields after each passing, and it ingrained a stubborn, never-surrender attitude in those who learned to survive it. Aelthi society is tiered, with the main separation by eye colours; those with bright colours are of a higher class than those of darkeyes. They are further divided into ten steps, for a total of twenty classes, with the Lighteye Highprince or Highprincess being at the top, or 1st Dahn, and a darkeyed criminal at the bottom, or 10th Nahn. Citizens can move up and down their rankings by behaviour, professional skills, and wealth. However, the gap between a lighteye and a darkeye may never be breached."
-#summary "Hee hee hoo hoo I am a bit of text that Bamboo definatly wrote and didnt leave out now this is 2/2 empty on the 2 nations I have made for this StM" -- Notice the string ends here and only here
+#summary "Path 	WASDN
 
+Nation	Imperialist (W1 A2 S2 D2 N1)
+
+Magic	Chaotic
+
+Equipment	Feudal
+	Heavy (Spear(1), Battleaxe(18))
+
+Unit	Conformity (Magic Resist)
+
+Domain	Antimagic (A) (Spell name : Stormblessed)
+	Seaworthy [lore bonus]
+	Extreme (spread Heat 3) [sprite bonus]"
 
 #brief "No description" -- No idea when this is used
 #color 0.0 0.5 0.0 -- This thing is the main background and what represents your nation on scoregraphs
@@ -715,6 +727,7 @@
 #fortera 3 -- Just Imperialist Things TM
 #idealcold -3 -- Spicy 
 #spreadheat 3 -- Extra Spicy
+#tradecoast 20
 
 #homerealm 4 -- Far East
 #homerealm 10 -- Default Gods
@@ -1313,7 +1326,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #poorleader
 #formationfighter 3
 #humanoid
-#gcost 10010 -- Add 10000 to make it autocalc, so this is base price 10 plus or minus autocalc
+#gcost 10012 -- Add 10000 to make it autocalc, so this is base price 10 plus or minus autocalc
 #rcost 1 -- Do NOT change this, it automatically adds the cost of equipment in game
 #rpcost 10000 -- Base value multiplied by 1000, same for commanders and troops
 #nametype 100 -- Generic male names
@@ -3200,8 +3213,8 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #mr 11
 #mor 13
 #str 14
-#att 9
-#def 10
+#att 11
+#def 9
 #prec 10
 #ap 10
 #mapmove 14
@@ -3518,8 +3531,10 @@ Regular Infrastructure" -- Notice the string ends here and only here
 
 #startcom 34
 #startscout 426
-#startunittype1 6082 -- Thrice Clawed
-#startunitnbrs1 20 -- This many of the aforementioned unit will appear
+#startunittype1 6085 -- Breakers
+#startunitnbrs1 15 -- This many of the aforementioned unit will appear
+#startunittype1 6081 -- Militia
+#startunitnbrs1 15 -- This many of the aforementioned unit will appear
 
 #fortera 2
 #idealcold 0 -- Starting at Cold 3 means 120 less design points
