@@ -2184,7 +2184,7 @@ Dominion: Standard, coastal forts have +20% income." -- Notice the string ends h
 #patrolbonus 2
 #slave
 #deathcurse
-#weapon 2 -- "Pike"
+#weapon "Spear"
 #armor "Leather and Cloth"
 #armor "Leather Cap"
 #humanoid
