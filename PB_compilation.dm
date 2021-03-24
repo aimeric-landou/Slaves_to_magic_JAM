@@ -2361,7 +2361,7 @@ Dominion: Standard, coastal forts have +20% income." -- Notice the string ends h
 #rcost 1 -- Do NOT change this, it automatically adds the cost of equipment in game
 #rpcost 10000 -- Base value multiplied by 1000, same for commanders and troops
 #nametype 111 -- Caelum male names
-#descr "With the coming of the new god, a sect of hemomancers flourished in the ancient Shara. They enter willingly into a life of servitude and spill blood in the name of Hadar. The sect is now tasked by the ruling castes with the collecting of fresh blood for the use of Astrologists and Grand Ritualists. They are now taught the manipulation of blood magic in the repurposed academies of Shara. One of the first tricks Sharan mages learn is the ability to hover and reduce the strain of long journeys. They arbor the ritualistic Sharan tattoos that protect them from lightning."
+#descr "With the coming of the new god, a sect of hemomancers flourished in the ancient Shara. They enter willingly into a life of servitude and spill blood in the name of Hadar. The sect is now tasked by the ruling castes with the collecting of fresh blood for the use of Astrologists and Grand Ritualists. They are now taught the manipulation of blood magic in the repurposed academies of Shara."
 #itemslots 15494
 #end
 
