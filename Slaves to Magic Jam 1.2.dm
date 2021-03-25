@@ -667,20 +667,17 @@
 #name "Alethkar"
 #epithet "Stormlight Princedoms"
 #descr "Alethkar is a land of windswept hills periodically battered by brutal storms. Storms with such force that to be left out during one is a ritual death sentence. Storms so powerful it shapes the people, their architecture, their society and their religion. The storms are not without their benefits however; rich nutrients are churned up from the sea and deposited on the fields after each passing, and it ingrained a stubborn, never-surrender attitude in those who learned to survive it. Aelthi society is tiered, with the main separation by eye colours; those with bright colours are of a higher class than those of darkeyes. They are further divided into ten steps, for a total of twenty classes, with the Lighteye Highprince or Highprincess being at the top, or 1st Dahn, and a darkeyed criminal at the bottom, or 10th Nahn. Citizens can move up and down their rankings by behaviour, professional skills, and wealth. However, the gap between a lighteye and a darkeye may never be breached."
-#summary "Path 	WASDN
+#summary "Path: WASDN
 
-Nation	Imperialist (W1 A2 S2 D2 N1)
+Nation: Imperialist (W1 A2 S2 D2 N1)
 
-Magic	Chaotic
+Magic: Chaotic
 
-Equipment	Feudal
-	Heavy (Spear(1), Battleaxe(18))
+Equipment: Feudal, Heavy (Spear(1), Battleaxe(18))
 
-Unit	Conformity (Magic Resist)
+Unit: Conformity (Magic Resist)
 
-Domain	Antimagic (A) (Spell name : Stormblessed)
-	Seaworthy [lore bonus]
-	Extreme (spread Heat 3) [sprite bonus]"
+Domain: Antimagic (A) (Spell name : Stormblessed), Seaworthy [lore bonus], Extreme (spread Heat 3) [sprite bonus]"
 
 #brief "No description" -- No idea when this is used
 #color 0.0 0.5 0.0 -- This thing is the main background and what represents your nation on scoregraphs
@@ -2510,7 +2507,7 @@ P.S. reflavour of Statue of the Underworld"
 #name "Shara" -- Main name, like Ulm
 #epithet "The Voracious" -- The thing that appears after the automatically made comma
 #descr "Hidden among the dunes of the desert north of the limits of the known world, a nation of scholars studying the secrets of the stars peered too far into the depths of space. An ancient, powerful entity stared back, and the once proud nation of Shara is now but a caricature of its ancient glory. Blood is now spilled routinely in the name of the Hungry God to feed his never ending appetite, and to satisfy the new grotesque fascination of Shara’s scholars for blood magic." -- The blurb that shows above te recruitment options when you select the nation
-#summary "Race: Starving Demihumans
+#summary "Race: Starving corrupted humans. Prefer Heat 2.
 
 Military: Heavily armoured pikeneers. Lighter dual-wielding infantry. Elite gryphon riders.
 
@@ -2560,7 +2557,7 @@ Priests: Weak." -- Notice the string ends here and only here
 
 #fortera 3 -- Just Imperialist Things TM
 -- #castleprod 40 -- Just Industrial Things TM
-#idealcold -3 -- Starting at Cold 3 means 120 less design points
+#idealcold -2 -- Starting at Cold 3 means 120 less design points
 
 #homerealm 3 -- Mediterranean
 #homerealm 10 -- Default Gods
