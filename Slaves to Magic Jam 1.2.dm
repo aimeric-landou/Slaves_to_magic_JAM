@@ -1,4 +1,4 @@
-#modname "PB Compilation" 
+#modname "StM Jam 1.2" 
 #description "An assortment of StM nation"
 #icon "SlavesJAMsprite/banner.tga" 
 #disableoldnations
