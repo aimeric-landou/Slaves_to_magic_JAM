@@ -2052,9 +2052,9 @@ Dominion: Standard, coastal forts have +20% income." -- Notice the string ends h
 #addrecunit 6042 -- Ice Vine Archer
 #addrecunit 6043 -- Blood Lily Warrior
 
-#addreccom 6045 -- Fire Ivy Marksman
+#addreccom 6044 -- Fire Ivy Marksman
+#addreccom 6045 -- Ivy Marksman
 #addreccom 6046 -- Attendant Master
-#addreccom 6046 -- Ivy Marksman
 #addreccom 6047 -- Blood Lily Cultivator
 #addreccom 6048 -- Blood Lily Attendant
 
