@@ -2052,24 +2052,24 @@ Dominion: Standard, coastal forts have +20% income." -- Notice the string ends h
 #addrecunit 6042 -- Ice Vine Archer
 #addrecunit 6043 -- Blood Lily Warrior
 
-#addreccom 6044 -- Fire Ivy Marksman
-#addreccom 6045 -- Attendant Master
+#addreccom 6045 -- Fire Ivy Marksman
+#addreccom 6046 -- Attendant Master
 #addreccom 6046 -- Ivy Marksman
 #addreccom 6047 -- Blood Lily Cultivator
 #addreccom 6048 -- Blood Lily Attendant
 
-#defcom1 6045 -- Attendant Master
+#defcom1 6046 -- Attendant Master
 #defunit1 6040 -- Steel Rose Warrior
 #defmult1 25
-#defcom2 6045 -- Attendant Master
+#defcom2 6046 -- Attendant Master
 #defunit2 6042 -- Ice Vine Archer
 #defmult2 23
 
-#wallcom 6045 -- Attendant Master
+#wallcom 6046 -- Attendant Master
 #wallunit 6050 -- Steel Rose Warrior
 #wallmult 12
 
-#startcom 6045 -- Attendant Master
+#startcom 6046 -- Attendant Master
 #startscout 426 -- Generic Scout
 #startunittype1 6040 -- Steel Rose Warrior
 #startunitnbrs1 38
