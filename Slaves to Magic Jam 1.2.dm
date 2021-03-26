@@ -2509,6 +2509,17 @@ P.S. reflavour of Statue of the Underworld"
 #homerealm 0 -- remove it from homerealm mediterranean
 #end
 
+#newmonster 6097
+#copystats 2449 -- Idol of Sorcery
+#copyspr 5008 -- sprites from the Statue of the Outer Gods
+#name "Statue of the Hungry God"
+#descr "This statue has been crafted by the Hands as a tribute to Hadar. The fanatical practices of worship carried out by the priests has given life to a projection of Hadar that now inhabits the Statue. The entity cannot project his power far from the statue, but it can possess willing targets in order to make its will heard and to perform tasks such as forging items for enchantment. The projection is tremendously strong in its Dominion. The statue is deeply unsettling and although it cannot strike back in coat enemies may flee rather than face it.
+
+P.S. reflavour of Statue of the Underworld"
+#homerealm 0 -- remove it from homerealm mediterranean
+#end
+
+
 --- Sites for SHARA
 #newsite 1954 -- DE goes up to 1902, so I'll be using 1950 to the limit of 1999
 #level 0 -- Pretty sure this makes it instantly visible
@@ -2585,7 +2596,7 @@ Priests: Weak." -- Notice the string ends here and only here
 #homerealm 3 -- Mediterranean
 #homerealm 10 -- Default Gods
 #addgod 6019 -- statue of the underwold reflavoured
-
+#addgod 6097 -- idol of sorcery
 #templepic 14 -- 
 
 #end
