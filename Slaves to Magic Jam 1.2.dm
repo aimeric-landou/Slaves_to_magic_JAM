@@ -41,19 +41,40 @@
 
 #newspell
 #copyspell "Antimagic"
+#name "Will of the Forge"
+#descr "The strength of the Firebrand Cult comes in part from their indomitable will. The looming, gestalt consciousness of the Apostelery can be called upon by the Cult to empower the armies of the faithful, and aid them in resisting the foul heathen magics that would oppose their great crusade."
+#path 0 0
 #pathlevel 0 3
 #restricted 175
 #end
 
-#copyspell "Enslavement"
+#newspell
+#copyspell 1025 -- Enslave Mind
 #name "Soul Binding"
 #descr "The gifts of magic are granted to those of the Cults by the Forge of Souls, which empowers the chosen with wonderous power. When called to work their craft in times of war, the Soul Forgers of the Cults can draw out the souls of the heretic and the heathen, and reforge them in the image of the Forge's chosen, forever tethering it to the Soul Forge alongside the rest of the faithful. A strong will can resist the binding, but the Forgers are skillful in their craft and can perform their work upon multiple souls at once."
+#researchlevel 7
+#fatiguecost 40
+#aoe 1
 #restricted 175
 #end
 
-#copyspell "Polypal growth"
+
+#newspell
 #name "Rouse the Soul"
 #descr "The potency of the soul is awoken within the bodies of the faithful, infusing their flesh with the strength the Forge imbued within them as they drew their first breath. This semi-aware potency is at once an aspect of both the man and the soul, and will attempt to protect both from harm. If its will is defied however, the malign aspect of the soul releases a spiteful burst of virulent death before withdrawing from the realm of the flesh."
+#school 1
+#researchlevel 4
+#path 0 2
+#pathlevel 0 2
+#nreff 1
+#range 15
+#effect 23
+#damage 8
+#aoe 1003
+#range 5010
+#fatiguecost 30
+#explspr 10009
+#spec 12599296 -- Can use UW, ignore shields, friendlies only
 #restricted 175
 #end
 
@@ -1332,8 +1353,8 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #end
 
 #newmonster 6018 -- turns out that bearo 694 doesn't work super well with my bless, and so i had to go back to birbs because they don't actually need to synergize with my actual troops to be useful. Birbs being able to fly does well enough for them there. This does mean that my sprite is gonna be very not-fitting and the lore doesnt account for the flying but fuck it we're doing it live
-#copystats 694
-#copyspr 694
+#copystats 1380
+#copyspr 1380
 #name "Templar Revenant" -- totemic bearo
 #descr "The macabre aspect of the Revenants ended with the conclusion of the first crusades. Once the returning warriors discovered the methods employed to raise their fallen to fight again, they smote those immediately responsible for the practice before they were mollified by the Cult's Patriarchs. Now, a more elegant process has been developed- drawing upon the wellspring of energy that is the Soul Forge and enticing the souls of the fallen as they return to their immortal hearth, the masters of the Cult of Souls developed a way to create life from false bodies. Empowered by the souls of the zealous and the vengeful, and animated by the craft of the Forgers of Souls, the Revenants march to war again.
 
@@ -1344,6 +1365,7 @@ As they are merely vessels for the souls inhabiting them, Revenants are devoid o
 Oh and they fly. Because we said so. Don't think too hard about their weapons either." 
 #spr1 "SlavesJAMsprite/Pancake/TemplarRevenant.tga"
 #spr2 "SlavesJAMsprite/Pancake/TemplarRevenant2.tga"
+#drawsize -50
 #holy
 #mr 12
 #darkvision 50
