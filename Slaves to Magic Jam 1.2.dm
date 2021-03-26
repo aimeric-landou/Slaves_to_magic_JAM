@@ -725,6 +725,7 @@ Domain: Antimagic (A) (Spell name : Stormblessed), Seaworthy [lore bonus], Extre
 #idealcold -3 -- Spicy 
 #spreadheat 3 -- Extra Spicy
 #tradecoast 20
+#coastnation
 
 #homerealm 4 -- Far East
 #homerealm 10 -- Default Gods
