@@ -41,39 +41,32 @@
 
 #newspell
 #copyspell "Antimagic"
-#name "Will of the Forge"
-#descr "The strength of the Firebrand Cult comes in part from their indomitable will. The looming, gestalt consciousness of the Apostelery can be called upon by the Cult to empower the armies of the faithful, and aid them in resisting the foul heathen magics that would oppose their great crusade."
-#path 0 0
 #pathlevel 0 3
 #restricted 175
 #end
 
-#newspell
-#copyspell 1025 -- Enslave Mind
+#copyspell "Enslavement"
 #name "Soul Binding"
 #descr "The gifts of magic are granted to those of the Cults by the Forge of Souls, which empowers the chosen with wonderous power. When called to work their craft in times of war, the Soul Forgers of the Cults can draw out the souls of the heretic and the heathen, and reforge them in the image of the Forge's chosen, forever tethering it to the Soul Forge alongside the rest of the faithful. A strong will can resist the binding, but the Forgers are skillful in their craft and can perform their work upon multiple souls at once."
-#researchlevel 7
-#fatiguecost 40
-#aoe 1
+#restricted 175
+#end
+
+#copyspell "Polypal growth"
+#name "Rouse the Soul"
+#descr "The potency of the soul is awoken within the bodies of the faithful, infusing their flesh with the strength the Forge imbued within them as they drew their first breath. This semi-aware potency is at once an aspect of both the man and the soul, and will attempt to protect both from harm. If its will is defied however, the malign aspect of the soul releases a spiteful burst of virulent death before withdrawing from the realm of the flesh."
 #restricted 175
 #end
 
 #newspell
-#name "Rouse the Soul"
-#descr "The potency of the soul is awoken within the bodies of the faithful, infusing their flesh with the strength the Forge imbued within them as they drew their first breath. This semi-aware potency is at once an aspect of both the man and the soul, and will attempt to protect both from harm. If its will is defied however, the malign aspect of the soul releases a spiteful burst of virulent death before withdrawing from the realm of the flesh."
-#school 1
-#researchlevel 4
-#path 0 2
-#pathlevel 0 2
-#nreff 1
-#range 15
-#effect 23
-#damage 8
-#aoe 1003
-#range 5010
-#fatiguecost 30
-#explspr 10009
-#spec 12599296 -- Can use UW, ignore shields, friendlies only
+#copyspell 739 -- Power of the Spheres
+#name "Arcane Amplification"
+#descr "Please let this work"
+#details "Grants a +1 bonus to all magic paths to all friendly mages"
+#researchlevel 6
+#pathlevel 0 5
+#fatiguecost 300
+#aoe 666
+#spec 12599296 -- Can use UW, ignores shields, friendlies only
 #restricted 175
 #end
 
@@ -144,7 +137,7 @@
 #pathlevel 0 3
 #path 1 3
 #pathlevel 1 1
-#restricted 175 -- this isn't meant to be for the Dual Cults
+#restricted 175
 #end
 
 #newspell
@@ -156,7 +149,7 @@
 #path 1 0
 #pathlevel 1 1
 #damage 266240 -- Earth and Fire power
-#restricted 175 -- this isn't meant to be for the Dual Cults
+#restricted 175
 #end
 
 
@@ -666,6 +659,7 @@
 #gems 5 1 -- 1 Death
 #gems 6 1 -- 1 Nature
 #end
+
 ------ Nation 171: ALETHKAR PROPER
 #selectnation 171 -- DE has nations up to 168, apparently
 #clear
@@ -674,26 +668,37 @@
 #epithet "Stormlight Princedoms"
 #descr "Alethkar is a land of windswept hills periodically battered by brutal storms. Storms with such force that to be left out during one is a ritual death sentence. Storms so powerful it shapes the people, their architecture, their society and their religion. The storms are not without their benefits however; rich nutrients are churned up from the sea and deposited on the fields after each passing, and it ingrained a stubborn, never-surrender attitude in those who learned to survive it. Aelthi society is tiered, with the main separation by eye colours; those with bright colours are of a higher class than those of darkeyes. They are further divided into ten steps, for a total of twenty classes, with the Lighteye Highprince or Highprincess being at the top, or 1st Dahn, and a darkeyed criminal at the bottom, or 10th Nahn. Citizens can move up and down their rankings by behaviour, professional skills, and wealth. However, the gap between a lighteye and a darkeye may never be breached."
 #summary "Path: WASDN
+
 Nation: Imperialist (W1 A2 S2 D2 N1)
+
 Magic: Chaotic
+
 Equipment: Feudal, Heavy (Spear(1), Battleaxe(18))
+
 Unit: Conformity (Magic Resist)
+
 Domain: Antimagic (A) (Spell name : Stormblessed), Seaworthy [lore bonus], Extreme (spread Heat 3) [sprite bonus]"
+
 #brief "No description" -- No idea when this is used
 #color 0.0 0.5 0.0 -- This thing is the main background and what represents your nation on scoregraphs
 #secondarycolor 0.5 0.0 0.0 -- Same idea, if this one is absent it reverts to the the one above
 #flag "SlavesJAMsprite/Bamboo/AlethkarBanner.tga"
+
 #clearsites
 #startsite "Kolinar" -- 1951
+
+
 #clearrec
 #addrecunit 6020 -- Obligated
 #addrecunit 6021 -- Drafted
 #addrecunit 6022 -- Contracted
+
 #addreccom 6024 -- Brightlord
 #addreccom 6025 -- Scribe
 #addreccom 6026 -- Scholar
 #addreccom 6027 -- Stormwarden
 #addreccom 6028 -- Antifabrian
+
 #defcom1 6024 -- Brightlord
 #defunit1 6020 -- Obligated
 #defmult1 8
@@ -704,15 +709,18 @@ Domain: Antimagic (A) (Spell name : Stormblessed), Seaworthy [lore bonus], Extre
 #defmult2 15
 #defunit2b 60021 -- Drafted
 #defmult2b 10
+
 #wallcom 6024 -- Brightlord
 #wallunit 6020 -- Obligated
 #wallmult 10
+
 #startcom 6024 -- Brightlord
 #startscout 426 -- Basic Scout
 #startunittype1 6021  -- Drafted
 #startunitnbrs1 16
 #startunittype1 6022  -- Contracted
 #startunitnbrs1 6
+
 #fortera 3 -- Just Imperialist Things TM
 #idealcold -3 -- Spicy 
 #spreadheat 3 -- Extra Spicy
@@ -721,10 +729,17 @@ Domain: Antimagic (A) (Spell name : Stormblessed), Seaworthy [lore bonus], Extre
 
 #homerealm 4 -- Far East
 #homerealm 10 -- Default Gods
+
 #templepic 9 -- Weird stuf that is not Forest Temple and should therefore be shamed
+
 #end
 
+
+
+
+
 --- TROOP definitions for VIVIS
+
 --- Enlisted Enforcer
 #newmonster 6030 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Enlisted Enforcer" 
@@ -754,9 +769,11 @@ Domain: Antimagic (A) (Spell name : Stormblessed), Seaworthy [lore bonus], Extre
 #rpcost 10000 -- Base value multiplied by 1000, same for commanders and troops
 #nametype 100 -- Generic male names
 #descr "Though the Beastmen are generally loyal to Moreau and his commandments, exceptions do occur. A beastman who breaks the commandments will lose some of the gift of reason, becoming erratic and dangerous. Beastman soldiers are therefore not trusted to guard the cities of men, instead human enforcers are trained. 
+
 They rely on two main lines of defense - firstly, they show no fear. This on it’s own can be enough to prevent an attack by a rogue beastman. Secondly, they carry crossbows and are exceptional marksmen. Beastmen soldiers are not given shields, so rogues are easy prey for their bolts. They carry swords as a last resort, though they are often unskilled in their use." 
 #itemslots 15494
 #end
+
 --- Hulking Halberdier
 #newmonster 6031 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Hulking Halberdier" 
@@ -787,9 +804,11 @@ They rely on two main lines of defense - firstly, they show no fear. This on it�
 #nametype 100 -- Generic male names
 #descr "They wore helmets of iron too, and thereunder peered out their elfin faces at me, faces with protruding lower-jaws and bright eyes. They had lank black hair, almost like horsehair, and seemed as they sat to exceed in stature any race of men I have seen.
 Edward Prendick, Traveller
+
 Larger beasts such as horses and oxen will often retain something of their size as a Beastman. Despite their affinity for manual labour, they are also recruited as soldiers, where they are given iron armour and expected to form the vanguard of the army." 
 #itemslots 15494
 #end
+
 --- Beast Brother
 #newmonster 6032 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Beast Brother" 
@@ -820,9 +839,11 @@ Larger beasts such as horses and oxen will often retain something of their size 
 #nametype 100 -- Generic male names
 #descr "Each of these creatures, despite its human form, its rag of clothing, and the rough humanity of its bodily form, had woven into it - into its movements, into the expression of its countenance, into its whole presence - the unmistakable mark of the beast.
 Edward Prendick, Traveller. 
+
 Each Beastman bears some legacy of its original form in its appearance, its movements and in its mannerisms. For the majority, this is perhaps more of a hindrance than a benefit. Considered expendable, they are dressed in furs that are made from the pelts shed during the transformation of animals into Beastmen, though the irony of this seems to be lost on them." 
 #itemslots 15494
 #end
+
 --- Honored Hussar
 #newmonster 6033 
 #name "Honored Hussar"
@@ -860,10 +881,13 @@ Each Beastman bears some legacy of its original form in its appearance, its move
 #nametype 100
 #descr "The facial part projected, forming something dimly suggestive of a muzzle, and the huge half-open mouth showed as big white teeth as I had ever seen in a human mouth.  His eyes were blood-shot at the edges, with scarcely a rim of white round the hazel pupils. There was a curious glow of excitement in his face.
 Edward Prendick, Traveller
+
 Some few Beastmen distinguish themselves by retaining a greater part of the physical capabilities, reflexes and ferocity from their original form. Mostly originating from carnivorous hunting beasts, they form an elite force in the armies of Vivis, being granted the finest equipment and an untransformed, trained lion as a steed. The prestige of their role makes them arrogant when around their lesser brethren, though they remain subservient around humans."
 #itemslots 13446
 #end
+
 --- COMMANDER definitions for VIVIS
+
 --- Adventuring Author
 #newmonster 6034 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Adventuring Author" 
@@ -894,9 +918,11 @@ Some few Beastmen distinguish themselves by retaining a greater part of the phys
 #rpcost 10000 -- Base value multiplied by 1000, same for commanders and troops
 #nametype 100 -- Generic male names
 #descr "Gentlemen of education and leisure, if encouraged to travel, will write detailed journals of even the dullest journey. A bureau of scribes may then be employed to review the latest publishings, discerning fact from fiction to collate much useful information on lands both near and far.
+
 Various inexplicable trends come and go among these adventuring authors, the latest being swamps and marshes with every other tale of adventure featuring the use of a long pole to test for solid ground and a technique for the removal of leeches." 
 #itemslots 15494
 #end
+
 --- Greencloak General
 #newmonster 6035 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Greencloak General" 
@@ -931,6 +957,7 @@ Various inexplicable trends come and go among these adventuring authors, the lat
 #descr "The rise of the great cities in Vivis has transformed the recruitment of generals and leaders. Previous informal systems for selecting a leader based on age, title or loudness are now replaced by a Guild of Generals, who can provide training and examination to prospective candidates. The stylish green cloak that a fully qualified member receives has rapidly become a welcome sight among soldiers of all types as it signifies at least a basic level of competence." 
 #itemslots 13446
 #end
+
 --- Commandment Chanter
 #newmonster 6036 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Commandment Chanter" 
@@ -962,9 +989,11 @@ Various inexplicable trends come and go among these adventuring authors, the lat
 #nametype 100 -- Generic male names
 #descr "The voice in the dark began intoning a mad litany, line by line, and I and the rest to repeat it. As they did so, they swayed from side to side in the oddest way, and beat their hands upon their knees; and I followed their example. I could have imagined I was already dead and in another world. That dark hut, these grotesque dim figures, just flecked here and there by a glimmer of light, and all of them swaying in unison and chanting.
 Edward Prendick, Traveller
+
 Commandment Chanters are responsible for ensuring the beastmen remain devoted to Moreau, they are respected as leaders among the beastmen, though humans pay them little heed." 
 #itemslots 15494
 #end
+
 --- Seeking Student
 #newmonster 6037 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Seeking Student" 
@@ -997,9 +1026,11 @@ Commandment Chanters are responsible for ensuring the beastmen remain devoted to
 #rpcost 10000 -- Base value multiplied by 1000, same for commanders and troops
 #nametype 100 -- Generic male names
 #descr "The first mages in Vivis were trained by Moreau himself. Though he has long since left the training to others, all mages swear an oath as students of Moreau to serve his will and learn his teachings. In exchange, even the most humble student is taught a secret sign that allows them to borrow a small amount of magical power from Moreau when in need. 
+
 A seeking student is a junior mage, though this position still commands respect among the commoners due to the ritual connection all students share with Moreau himself. The blessing of Moreau grants them good health and an exceptionally long life." 
 #itemslots 15494
 #end
+
 --- Accredited Apprentice
 #newmonster 6038 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Accredited Apprentice" 
@@ -1031,9 +1062,11 @@ A seeking student is a junior mage, though this position still commands respect 
 #rpcost 10000 -- Base value multiplied by 1000, same for commanders and troops
 #nametype 100 -- Generic male names
 #descr "The first mages in Vivis were trained by Moreau himself. Though he has long since left the training to others, all mages swear an oath as students of Moreau to serve his will and learn his teachings. In exchange, even the most humble student is taught a secret sign that allows them to borrow a small amount of magical power from Moreau when in need. 
+
 An Accredited Apprentice is a more experienced mage, though they were not taught by Moreau himself. In the early years, more paths of magic than those taught by Moreau were discovered, though not all were accepted as suitable. Regardless, these later apprentices practice a broader range of magic than the original pupils. They are respected for their religious connection to Moreau, much like the Seeking Students." 
 #itemslots 15494
 #end
+
 ---  Peerless Pupil
 #newmonster 6039 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Peerless Pupil" 
@@ -1068,9 +1101,13 @@ An Accredited Apprentice is a more experienced mage, though they were not taught
 #rpcost 10000 -- Base value multiplied by 1000, same for commanders and troops
 #nametype 100 -- Generic male names
 #descr "The first mages in Vivis were trained by Moreau himself. Though he has long since left the training to others, all mages swear an oath as students of Moreau to serve his will and learn his teachings. In exchange, even the most humble student is taught a secret sign that allows them to borrow a small amount of magical power from Moreau when in need. 
+
 A Peerless Pupil is an elder student, one that has received at least some training from Moreau directly. They are afforded great respect because of this personal connection and a council of Peerless Pupils lead the cult of Moreau." 
 #itemslots 15494
 #end
+
+
+
 --- SITES definitions for VIVIS
 #newsite 1950 -- DE goes up to 1902, so I'll be using 1950 to the limit of 1999
 #level 0 -- Pretty sure this makes it instantly visible
@@ -1295,8 +1332,8 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #end
 
 #newmonster 6018 -- turns out that bearo 694 doesn't work super well with my bless, and so i had to go back to birbs because they don't actually need to synergize with my actual troops to be useful. Birbs being able to fly does well enough for them there. This does mean that my sprite is gonna be very not-fitting and the lore doesnt account for the flying but fuck it we're doing it live
-#copystats 1380
-#copyspr 1380
+#copystats 694
+#copyspr 694
 #name "Templar Revenant" -- totemic bearo
 #descr "The macabre aspect of the Revenants ended with the conclusion of the first crusades. Once the returning warriors discovered the methods employed to raise their fallen to fight again, they smote those immediately responsible for the practice before they were mollified by the Cult's Patriarchs. Now, a more elegant process has been developed- drawing upon the wellspring of energy that is the Soul Forge and enticing the souls of the fallen as they return to their immortal hearth, the masters of the Cult of Souls developed a way to create life from false bodies. Empowered by the souls of the zealous and the vengeful, and animated by the craft of the Forgers of Souls, the Revenants march to war again.
 
@@ -1307,7 +1344,6 @@ As they are merely vessels for the souls inhabiting them, Revenants are devoid o
 Oh and they fly. Because we said so. Don't think too hard about their weapons either." 
 #spr1 "SlavesJAMsprite/Pancake/TemplarRevenant.tga"
 #spr2 "SlavesJAMsprite/Pancake/TemplarRevenant2.tga"
-#drawsize -50
 #holy
 #mr 12
 #darkvision 50
@@ -1315,11 +1351,13 @@ Oh and they fly. Because we said so. Don't think too hard about their weapons ei
 #end
 
 --- COMMANDER definitions for THE DUAL CULTS
+
 --- Firebrand Apostle
 #newmonster 6054 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Firebrand Apostle" 
 #fixedname "."
 #descr "The Firebrand Apostles are the mages of the Firebrand cult, and they compose the majority of the magically gifted members of the militant arm of the Cult Clergy. Children of the cults who are recognized as touched by the magical potency of the Forge of Souls are marked by the Keepers, and soon afterwards taken from their families to live out their youths under the ausepxes of the Soul Forgers. Those whose potency stems from the Forge's aspects of zeal and war are then drawn into the Firebrand Cult as they reach adolescence, and are taught its tenants and rites throughout their youths. Eventually, these marked clergymen and women are inducted into the Firebrand Cult's Apostlery, and are sent out to do the work of the faithful, and bring glory to the Cults in the name of the Forge of Souls.
+
 And of those who resist the will of the Cults, they shall fuel their pyres." 
 #spr1 "SlavesJAMsprite/Pancake/FirebrandApostle.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Pancake/FirebrandApostle2.tga" -- remember to tag on the .tga to the end of the directory
@@ -1355,6 +1393,7 @@ And of those who resist the will of the Cults, they shall fuel their pyres."
 #nametype 100 -- Generic male names
 #itemslots 15494
 #end
+
 --- Soulbound Votary
 #newmonster 6055 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Soulbound Votary" 
@@ -1391,6 +1430,7 @@ And of those who resist the will of the Cults, they shall fuel their pyres."
 #nametype 100 -- Generic male names
 #itemslots 15494
 #end
+
 --- Firebrand Patriarch
 #newmonster 6056 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Firebrand Patriarch" 
@@ -1429,12 +1469,15 @@ And of those who resist the will of the Cults, they shall fuel their pyres."
 #nametype 100 -- Generic male names
 #itemslots 15494
 #end
+
 --- Keeper of Souls
 #newmonster 6057 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Keeper of Souls" 
 #fixedname "."
 #descr "The masters of the Cult of Souls, the keepers are potent mages and some of the few remaining members of their order who were permitted to retain some of the secrets of their cult.
+
 ...
+
 For reasons known only to the highest echelons of the Cult of Souls, they also have an unusual fascination with mollusks. Every single one of them. Down to the last man." 
 #spr1 "SlavesJAMsprite/Pancake/KeeperOfSouls.tga" -- remember to tag on the .tga to the end of the directory
 #spr2 "SlavesJAMsprite/Pancake/KeeperOfSouls2.tga" -- remember to tag on the .tga to the end of the directory
@@ -1471,6 +1514,7 @@ For reasons known only to the highest echelons of the Cult of Souls, they also h
 #nametype 100 -- Generic male names
 #itemslots 15494
 #end
+
 --- Keeper of the Forge
 #newmonster 6058 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Keeper of the Forge" 
@@ -1509,6 +1553,7 @@ For reasons known only to the highest echelons of the Cult of Souls, they also h
 #nametype 100 -- Generic male names
 #itemslots 15494
 #end
+
 --- Templar Gatekeeper
 #newmonster 6059 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Templar Gatekeeper" 
@@ -1547,6 +1592,8 @@ Among their sacred duties is also the preparation of the false flesh of the Reve
 #nametype 100 -- Generic male names
 #itemslots 15494
 #end
+
+
 --- SITES definitions for THE DUAL CULTS
 #newsite 1952 -- DE goes up to 1902, so I'll be using 1950 to the limit of 1999
 #level 0 -- Pretty sure this makes it instantly visible
@@ -1972,6 +2019,9 @@ The pinnacle of magic knowledge that a normal mortal may obtain. After surpassin
 #gems 0 1 -- 1 Fire
 #gems 2 1 -- 1 Water
 #end
+
+
+
 -- Nation 172: Slaves to Reason
 #selectnation 172 -- DE has nations up to 168, apparently
 #clear
@@ -1983,46 +2033,67 @@ The pinnacle of magic knowledge that a normal mortal may obtain. After surpassin
 Military: Cheap disposible heavy archers and shielded slingers. Sacred elite archers and duel wielding medium infantry in every fort.
 Priests: Plentiful low level with capital priests of high to insane potancey.
 Dominion: Standard, coastal forts have +20% income." -- Notice the string ends here and only here
+
+
 #brief "No description" -- No idea when this is used
 #color 0.0 0.0 1.0 -- This thing is the main background and what represents your nation on scoregraphs
 #secondarycolor 0.4 0.2 0.4 -- Same idea, if this one is absent it reverts to the the one above
 #flag "SlavesJAMsprite/Zen/Flag.tga"
+
 #clearsites
 #startsite "The Buried Darkness" -- 1953
+
+
 #clearrec
 #addrecunit 6040 -- Steel Rose Warrior
 #addrecunit 6041 -- Iron Pine Warrior
 #addrecunit 6042 -- Ice Vine Archer
 #addrecunit 6043 -- Blood Lily Warrior
+
 #addreccom 6044 -- Fire Ivy Marksman
 #addreccom 6045 -- Ivy Marksman
 #addreccom 6046 -- Attendant Master
 #addreccom 6047 -- Blood Lily Cultivator
 #addreccom 6048 -- Blood Lily Attendant
+
 #defcom1 6046 -- Attendant Master
 #defunit1 6040 -- Steel Rose Warrior
 #defmult1 25
 #defcom2 6046 -- Attendant Master
 #defunit2 6042 -- Ice Vine Archer
 #defmult2 23
+
 #wallcom 6046 -- Attendant Master
 #wallunit 6050 -- Steel Rose Warrior
 #wallmult 12
+
 #startcom 6046 -- Attendant Master
 #startscout 426 -- Generic Scout
 #startunittype1 6040 -- Steel Rose Warrior
 #startunitnbrs1 38
+
 #addgod 2082
+
 #bloodblessbonus 1
+
 #fortera 2 -- Crusaders
 #idealcold 2 -- Chilly 
 #tradecoast 20
 #coastnation
+
 ----#homerealm ? unspecified
 #homerealm 10 -- Default Gods
+
 #templepic 9 -- Weird stuff that is not Forest Temple and should therefore be shamed
+
 #end
+
+
+
+
+
 --- TROOP definitions for SHARA
+
 --- Repel Infantry
 #newmonster 6060 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Pikeneer" -- This is the unit type name, like Logrian Slinger or Thaumaturg
@@ -2057,6 +2128,7 @@ Dominion: Standard, coastal forts have +20% income." -- Notice the string ends h
 #descr "The Pikeneers of Shara are well trained soldiers armed with long pikes and clad in strong Sharan dark plate.Their helmets are enchanted to confer limited darkvision. They arbor the ritualistic Sharan tattoos that protect them from lightning. The newly developed supernatural appetite of Sharans can make logistics difficult for large armies."
 #itemslots 15494
 #end
+
 --- Gryphon Rider
 #newmonster 6061 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Gryphon Rider" -- This is the unit type name, like Logrian Slinger or Thaumaturg
@@ -2099,6 +2171,7 @@ Dominion: Standard, coastal forts have +20% income." -- Notice the string ends h
 #descr "Gryphon Riders are members of an ancient and respected clan, from when Shara was still a nomadic tribe, venerating the winds that bring about the rain. Until recently, their gryphons have been jealously raised for the sole use by members of the clan. Those elite riders armed form the only cavalry unit of Shara, horses not being commonplace in the desert. Their helmets are enchanted to confer limited darkvision. They arbor the ritualistic Sharan tattoos that protect them from lightning."
 #itemslots 15494
 #end
+
 --- Patrol Chaff
 #newmonster 6062 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Sharan Militia" -- This is the unit type name, like Logrian Slinger or Thaumaturg
@@ -2133,6 +2206,7 @@ Dominion: Standard, coastal forts have +20% income." -- Notice the string ends h
 #descr "The Sharan militia is composed of lightly equipped slaves tasked with rooting out enemies of the nation and keeping the population in check. Sharan slaves are marked with intricate tattoos that curse whoever would dare kill one. The enchanting of those tattoos is a tradition meant to protect their value just as much as it identifies the wearer as a slave."
 #itemslots 15494
 #end
+
 --- Dual Wielders
 #newmonster 6063 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Light Swordsman" -- This is the unit type name, like Logrian Slinger or Thaumaturg
@@ -2169,7 +2243,9 @@ Dominion: Standard, coastal forts have +20% income." -- Notice the string ends h
 #descr "The swordsmen of Shara are well trained soldiers armed with two broad swords and clad in strong Sharan dark plate cuirasses. They form the light infantry of the Sharan military. Their helmets are enchanted to confer limited darkvision. They arbor the ritualistic Sharan tattoos that protect them from lightning. The newly developed supernatural appetite of Sharans can make logistics difficult for large armies."
 #itemslots 15494
 #end
+
 --- COMMANDER definitions for SHARA
+
 --leader
 #newmonster 6064 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Sharan Commander" -- This is the unit type name, like Logrian Slinger or Thaumaturg
@@ -2211,7 +2287,9 @@ Dominion: Standard, coastal forts have +20% income." -- Notice the string ends h
 #descr "The commanders of Shara don heavy armor and ride gryphons trained to refrain from falling into bloodlust, and show a diminished aggressiveness. They arbor ritualistic blood tattoos that protect them from lightning. They also receive an enchantment that confers them leadership over undead beings."
 #itemslots 13446
 #end
+
 -- mages
+
 #newmonster 6065 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Grand Ritualist" -- This is the unit type name, like Logrian Slinger or Thaumaturg
 #spr1 "SlavesJAMsprite/Isitaris/BloodSummoner.tga" -- remember to tag on the .tga to the end of the directory
@@ -2249,6 +2327,7 @@ Dominion: Standard, coastal forts have +20% income." -- Notice the string ends h
 #descr "Harvesters who showed great promise in the early years of their training are sent to the capital. There, they continue their training and learn about the winds and the fabric of space in order to combine this knowledge with blood magic through complex rituals to conjure demons and aberrations. One of the first tricks Sharan mages learn is the ability to hover and reduce the strain of long journeys. Since the introduction of blood magic in Sharan society, macabre ceremonies are organised at the end of one’s long mage training to rejuvenate their bodies. They arbor the ritualistic Sharan tattoos that protect them from lightning."
 #itemslots 15494
 #end
+
 #newmonster 6066 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Harvester" -- This is the unit type name, like Logrian Slinger or Thaumaturg
 #spr1 "SlavesJAMsprite/Isitaris/BloodHunter.tga" -- remember to tag on the .tga to the end of the directory
@@ -2283,6 +2362,7 @@ Dominion: Standard, coastal forts have +20% income." -- Notice the string ends h
 #descr "With the coming of the new god, a sect of hemomancers flourished in the ancient Shara. They enter willingly into a life of servitude and spill blood in the name of Hadar. The sect is now tasked by the ruling castes with the collecting of fresh blood for the use of Astrologists and Grand Ritualists. They are now taught the manipulation of blood magic in the repurposed academies of Shara."
 #itemslots 15494
 #end
+
 #newmonster 6067 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "Augur" -- This is the unit type name, like Logrian Slinger or Thaumaturg
 #spr1 "SlavesJAMsprite/Isitaris/Mage2.tga" -- remember to tag on the .tga to the end of the directory
@@ -2319,6 +2399,7 @@ Dominion: Standard, coastal forts have +20% income." -- Notice the string ends h
 #descr "When the True God was found amongst the stars, the old beliefs quickly crumbled, and the few mage-priests still preaching them soon saw the truth in the word of Hadar. They have since abandoned their beliefs, and do not preach anymore, and the Hands have taken the augurs’ position of power in Shara. One of the first tricks Sharan mages learn is the ability to hover and reduce the strain of long journeys. They arbor the ritualistic Sharan tattoos that protect them from lightning."
 #itemslots 15494
 #end
+
 #newmonster 6068 -- I will be using 6000 and above to avoid Dominions Enhanced conflicts
 #name "War Weaver" -- This is the unit type name, like Logrian Slinger or Thaumaturg
 #spr1 "SlavesJAMsprite/Isitaris/BattleMage.tga" -- remember to tag on the .tga to the end of the directory
@@ -2401,6 +2482,7 @@ Dominion: Standard, coastal forts have +20% income." -- Notice the string ends h
 #copyspr 5008 -- sprites from the Statue of the Outer Gods
 #name "Statue of the Hungry God"
 #descr "This statue has been crafted by the Hands as a tribute to Hadar. The fanatical practices of worship carried out by the priests has given life to a projection of Hadar that now inhabits the Statue. The entity cannot project his power far from the statue, but it can possess willing targets in order to make its will heard and to perform tasks such as forging items for enchantment. The projection is tremendously strong in its Dominion. The statue is deeply unsettling and although it cannot strike back in coat enemies may flee rather than face it.
+
 P.S. reflavour of Statue of the Underworld"
 #homerealm 0 -- remove it from homerealm mediterranean
 #end
@@ -2416,6 +2498,9 @@ P.S. reflavour of Statue of the Underworld"
 #gems 1 4 -- 4 A gems
 #gems 4 1 -- 1 S gem
 #end
+
+
+
 -- Nation 173: SHARA
 #selectnation 173 -- DE has nations up to 168, apparently
 #clear -- Keep this in, I have no idea what happens when you dont
@@ -2424,27 +2509,36 @@ P.S. reflavour of Statue of the Underworld"
 #epithet "The Voracious" -- The thing that appears after the automatically made comma
 #descr "Hidden among the dunes of the desert north of the limits of the known world, a nation of scholars studying the secrets of the stars peered too far into the depths of space. An ancient, powerful entity stared back, and the once proud nation of Shara is now but a caricature of its ancient glory. Blood is now spilled routinely in the name of the Hungry God to feed his never ending appetite, and to satisfy the new grotesque fascination of Shara’s scholars for blood magic." -- The blurb that shows above te recruitment options when you select the nation
 #summary "Race: Starving corrupted humans. Prefer Heat 2.
+
 Military: Heavily armoured pikeneers. Lighter dual-wielding infantry. Elite gryphon riders.
+
 Magic: Strong Astral, Blood, Air, some Death, some Water
+
 Priests: Weak." -- Notice the string ends here and only here
+
+
 #brief "No description" -- No idea when this is used
 #color 0.51 0.22 0.22 -- This thing is the main background and what represents your nation on scoregraphs
 #secondarycolor 0.18 0.16 0.16 -- Same idea, if this one is absent it reverts to the the one above
 #flag "SlavesJAMsprite/Isitaris/Flag.tga" -- Flag by Executor
+
 #clearsites
 #startsite "The Spire" -- 1954 -- You can also use the site number
+
 -- Units and Commanders
 #clearrec
 #addrecunit 6060
 -- #addrecunit 6061 -- Cap-only 
 #addrecunit 6062
 #addrecunit 6063 
+
 #addreccom 6064 
 -- #addreccom 6065 -- Cap-only
 #addreccom 6066 
 #addreccom 6067 
 #addreccom 6068
 #addreccom 6069
+
 -- PD and Siege defenders
 #defcom1 6064 -- This will lead your PD Troops 
 #defunit1 6060 -- This is the unit that the PD calls for
@@ -2452,22 +2546,31 @@ Priests: Weak." -- Notice the string ends here and only here
 #defcom2 6064 -- This will also lead your PD after 20
 #defunit2 6060 -- This unit will start appearing after 20 PD
 #defmult2 21 -- This many units will appear per 10 PD after 20
+
 #wallcom 6064 -- This commander will guard the walls when sieged
 #wallunit 6060 -- This unit type will guard the walls when sieged
 #wallmult 12 -- How many units there will be, no ifs or buts, no modifiers or anything. Just this many units.
+
 #startcom 6064 -- Your starting troop leader you spawn in with
 #startscout 426 -- Your starting Scout - vanilla scout
 #startunittype1 6060  -- This unit will appear when you spawn in
 #startunitnbrs1 15 -- This many of the aforementioned unit will appear
+
 #fortera 3 -- Just Imperialist Things TM
 -- #castleprod 40 -- Just Industrial Things TM
 #idealcold -2 -- Starting at Cold 3 means 120 less design points
+
 #homerealm 3 -- Mediterranean
 #homerealm 10 -- Default Gods
 #addgod 6019 -- statue of the underwold reflavoured
+
 #templepic 14 -- 
+
 #end
+
+
 --- Troop definitions for TLOAF
+
 --- Tloafan Fanatic
 #newmonster 6016
 #name "FIXME2"
@@ -2500,6 +2603,7 @@ Priests: Weak." -- Notice the string ends here and only here
 #nametype 100
 #descr "When a Terramorphic Zealot calls their throng to war, the hard working people of Tloaf muster. Most often armed with cheap axes that are mass produced in great displays of earth magic, these people are not fighters. They will rout when fearful and are unskilled in combat. But they will fight nonetheless and as most have mutated bodies that ignore some pain, they usually throw themselves into battle with the same unflinching resolve (if not skill) of a trained soldier."
 #end
+
 --- Earth Piercer
 #newmonster 6017
 #name "Earth Piercer"
@@ -2533,6 +2637,7 @@ Priests: Weak." -- Notice the string ends here and only here
 #descr "As with almost all Tloafans, the Piercers are modified in batches. Theirs is a systemic one, a complete removal of eyes and replacement with false simulacrums. The simulacrums do nothing and so over a decade or two the Piercers adapt to a sightless world, to the point that through perhaps even magical means they can fire a bow at a target. Notorious for missing, they are jokingly called Earth Piercers due to the amount of arrows that miss."
 #nametype 100
 #end
+
 --- Blade Whirler
 #newmonster 6079
 #name "Blade Whirler"
@@ -2567,6 +2672,7 @@ Priests: Weak." -- Notice the string ends here and only here
 #nametype 100
 #descr "Perhaps due to the immediately obvious mutation, Blade Whirlers are looked to as the elite of the Tloafan infantry. This is not false, for they can output a (un)surprising amount of hurt to enemies who get too close. With arms and armour of the finest steel uncovered by the Tloafans abuse of the ground, they are remarkably adept at both surviving and thriving in combat."
 #end
+
 --- Burden Bearer
 #newmonster 6078
 #name "Burden Bearer"
@@ -2599,6 +2705,7 @@ Priests: Weak." -- Notice the string ends here and only here
 #nametype 100
 #descr "When the Twsnbnwdd began its slaughter, there were a few who caught glimpses of it as it destroyed their entire civilization as they knew it. These unenviable few were insensate when encountered floating above the ground. At first they were kept as sacred remnants of the past, but when the bells of war rang and crises assaulted Tloaf again, they were taken into laboratories and distilled. The concentrated solution that resulted spreads anguish beyond reason to those contacting it. Most claw out their eyes and swiftly succumb to the same condition as their progenitors. There are others who survive and live agonized for the rest of their days, and often sign into the armies of Tloaf to die. Bleeding a dilute version of the solution, those wounding these Burden Bearers often contact the solution and, overwhelmed by suffering, destroy their own eyes before recovering from the shock."
 #end
+
 --- Floating Guardian
 #newmonster 6077
 #name "Floating Guardian"
@@ -2633,6 +2740,7 @@ Priests: Weak." -- Notice the string ends here and only here
 #nametype 100
 #descr "Floating Guardians are a great asset to the survivability of Tloafan armies. With Kite Shields and heavy armour, they are significant threats to enemy archers. But their real strength comes instead from their resistance to fire and shock. An anomaly among normal Tloafans, Floating Guardians have to ingest a variety of alchemical potions and have much surgery performed before they can resist both lightning and high temperatures. As a side effect, they are also much more hardy. But as with most things these boons come at a cost, and the Floating Guardians are perpetually hungry, eating twice the amount of food a normal Tlaofan does. The mages of Tloaf work round the clock to try and develop a better solution to the threat of enemy archers but the crude mutagenics have so far been the only effective solution."
 #end
+
 --- Pwhoo Rider
 #newmonster 6076
 #name "Pwhoo Rider"
@@ -2667,7 +2775,9 @@ Priests: Weak." -- Notice the string ends here and only here
 #descr "Pwhoos are the descendants of Cave Cows that were once raised as livestock and household pets in ancient Tloaf. As with most things, this changed when the Twsnbnwdd attacked. Only the swiftest Pwhoos survived and escaped to where the rituals of perpetual floating were cast. Caught up in the magic, they too began to float and have since been an integral part of Tloaf. Swift movement through the air and and a proclivity to be a living block to enemy archer fire makes these fearsome beasts indeed. The Pwhoo riders serve as a fast response unit for the empire of Tloaf."
 #itemslots 13446
 #end
+
 --- Commander definitions for TLOAF
+
 --- Pwhoo Captain
 #newmonster 6075
 #name "Pwhoo Captain"
@@ -2702,6 +2812,7 @@ Priests: Weak." -- Notice the string ends here and only here
 #descr "When an especially skilled Pwhoo Rider gains the respect of both troops they fought with and commanders they obeyed, they often leverage it to be put in a position they feel they can help more in. Captains, they speak of the glory of the empire that once was and the glorious future that can be had in the future, a land of clouds and happiness with a hellscape made of the Twsnbnwdd’s home."
 #itemslots 13446
 #end
+
 --- Earth Melter
 #newmonster 6074
 #name "Earth Melter"
@@ -2740,6 +2851,7 @@ Priests: Weak." -- Notice the string ends here and only here
 #descr "The Earth Melters are adept in both the ancient lore of earth and the lore of fire, both ancient traditions and secrets that were passed down from the empire before the Twsnbnwdd. But the Twsnbnwdd did attack, and now as revenge the Earth Melters turn their magic to further the destruction of the ground. The combination of these two in pursuit of destructive terraforming is noted as some of the very best, chains of molten metal almost screaming as they are lifted from the ground to ensnare enemies and explosive acts of volcanic eruption common tricks. It goes without saying that this torture of the ground is of religous importance. As with most mages, they ride Pwhoos so as to be able to quickly respond to enemy attacks."
 #itemslots 13446
 #end
+
 --- Earth Cracker
 #newmonster 6073
 #name "Earth Cracker"
@@ -2778,6 +2890,7 @@ Priests: Weak." -- Notice the string ends here and only here
 #descr "Mounted on pwhoos barded with gold plates and white cloth, Earth Crackers use powerful earth magic to rend the ground around them asunder. Most commonly used in militaristic fashion to provoke massive earthquakes, they are sometimes instead devoted to the lore of fire, following the ancient traditions of volcanism. As they are so skilled in destroying the ground, they hold great religious importance."
 #itemslots 13446
 #end
+
 --- Ascended Fletcher
 #newmonster 6072
 #name "Ascended Fletcher"
@@ -2814,6 +2927,7 @@ Priests: Weak." -- Notice the string ends here and only here
 #descr "The ascended Fletchers of Tloaf are masters of archery, able to fire seeking arrows from miles away or support the Earth Piercers with guiding Desert Winds. However, due to their negligence in terrain destruction, they are not as spiritually respected as the Earth Melters and Crackers. Perhaps due to a selfless act of their predecessors who cast the rituals of perpetual floating, they are resistant to mutation and are whispered to be unfinished."
 #itemslots 13446
 #end
+
 --- Terramorphic Zealot
 #newmonster 6071
 #name "Terramorphic Zealot"
@@ -2846,6 +2960,7 @@ Priests: Weak." -- Notice the string ends here and only here
 #nametype 100
 #descr "Even though they do not directly participate in the revenge against the ground that is so esteemed in Tloaf, Terramorphic Zealots are viewed as the pinnacle of floating faith. This is due to their abnormally skilled oratory skills and their incredibly concentrated hatred of the ground. Sermons are held almost hourly about the horror of the Twsnbnwdd, the lost glory of Tloaf, and the bright future ahead. It is they who inspire the people of Tloaf, it is they who muster support against external threats, it is they who aid the weak, it is they who supply the needy."
 #end
+
 --- Tloafan General
 #newmonster 6070
 #name "Tloafan General"
@@ -2879,6 +2994,8 @@ Priests: Weak." -- Notice the string ends here and only here
 #nametype 100
 #descr "As with any militaristic nation, Tloaf has generals to lead their armies. Taken from the ranks of ordinary soldiers, these generals are inspirational to their followers as they are inspired by their leader’s past feats that garnered them such a position. Despite this humble origin, the generals of Tloaf are often overindulgent in food and regularly eat twice that of a regular Tloafan. Some whisper that this is a curse, but most shrug it off as just another side effect of mutagenic experimentation."
 #end
+
+
 --- Sites for TLOAF
 #newsite 1955 -- DE goes up to 1902, so I'll usually use 1950 to the limit of 1999
 #level 0 --  Level 0 sites are automatically discovered, but 1 to 4 requires a mage of that rank to search for it
@@ -2900,8 +3017,10 @@ Priests: Weak." -- Notice the string ends here and only here
 #name "Tloaf" -- Main name, like Ulm
 #epithet "Ever Floating" -- The thing that appears after the automatically made comma, like "Last f the Giants"
 #descr "Tloaf was once a great empire, but they searched too deep into the secrets of the earth and all who touched the ground were killed by that which shall not be named who dwells deep. The Twsnbnwdd, as it came to be called, was never defeated, only bypassed through the emergency usage of air magic. But the Tloafans were untrained in this art, and forever changed their bodies into masses of floating flesh to escape the calamity. This led to a development of a culture of mass batch mutations, and now extra arms and strange properties are common in subsections of tailor made bodies. As most of the tools for experimentation were lost to the Twsnbnwdd the mutations are crude. Only in The Floating Complex are the mutations truly understood, but the practices are very much habitual outside the capital.
+
 In the decades since the attack of the Twsnbnwdd, the people of Tloaf have never forgotten the lore that lead to their transformation. Earth magic is still commonly practiced and studied, for to give up after the attack would be admitting defeat and weakness to the Twsnbnwdd. Now the Tloafans hear the word the Awakening God and march forth from the Floating Complex."
 #summary "Floating Infantry, Swift Pwhoo riders
+
 Regular Infrastructure" -- Notice the string ends here and only here
 
 #brief "JAM's Thingy" -- No idea when this is used
@@ -3359,6 +3478,9 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #gems 3 1 -- This gives you 1 gem of path 3
 #gems 6 2 -- This gives you 2 gems of path 6
 #end
+
+
+
 -- Nation 176: Taqnian
 #selectnation 176 -- DE has nations up to 168, apparently
 #clear -- Keep this in, I have no idea what happens when you dont
@@ -3367,46 +3489,63 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #epithet "The Glorious Evolution"
 #descr "Taqnian has a long and sordid history of losing wars, occupation and vassaledge. Constantly a target for others due to their huge reserves of rare metals, there isn't many gaps in Taqnian history where they arn't beholden to another nation in some fashion. All of this will soon change. The newest faction to rise to the top in Taqnian is a group of skilled biomancers and forgers, they call themselves the augmented and seek to 'Improve' on what they see are the weak human forms of the nation of Taqnian. Already their biomancy has had an effect, and even those not augmented by metal are much hardier than the average human. Having already seized control, they seek to spread their message to the rest of the world, by force if neccesary."
 #summary "FIXME" -- Notice the string ends here and only here
+
+
 #brief "No description" -- No idea when this is used
 #color 0.0 0.5 0.0 -- This thing is the main background and what represents your nation on scoregraphs
 #secondarycolor 0.5 0.0 0.0 -- Same idea, if this one is absent it reverts to the the one above
 #flag "SlavesJAMsprite/Flag.tga"
+
 #clearsites
 #startsite "Flesh Forges" -- You can also use the site number
+
+
 #clearrec
 #addrecunit 6081 -- Militia Dude
 #addrecunit 6082 -- Thrice Clawed
 #addrecunit 6083 -- Guard
 #addrecunit 6085 -- Heavy
+
 #syncretism 1
+
 #addreccom 6086 -- Scout
 #addreccom 6087 -- Communioneer
 #addreccom 6088 -- Line Mage
 #addreccom 6089 -- Thug
 #addreccom 6090 -- Slow Moe
 #addreccom 6091 -- Hawker
+
 #defcom1 6089
 #defunit1 6083
 #defmult1 10 -- This many units will appear per 10 PD
 #defcom2 6089
 #defunit2 6081
 #defmult2 10 -- This many units will appear per 10 PD after 20
+
 #wallcom 34
 #wallunit 6083
 #wallmult 10
+
 #startcom 34
 #startscout 426
 #startunittype1 6085 -- Breakers
 #startunitnbrs1 15 -- This many of the aforementioned unit will appear
 #startunittype1 6081 -- Militia
 #startunitnbrs1 15 -- This many of the aforementioned unit will appear
+
 #fortera 2
 #idealcold 0 -- Starting at Cold 3 means 120 less design points
+
 #homerealm 6 -- Toad Time
 #homerealm 10 -- Default Gods
+
 #templepic 10 -- Toad Worship calls for Forest Temple
+
 #end
+
+
 --- Troop definitions for Egeros
+
 #newmonster 6001
 #copystats 295
 #name "Egeros Familiar"
@@ -3414,6 +3553,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #mor 20
 #def 11
 #end
+
 --- Husk Guard
 #newmonster 6002
 #name "Husk Guard"
@@ -3446,6 +3586,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #nametype 100
 #descr "Husks form the rank and file of Egeros’ armies. These unfortunates have been afflicted by the Withering Plague, an unnatural disease concocted by the servants of Nuvorok which causes their bodies to excrete an excess of black bile, almost drowning all other humours. Their forms waste away and dry out, causing their flesh and skin to shrivel in a way that makes them resemble animated skeletons more than living humans. In spite of this, they retain a surprising vigour in their limbs, and are fully capable of matching able-bodied warriors blow to blow. Husk Guards are sluggish and lethargic due to their melancholic constitution, and are therefore most often found manning fortress ramparts."
 #end
+
 -- Husk Defiler
 #newmonster 6003
 #name "Husk Defiler"
@@ -3481,6 +3622,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #nametype 100
 #descr "Not all Husks are listless and morose. In some of them, the Withering Plague causes an afflux of choleric yellow bile alongside the black humour of the spleen. These mutated warriors have the same desiccated appearance as their brethren, but their sinewy strength is matched by a violent and irascible temperament. On feeling pain, they fly into a blind rage, savagely hacking their way through their assailants without regard for their own life and limb. These Defilers become the footsoldiers of Egeros, forgoing most defensive equipment in favour of twin blades through which to channel their burning aggression."
 #end
+
 -- Putrescent Hulk
 #newmonster 6004
 #name "Putrescent Hulk"
@@ -3514,6 +3656,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #nametype 100
 #descr "Among the arcane mutations devised by the acolytes of the fiend Nuvorok, none are more revolting than the Bloating. This curse causes its victims to become swollen with phlegmatic humour, causing a hideous expansion of the body, accompanied by numerous deformities and the eventual decay of still living flesh. All throughout the progress of the sickness, the wretched host is possessed by a boundless hunger, which compels them to fuel their unnatural growth by devouring anything in sight and soon reaches cannibalistic intensity. Hulks trudge into battle driven by their craving as much as by the command of their masters, and can spew decomposing sludge at their foes, hampering and dazing them with phlegmatic apathy."
 #end
+
 -- Virulent Abomination
 #newmonster 6005
 #name "Virulent Abomination"
@@ -3546,7 +3689,10 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #nametype 100
 #descr "Most victims of the Bloating die when the disease reaches its terminal stages, their body unable to support its own malformed mass. Some few, however, manage to endure the ravages of the curse through incredible resilience. Their forms adapt to the ravenous hunger, growing to unnatural size and oozing deadly venom from their contaminated skin. Even the mage-rulers of Egeros look at these towering horrors with some apprehension, but the creatures are easily controlled, the last vestiges of their mind buried deep under layers of misshapen flesh. Their humours tend to develop a curious alignment which includes a notable amount of sanguine fluid, making them unnervingly jolly and enthusiastic in battle."
 #end
+
+
 --- Commander definitions for EGEROS
+
 -- Mendicant Leper
 #newmonster 6006
 #name "Mendicant Leper"
@@ -3578,6 +3724,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #nametype 100
 #descr "All around the world, lepers are shunned and despised. People turn their eyes away when passing by their huddled, ragged figures, as if fearing that their loathsome affliction might contaminate them through looks alone. Yet in Egeros disease and deformity are the order of the day, and even the most reviled of human dregs can find a purpose. The followers of Nuvorok exploit the stigma of leprosy, using the diseased as spies that skulk around enemy cities and camps without being spared a glance. For their own part, many lepers see this as a chance to take revenge on a world that scorned them, and gladly serve the infernal cult’s cause."
 #end
+
 -- Bilious Enforcer
 #newmonster 6007
 #name "Bilious Enforcer"
@@ -3614,6 +3761,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #nametype 100
 #descr "The health of the human body depends on the balance of its four internal humours. Should their condition be disrupted, both flesh and spirit will be tormented with pain and ennui. The mages of Egeros have learned to pervert this inner order, twisting men into the shape of vile horrors. Enforcers were once renowned warriors who have been transformed into ghoulish brutes by an excess of sanguine essence and choleric bile. Their martial skill and wrathful temper inspire respect even in the dull minds of Egeros’ monstrous troops, allowing them to lead the plagued throngs in battle. However, this comes at the cost of an irritable and vengeful disposition, and both Enforcers and the scavenger wolves they ride take pleasure in spitefully mutilating fallen enemies."
 #end
+
 -- Daemonolater Exarch
 #newmonster 6008
 #name "Daemonolater Exarch"
@@ -3646,6 +3794,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #nametype 100
 #descr "Once, the clergy of Egeros offered comfort and encouragement to their countrymen in trying times, reassuring them that distant but benevolent gods were watching over the land. However, they have since sworn themselves to the demonic spirit Nuvorok, and preach the word of his ascendance. The Exarchs are the spiritual leaders of the new faith, and both the aberrations of the Pestilential Realm and their master’s infernal legions will eagerly follow them in battle. These sinister clerics take pleasure in desecrating the shrines of other gods, turning them into foul sanctuaries dedicated to their patron, and can imbue venomous serpents with a malign will to serve as their familiars."
 #end
+
 -- Disciple of Nuvorok
 #newmonster 6009
 #name "Disciple of Nuvorok"
@@ -3678,6 +3827,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #nametype 100
 #descr "The cult of Nuvorok was founded by sages and healers who sought a cure for the plague that ravaged their land. Now, tempted by the whispers of the fiend, they have resolved to lead their people in a war of conquest to ensure their survival. Disciples are the apprentices and neophytes of the cult, tasked with attending to basic ministrations. They study arcane and infernal lore, seek out and capture suitable victims for ritual sacrifice and magical experiments, and occasionally perform simple incantations. Some Disciples are adept at breeding mutant thralls to bolster Egeros’ hordes, and they are often the most likely to be inducted into the higher mysteries of the order."
 #end
+
 -- Herald of Corrosion
 #newmonster 6010
 #name "Herald of Corrosion"
@@ -3714,6 +3864,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #nametype 100
 #descr "The most skilful and diligent of the Disciples of Nuvorok are instructed in the second circle of the cult’s esoteric knowledge and become Heralds of Corrosion. These fearsome enchanters command a wide variety of sorcerous powers, which more often than not are invoked to bring ruin upon the foes of Egeros. Nothing is safe from the Heralds’ corruptive touch: by summoning otherworldly might, they can turn air into deadly poisonous mist, earth into clinging mud, and fine iron weapons into rusted wrecks. Most infamous of all, however, is their ability to warp the flesh and humours of living beings, such that many of them are themselves mutated in some way. To ply their visceral arts, Heralds must have strong wills and robust stomachs, and quite a few Disciples have failed their trials of promotion simply by being overwhelmed with revulsion at the deeds of their superiors."
 #end
+
 -- Archon of Blight
 #newmonster 6011
 #name "Archon of Blight"
@@ -3752,6 +3903,9 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #nametype 100
 #descr "Only the most devoted, ruthless and magically potent followers of Nuvorok can hope to attain the rank of Archon, a member of the order’s inmost circle. Unparalleled sorcerers and effective rulers of all Egeros, the Archons have each and every one gained almost complete mastery over the inner balance of their bodies, allowing them to subsist without food for months on end and extending their lifespans to unnatural lengths. Little remains of their human appearance, replaced by a nightmarish chimeric visage. Nor is their expertise limited to their own flesh alone, for it is they who oversee the transformation of the people of Egeros into monstrosities of freakish might. The path to such exalted knowledge is long and laborious, and Archons of Blight are rarely seen outside their strongholds, but whenever one of them takes to the field it is a very ill omen for the enemies of the Reign of Pestilence."
 #end
+
+
+
 --- Sites for Egeros
 #newsite 1957 -- DE goes up to 1902, so I'll usually use 1950 to the limit of 1999
 #level 0 --  Level 0 sites are automatically discovered, but 1 to 4 requires a mage of that rank to search for it
