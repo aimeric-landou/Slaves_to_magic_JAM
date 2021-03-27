@@ -1,4 +1,4 @@
-#modname "StM Jam 1.6" 
+#modname "StM Jam 1.7" 
 #description "An assortment of StM nation"
 #icon "SlavesJAMsprite/banner.tga" 
 #disableoldnations
@@ -121852,6 +121852,8 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 
 #end
 
+-- END DE
+-- START StM
 
 --- New Spells
 
@@ -121896,6 +121898,15 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 #path 0 0
 #pathlevel 0 3
 #restricted 175
+#end
+
+#newspell
+#copyspell "Antimagic"
+#name "Stormblessed"
+#descr "The strength of the Firebrand Cult comes in part from their indomitable will. The looming, gestalt consciousness of the Apostelery can be called upon by the Cult to empower the armies of the faithful, and aid them in resisting the foul heathen magics that would oppose their great crusade."
+#path 0 0
+#pathlevel 0 1
+#restricted 171
 #end
 
 #newspell
@@ -122001,17 +122012,6 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 #end
 
 #newspell
-#copyspell 1025 -- Enslave Mind
-#name "Mental Oppression"
-#researchlevel 5
-#path 0 0
-#pathlevel 0 3
-#path 1 3
-#pathlevel 1 1
-#restricted 175
-#end
-
-#newspell
 #copyspell 736 -- Summon Earthpower
 #name "Summon Volcanic Power"
 #details "Grants +1 Earth and Fire magic, Reinvigoration +4"
@@ -122020,7 +122020,7 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 #path 1 0
 #pathlevel 1 1
 #damage 266240 -- Earth and Fire power
-#restricted 175
+#restricted 174
 #end
 
 
@@ -122423,6 +122423,7 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 #holy
 #spellsinger
 #magicskill 1 1
+#magicimmune
 #fireres 3
 #drawsize -50
 #custommagic 2304 100
@@ -122464,6 +122465,7 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 #holy
 #spellsinger
 #magicskill 4 1
+#magicimmune
 #fireres 3
 #drawsize -50
 #magicskill 5 1
@@ -122505,6 +122507,7 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 #mountedhumanoid
 #magicskill 8 3
 #magicskill 4 1
+#magicimmune
 #fireres 3
 #custommagic 34816 20
 #custommagic 34816 20
@@ -123256,7 +123259,7 @@ And of those who resist the will of the Cults, they shall fuel their pyres."
 #custommagic 2176 100
 #custommagic 2176 100
 #custommagic 128 10
-#drainimmune
+#magicimmune
 #holy
 #humanoid
 #gcost 10010 -- Add 10000 to make it autocalc, so this is base price 10 plus or minus autocalc
@@ -123293,7 +123296,7 @@ And of those who resist the will of the Cults, they shall fuel their pyres."
 #custommagic 2048 10
 #maxage 50
 #poorleader
-#drainimmune
+#magicimmune
 #holy
 #humanoid
 #gcost 10000 -- Add 10000 to make it autocalc, so this is base price 10 plus or minus autocalc
@@ -123333,7 +123336,7 @@ And of those who resist the will of the Cults, they shall fuel their pyres."
 #custommagic 34816 100
 #custommagic 34816 100
 #custommagic 32768 10
-#drainimmune
+#magicimmune
 #humanoid
 #gcost 10010 -- Add 10000 to make it autocalc, so this is base price 10 plus or minus autocalc
 #rcost 1 -- Do NOT change this, it automatically adds the cost of equipment in game
@@ -123413,7 +123416,7 @@ For reasons known only to the highest echelons of the Cult of Souls, they also h
 #maxage 200
 #magicskill 2 1
 #custommagic 2560 100
-#drainimmune
+#magicimmune
 #custommagic 640 100
 #custommagic 512 10
 #poorleader
@@ -123458,6 +123461,7 @@ Among their sacred duties is also the preparation of the false flesh of the Reve
 #forestsurvival
 #humanoid
 #magicskill 8 2
+#magicimmune
 #gcost 10010 -- Add 10000 to make it autocalc, so this is base price 10 plus or minus autocalc
 #rcost 1 -- Do NOT change this, it automatically adds the cost of equipment in game
 #rpcost 10000 -- Base value multiplied by 1000, same for commanders and troops
