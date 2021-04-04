@@ -123525,7 +123525,7 @@ Domain: Antimagic (A) (Spell name : Stormblessed), Seaworthy [lore bonus], Extre
 #defcom2 6024 -- Brightlord
 #defunit2 6022 -- Obligated
 #defmult2 15
-#defunit2b 60021 -- Drafted
+#defunit2b 6021 -- Drafted
 #defmult2b 10
 
 #wallcom 6024 -- Brightlord
