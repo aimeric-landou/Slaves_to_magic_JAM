@@ -125390,6 +125390,7 @@ Priests: Weak." -- Notice the string ends here and only here
 #fortera 3 -- Just Imperialist Things TM
 -- #castleprod 40 -- Just Industrial Things TM
 #idealcold -2 -- Starting at Cold 3 means 120 less design points
+#spreadheat 3
 
 #homerealm 3 -- Mediterranean
 #homerealm 10 -- Default Gods
