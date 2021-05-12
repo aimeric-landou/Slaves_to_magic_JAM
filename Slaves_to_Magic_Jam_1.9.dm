@@ -124106,7 +124106,6 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #mapmove 14
 #enc 3
 #maxage 50
-#reclimit 4
 #poorleader
 #eyeloss
 #holy
