@@ -1,4 +1,4 @@
-#modname "StM Jam 1.9" 
+#modname "StM Jam 1.10" 
 #description "An assortment of StM nation"
 #icon "SlavesJAMsprite/banner.tga" 
 #disableoldnations
@@ -122989,7 +122989,7 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 #newweapon 1892
 #copyweapon 264 -- Composite Bow
 #name "Heavy Composite Bow"
-#nratt -2
+#nratt -1
 #dmg 12
 #rcost 4
 #range 50
@@ -122998,7 +122998,7 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 #newweapon 1893
 #copyweapon 22 -- Sling
 #name "Heavy Sling"
-#nratt -2
+#nratt -1
 #dmg 9
 #range 40
 #rcost 1
@@ -123042,7 +123042,7 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 #melee50
 #dmg 12
 #rcost 5
-#att 3
+#att 4
 #end
 
 
@@ -124108,7 +124108,6 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #maxage 50
 #poorleader
 #eyeloss
-#reclimit 4
 #holy
 #humanoid
 #gcost 10011 -- was 10013 from when eyeloss only cost 2 % slots and he still had the elite tag
@@ -124695,7 +124694,7 @@ Among their sacred duties is also the preparation of the false flesh of the Reve
 #hp 10
 #prot 0
 #mr 11
-#mor 10
+#mor 11
 #str 12
 #att 8
 #def 7
@@ -124728,7 +124727,7 @@ Among their sacred duties is also the preparation of the false flesh of the Reve
 #hp 10
 #prot 0
 #mr 11
-#mor 9
+#mor 11
 #str 10
 #att 8
 #def 8
@@ -125780,7 +125779,6 @@ Priests: Weak." -- Notice the string ends here and only here
 #maxage 50
 #goodleader
 #magicskill 8 2
-#holy
 #domsummon2 6016
 #float
 #humanoid
@@ -125976,7 +125974,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #reclimit 4
 #mountedhumanoid
 #mounted
-#gcost 10016
+#gcost 10010
 #rcost 1
 #drawsize -50
 #rpcost 10000
@@ -126010,7 +126008,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #humanoid
 #eyeloss
 #drawsize -50
-#gcost 10011
+#gcost 10010
 #rcost 1
 #rpcost 10000
 #nametype 100
@@ -126055,7 +126053,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #poorleader
 #formationfighter 3
 #humanoid
-#gcost 10013
+#gcost 10010
 #rcost 1
 #drawsize -50
 #rpcost 10000
@@ -126215,7 +126213,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #combatcaster
 #drawsize -50
 #mountedhumanoid
-#gcost 10045
+#gcost 10040
 #rcost 1
 #rpcost 10000
 #nametype 100
@@ -126295,7 +126293,7 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #rpcost 10000
 #nametype 100
 #drawsize -50
-#magicskill 8 2
+#magicskill 8 1
 #rpcost 1
 #descr "Taqnian's national religion has now survived 150 years and 20 regime changes. The Preists of the Old Ways have essentially been the bedrock of the nation for their order's entire existance, always being too valuable and too compliant for new incoming leaders to bother trying to remove from their heavily entrenched power. They commonly act as commanders of Taqnian's armies, and can beseech the help of great sacred hawks to aid in battle."
 #itemslots 13446
@@ -126326,8 +126324,8 @@ Regular Infrastructure" -- Notice the string ends here and only here
 
 
 #brief "No description" -- No idea when this is used
-#color 0.0 0.0 0.5 -- This thing is the main background and what represents your nation on scoregraphs
-#secondarycolor 0.0 0.0 0.5 -- Same idea, if this one is absent it reverts to the the one above
+#color 0.0 0.5 0.0 -- This thing is the main background and what represents your nation on scoregraphs
+#secondarycolor 0.5 0.0 0.0 -- Same idea, if this one is absent it reverts to the the one above
 #flag "SlavesJAMsprite/Flag.tga"
 
 #clearsites
@@ -126349,10 +126347,10 @@ Regular Infrastructure" -- Notice the string ends here and only here
 #addreccom 6090 -- Slow Moe
 #addreccom 6091 -- Hawker
 
-#defcom1 34
+#defcom1 6089
 #defunit1 6083
 #defmult1 10 -- This many units will appear per 10 PD
-#defcom2 34
+#defcom2 6089
 #defunit2 6081
 #defmult2 10 -- This many units will appear per 10 PD after 20
 
@@ -126382,7 +126380,6 @@ Regular Infrastructure" -- Notice the string ends here and only here
 
 #newmonster 6001
 #copystats 295
-#copyspr 5774 -- Necrophidian
 #name "Egeros Familiar"
 #desc "A venomous serpent imbued with a malign will to serve as a familiar for the Exarchs of Egeros."
 #mor 20
