@@ -123042,7 +123042,7 @@ The Dreamtime has been brought to the world, and magic infuses the land. The fol
 #melee50
 #dmg 12
 #rcost 5
-#att 4
+#att 3
 #end
 
 
@@ -124106,6 +124106,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #mapmove 14
 #enc 3
 #maxage 50
+#reclimit 4
 #poorleader
 #eyeloss
 #holy
