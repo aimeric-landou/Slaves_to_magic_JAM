@@ -124108,6 +124108,7 @@ A Peerless Pupil is an elder student, one that has received at least some traini
 #maxage 50
 #poorleader
 #eyeloss
+#reclimit 4
 #holy
 #humanoid
 #gcost 10011 -- was 10013 from when eyeloss only cost 2 % slots and he still had the elite tag
